@@ -1,0 +1,536 @@
+09-14 07:53:03(25461) cos INFO: [Cos_SysInit:60]Cos init ok
+09-14 07:53:03(14247) cos INFO: [Cos_ThreadProc:174]thread[Cos_InetMgr]:0xdec1eae0 , threadid:14247 start ok
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadOwnerUsrCfg:224]user cfg sync flag 0,nickname  mobile  RegPeriod 
+09-14 07:53:03(545460872053) CFG_TASK WARN: [Cfg_LoadFile:252]sdk version changed old:3151410 new:3151420
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadUserGroupCfg:35]load localFile ,get usr group list {"grplist":[{"syncflag":"1","grpid":"1600010140c3ad11A0000001","grpdesc":"","gtoken":"1600010140c3ad11A0000001","ownerid":"1600010140c3ad11"},{"syncflag":"1","grpid":"22000101413a31a9","parentgrpid":"1600010140c3ad11A0000001","grpdesc":"","gtoken":"oylyjfsbu6l0e2d4ucge","ownerid":"1600010140c3ad11","devnum":"1","devlist":[{"memberid":"12000103c0537c93","CTEI":"000CF025010605EL","onlinestatus":"1","jt":"2025-11-01 16:08:54","OffLineTime":"2026-08-23 08:36:07"}]}],"syncflag":"1","synctime":"1787478597"} usrId[1600010140c3ad11]
+09-14 07:53:03(3472609770395951989) CFG_TASK INFO: [Cfg_FindAndCreatGroupNode:273]creat new group 1600010140c3ad11A0000001 item 255
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_ParseGroupInfItem:1291]load grp 1600010140c3ad11A0000001 dev num 0 usrnum 0 rolenum 0 
+09-14 07:53:03(25461) CFG_TASK INFO: [Cfg_FindAndCreatGroupNode:273]creat new group 22000101413a31a9 item 255
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_ParseGroupInfItem:1291]load grp 22000101413a31a9 dev num 1 usrnum 0 rolenum 0 
+09-14 07:53:03(25461) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:40]load device 12000103c0537c93 cfg :
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:49]systemInf: {"Sign":"112631","CompanyID":"0000213ed0cdb8bc","AppID":"1665373297326122","AblPlatType":"0","AblPlatAddr":"","HxlinkPort":"0","HxLinkAddr":"","CTEI":"000CF025010605EL","DevThirdSn":"","GroupId":"22000101413a31a9","DID":"12000103c0537c93"}
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:58]devinfo: {"Sign":"1075","EncAbility":"0","OTAAbility":"7","OTAType":"0","WifiSetAbility":"25","EnergyType":"0","AwakeAbility":"0","AOVAbility":"0","SwitchAOVFrameRateAbility":"0","MicVolumeAbility":"0","SIMAbility":"0","OneClickShowAbility":"0","LogCollectAbility":"1","Powersupply":"1","SupplyShowPowerAbility":"0","DualFrequency":"0","ApSetPasswd":"0","TimerOpenAbility":"0","PowerLevel":"100","SdkVersion":"50664832","DevVersion":"YGT.AJ-L33PQ08A1-v241030.1014","OldDevFlag":"0","DevName":"GateCameras","OsType":"1","DevType":"1","AwakeInterval":"0","MaxSessionCnt":"4","AliveSessionCnt":"0","WifiStrength":"0","AutoSync":"1","DevModel":"AJ-L33PQ08A1","SSID":"","MacAddr":"","DstArea":"Asia/Kolkata","Dst":"IST-5:30","DstUseFlag":"1","TimeMode":"0","StatusLedMode":"1","SimSlotCnt":"0","WorkSimSlotId":"0","IMEI":"","Language":"0","PromptSet":"0","ApHasPassWd":"0","AOVFrameInterval":"0","SimSlots":[],"MulMedia":{"Port":"0","Ipv4":"","ReSource":"","EncType":"0","EncKey":"","EncLv":""}}
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:73]cameraInf: {"Sign":"82768","CamCnt":"1","CamWorkType":"0","CamList":[{"CamId":"0","StreamCount":"2","PIPAblity":"0","VoicePlayAbility":"1","MicroPhoneAbility":"1","OSDSetAbility":"1","IRRedAbility":"1","InversionAbility":"1","MirrorAbility":"0","StorageAbility":"1","WDRAbility":"1","HDRAbility":"0","FullColorMode":"0","HumanRgnAblity":"1","OSDAblity":"1","SupportPtz":"3","PTZMode":"3","AntiFlickerAbility":"0","PrivacyMaskAbility":"0","OSDName":"","OSDPosition":"0","OSDCustomSwitch":"0","OSDCommonSwitch":"0","Sensor":{"MaxLenCount":"1","CurrentLenID":"0","AutoFlag":"1","DefaultLenId":"0","RectifyAbility":"0","ZoomAbility":"0","CurZoomValue":0,"CombineFlag":0,"Lens":[{"LenID":"0","LenName":"0","LensType":"0","LenFocalLenth":"4","MinLenFocalLenth":"0","MaxLenFocalLenth":"0"}]},"MicroPhoneStatus":"1","CamStatus":"1","InversionType":"1","MirrorType":"0","IRRedMode":"0","ScanFrequery":"0","StorageStatus":"0","Volumn":"50","WDRMode":"0","HDRMode":"0","PlayMode":"3","RingToneSetAbility":"1","RingToneDecAbility":"5","AudioParam":{"EncType":"4","SampleRate":"8000","Channel":"1","Depth":"16"},"PrivacyList":[],"Streamers":[{"ResolutionAbility":"28","EncAbility":"2","HideFlag":"0","StreamID":"0","Resolution":"16","Width":"1920","Height":"1080","EncType":"2","SmartEncFlag":"0","Quality":"2","FrameRate":"17","BiteRate":"8","RateType":"1","FrameInterval":"100"},{"ResolutionAbility":"1","EncAbility":"2","HideFlag":"0","StreamID":"1","Resolution":"1","Width":"640","Height":"360","EncType":"2","SmartEncFlag":"0","Quality":"2","FrameRate":"17","BiteRate":"5","RateType":"1","FrameInterval":"100"}]}]}
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:93]inIotInf: {"PTZAbility":"3","AttachPTZAbility":"0","PTZSpeedAbility":"1","MotionAbility":"1","DoorbellAbility":"0","RecordAbility":"1","PIRAbility":"0","VoiceAlarmAbility":"0","SnapshotAbility":"1","BuzzerAbility":"1","StatusLampAbility":"0","LampAbility":"1","CloudRecordAbility":"0","CloudSnapshotAbility":"1","CameraAbility":"1","EventAbility":"1","SupportCloudFlag":"1","Sign":"110758","IoTS":[{"AIIoTType":"1006","AIIoTID":"0","OpenFlag":"1","Sign":"0"},{"AIIoTType":"1005","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"SnapLoopFlag":"1","SnapInterval":"180","SnapFullFlag":"0","SnapPicType":"2"}},{"AIIoTType":"1000","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"Motion":{"Status":"0","Interval":"60","Trace":"0","Sensitive":"50"},"Human":{"Sensitive":"50","Status":"0","Interval":"60","Trace":"0"},"Face":{"Sensitive":"50","Status":"0","Interval":"60","Trace":"0"}}},{"AIIoTType":"1009","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"Status":"1"}},{"AIIoTType":"1014","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"IrcutType":"2"}},{"AIIoTType":"1007","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{}},{"AIIoTType":"1002","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"RecordLoop":"1","RecordFull":"0","StreamID":"0","Duration":"0"}},{"AIIoTType":"1011","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"GifFlag":"1","GifOpenFlag":"0","Interval":"30","LoopDays":"3","PicType":"2","RecordType":"1","SnapJpgCnt":"1","StorageType":"0","Support":"1","hm_editable":"0"}},{"AIIoTType":"1013","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"PushFlag":"7","SMSFlag":"1","EmailFlag":"1","Interval":"300","EmailAddr":"","StartTime":"0","EndTime":"86400","SpanFlag":"0","Week":"127"}},{"AIIoTType":"1012","AIIoTID":"0","OpenFlag":"1","Sign":"0"},{"AIIoTType":"1093","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":null,"Buss":{"TimeArea":"","TimeZone":""}},{"AIIoTType":"1098","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"EventList":[{"EventID":"108300"},{"E***
+09-14 07:53:03(5283970622135755637) CFG_TASK INFO: [Cfg_SetCamSupportPtz:7328]peerid 12000103c0537c93 camid 3 set ptz 2139062143
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:101]iothub inf: {"Sign":"0","IoTHubAbility":"0","IoTHubMaxCount":"32","IoTHubStatus":"0","IoTs":[]}
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:110]cur timepolicy: {"Sign":"0","Policys":[{"OpenFlag":"1","PolicyID":"1","PolicyName":"Time_1","Week":"127","StartTime":"0","EndTime":"86399","LoopType":"0","Day":"","Action":[{"AIIoTType":"1002","AIIoTID":"0","Output":{"CtrlType":"1","StreamID":"0","Duration":"600"}},{"AIIoTType":"1005","AIIoTID":"0","Output":{"PicType":"2","Interval":"30","GifFlag":"0"}},{"AIIoTType":"1010","AIIoTID":"0","Output":{"CtrlType":"1","StreamID":"0","Duration":"600"}}]},{"OpenFlag":"0","PolicyID":"2","PolicyName":"Time_1","Week":"127","StartTime":"0","EndTime":"86399","LoopType":"0","Day":"","Action":[{"AIIoTType":"1002","AIIoTID":"0","Output":{"CtrlType":"1","StreamID":"0","Duration":"600"}},{"AIIoTType":"1005","AIIoTID":"0","Output":{"PicType":"2","Interval":"30","GifFlag":"0"}},{"AIIoTType":"1010","AIIoTID":"0","Output":{"CtrlType":"1","StreamID":"0","Duration":"600"}}]}]}
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:119]cur alarmpolicy: {"Sign":"107860","Policys":[{"AIIoTType":"1000","AIIoTID":"0","OpenFlag":"1","PolicyName":"Alarm_100","PolicyID":"100","Prop":{"Motion":{"Trace":"0","Sensitive":"50","Status":"0","Interval":"35"},"Human":{"Trace":"0","Sensitive":"50","Status":"0","Interval":"50"},"Face":{"Trace":"0","DiscernFlag":"0","Sensitive":"25","Status":"0","Interval":"30"}},"Events":[{"EventID":"100001","OpenFlag":"0","Week":"127","StartTime":"0","EndTime":"86399","SpanFlag":"0","Action":[{"AIIoTType":"1009","AIIoTID":"0","OutPut":{"AlarmType":"1000","CtrlType":"0","LoopCnt":"1","SoundName":"","SoundType":"2"}},{"AIIoTType":"1002","AIIoTID":"0","OutPut":{"CtrlType":"1","Duration":"30","StreamID":"0"}},{"AIIoTType":"1005","AIIoTID":"0","OutPut":{"PicType":"2","Interval":"","GifFlag":"0"}},{"AIIoTType":"1013","AIIoTID":"0","OutPut":{"EmailFlag":"1","EndTime":"86400","Interval":"0","PushFlag":"7","SMSFlag":"1","SpanFlag":"1","StartTime":"0","Week":"127"}},{"AIIoTType":"1011","AIIoTID":"0","OutPut":{"PicType":"2","Interval":"","GifFlag":"1"}},{"AIIoTType":"1010","AIIoTID":"0","OutPut":{"CtrlType":"1","Duration":"30","StreamID":"0"}},{"AIIoTType":"0","AIIoTID":"0"},{"AIIoTType":"1007","AIIoTID":"0","OutPut":{"CtrlType":"1","Duration":"31"}}],"FenceID":[],"SceneID":[],"TriggerInfo":[]},{"EventID":"100002","OpenFlag":"0","Week":"127","StartTime":"0","EndTime":"86399","SpanFlag":"0","Action":[{"AIIoTType":"1009","AIIoTID":"0","OutPut":{"AlarmType":"1000","CtrlType":"0","LoopCnt":"1","SoundName":"","SoundType":"2"}},{"AIIoTType":"1002","AIIoTID":"0","OutPut":{"CtrlType":"1","Duration":"30","StreamID":"0"}},{"AIIoTType":"1005","AIIoTID":"0","OutPut":{"PicType":"2","Interval":"","GifFlag":"0"}},{"AIIoTType":"1013","AIIoTID":"0","OutPut":{"EmailFlag":"1","EndTime":"86400","Interval":"0","PushFlag":"7","SMSFlag":"1","SpanFlag":"1","StartTime":"0","Week":"127"}},{"AIIoTType":"1011","AIIoTID":"0","OutPut":{"PicType":"2","Interval":"","GifFlag":"1"}},{"AIIoTTyp***
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:128]cur ptzFile: {"Sign":"4932","SetPresetAbility":"1","CruiseAbility":"0","PositionAbility":"0","PreSets":[{"PresetId":"1762176769","Name":"right","PicID":"20251103213252100119c0537c937006","Point":{"X":"-5058","Y":"2556","Z":0,"FocalLen":0}},{"PresetId":"1762325434","Name":"good1","PicID":"20251105145036100119c0537c932912","Point":{"X":"-5568","Y":"2000","Z":0,"FocalLen":0}},{"PresetId":"1764592558","Name":"g2","PicID":"20251201203600100119c0537c933264","Point":{"X":"-5372","Y":"5334","Z":0,"FocalLen":0}}],"Cruises":[],"WatchPoint":{"PresetID":"0","WatchTime":"0"}}
+09-14 07:53:03(545460872053) cos ERR: [Cos_FileLoad:131]file open pucFileName:/data/user/0/com.huiyun.care.viewerpro.googleplay/files/Care/config/12000103c0537c93/ServerSetcfg.db
+09-14 07:53:03(545460872053) cos ERR: [Cos_FileLoad:131]file open pucFileName:/data/user/0/com.huiyun.care.viewerpro.googleplay/files/Care/config/12000103c0537c93/scenemode.db
+09-14 07:53:03(25461) CFG_TASK INFO: [Cfg_Ai_DelRegions:1246]delete humCount regions
+09-14 07:53:03(545460872053) cos ERR: [Cos_FileLoad:131]file open pucFileName:/data/user/0/com.huiyun.care.viewerpro.googleplay/files/Care/config/12000103c0537c93/energymode.db
+09-14 07:53:03(545460872053) cos ERR: [Cos_FileLoad:131]file open pucFileName:/data/user/0/com.huiyun.care.viewerpro.googleplay/files/Care/config/12000103c0537c93/fence.db
+09-14 07:53:03(545460872053) cos ERR: [Cos_FileLoad:131]file open pucFileName:/data/user/0/com.huiyun.care.viewerpro.googleplay/files/Care/config/12000103c0537c93/gb.db
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:192]cur Algorithm: {"Sign":"0","EventIDs":[{"EventID":"100000","AIIoTType":"1000","OpenFlag":"1","Name":"Motion Detection"},{"EventID":"100001","AIIoTType":"1000","OpenFlag":"1","Name":"Human Detection"},{"EventID":"109600","AIIoTType":"1096","OpenFlag":"0","Name":""},{"EventID":"109700","AIIoTType":"1097","OpenFlag":"0","Name":""},{"EventID":"102900","AIIoTType":"1029","OpenFlag":"0","Name":"Pet Detection"},{"EventID":"108300","AIIoTType":"1083","OpenFlag":"0","Name":"Vehicle Detection"},{"EventID":"109701","AIIoTType":"1097","OpenFlag":"0","Name":""},{"EventID":"109702","AIIoTType":"1097","OpenFlag":"0","Name":""},{"EventID":"110300","AIIoTType":"1103","OpenFlag":"0","Name":""},{"EventID":"110500","AIIoTType":"1105","OpenFlag":"0","Name":""},{"EventID":"102903","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"102905","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"102906","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"109703","AIIoTType":"1097","OpenFlag":"0","Name":""},{"EventID":"102600","AIIoTType":"1026","OpenFlag":"0","Name":""},{"EventID":"102901","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"102902","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"102904","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"102500","AIIoTType":"1025","OpenFlag":"0","Name":""},{"EventID":"110400","AIIoTType":"1104","OpenFlag":"0","Name":""},{"EventID":"110600","AIIoTType":"1106","OpenFlag":"0","Name":""},{"EventID":"300008","AIIoTType":"1000","OpenFlag":"0","Name":""},{"EventID":"108901","AIIoTType":"1089","OpenFlag":"0","Name":""},{"EventID":"100017","AIIoTType":"1000","OpenFlag":"0","Name":"Motion Detection Cross Line"},{"EventID":"110900","AIIoTType":"1109","OpenFlag":"0","Name":""}],"ServiceIDs":[{"OpenFlag":"1","ServiceID":"300027"},{"OpenFlag":"1","ServiceID":"300026"},{"OpenFlag":"0","ServiceID":"300009"},{"OpenFlag":"0","ServiceID":"300008"},{"OpenFlag":"0","ServiceID":"300007"},{"OpenFlag":***
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:201]cur dev app setting : {"Sign":"35120","VideoResample":"0","JpgResample":"1","ResampleHight":"1296","ResampleWidth":"2304","LampFlag":"0","LightMaxTime":"43200","LightLevelMode":"1","PlayRestrictionFlag":"0","PlayLenth":"0","PlayAlertFlag":"0","PlayAlertDuration":"0","ClickAlarm":"1","PriorStreamID":"1","ScreenSplit":{"OpenFlag":"0","SplitCamID":"0","ShownPrecent":"0"},"EncoderID":"0","AutoSwitchMode":"0"}
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_LoadPeerDeviceFile:210]cur dev chargelist : {"Sign":"0","AutoPayStatus":"0","DayExpireFlag":"0","EventExpireFlag":"0","Packages":[]}
+09-14 07:53:03(545460872053) cos ERR: [Cos_FileLoad:131]file open pucFileName:/data/user/0/com.huiyun.care.viewerpro.googleplay/files/Care/config/12000103c0537c93/channel.db
+09-14 07:53:03(545460872053) CFG_TASK INFO: [Cfg_FindAndCreatPeerDevNode:367]add device 12000103c0537c93 groupid 22000101413a31a9 ok
+09-14 07:53:03(545460872053) cos ERR: [Cos_FileLoad:131]file open pucFileName:/data/user/0/com.huiyun.care.viewerpro.googleplay/files/Care/config/c1918db067cd7ffaef3352fc2e4a9/paidordercfg.db
+09-14 07:53:03(545460872053) cos ERR: [Cos_FileLoad:131]file open pucFileName:/data/user/0/com.huiyun.care.viewerpro.googleplay/files/Care/config/c1918db067cd7ffaef3352fc2e4a9/beveriorcfg.db
+09-14 07:53:03(532575970165) MD_CACHE INFO: [Md_AuidoInit:52]audio init ok
+09-14 07:53:03(25461) MD_CACHE INFO: [Md_VideoInit:57]media video init
+09-14 07:53:03(9250420048667894645) MD_MP4_MUXER INFO: [Md_Mp4Muxer_Init:45]mp4 muxer init ok
+09-14 07:53:03(9250420048667894645) MD_MP4 INFO: [Md_Mp4DeMuxer_Init:41]mp4 demuxer init ok
+09-14 07:53:03(12970367459402998645) cos ERR: [Cand_DirOpen:233]opendir pucDirName:/storage/emulated/0/Android/data/com.huiyun.care.viewerpro.googleplay/files/Care/cloud
+09-14 07:53:03(532575970165) TRAS_TASK INFO: [Tras_Malloc_SockBuf:26]malloc socket buff cnt 10 
+09-14 07:53:03(545460872053) MUL_MEDIA INFO: [MultiMedia_Init:100]Task Init Ok
+09-14 07:53:03(25461) TRAS_TASK INFO: [Tras_Malloc_SockBuf:26]malloc socket buff cnt 14 
+09-14 07:53:03(25461) TRAS_HTTP INFO: [Tras_Httpclient_Init:161]Httpclient Initialize success!
+09-14 07:53:03(25461) DP_MNG INFO: [DiskSpace_Init:351]disk spce mng task init ok
+09-14 07:53:03(25461) EVENT_TASK INFO: [Event_Init:3191]notice module init
+09-14 07:53:03(25461) CLOUD_TASK INFO: [Cloud_ResInit:38]cloud res init ok
+09-14 07:53:03(12970367455108031349) nvr_cfg INFO: [cfg_NVRMng_Init:155]Create msg queue 0xb400007bdec1ee40 
+09-14 07:53:03(25461) ZJ_TASK INFO: [ZJ_Init:49]Client Sdk Version 3151420
+09-14 07:53:03(528280991658) cos INFO: [Cos_ThreadProc:174]thread[HttpClientThread]:0xdec1ecc0 , threadid:14250 start ok
+09-14 07:53:03(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeUser_init:171]enter function
+09-14 07:53:03(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeDevice_init:1180]enter function
+09-14 07:53:03(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeCommand_init:122]enter function
+09-14 07:53:03(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeCommand_init:259]return function
+09-14 07:53:03(528281002869) PID_CBST INFO: [Cbst_Dec_Init:20]Init ok
+09-14 07:53:03(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeMedia_init:167]enter function
+09-14 07:53:03(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeOld_init:66]enter function
+09-14 07:53:03(25461) CFG_TASK INFO: [Cfg_SetCountryCode:268]set local contry GB
+09-14 07:53:03(25461) CFG_TASK INFO: [Cfg_Task_Start:88]app use sdk version 51713056
+09-14 07:53:03(25461) CMD_TASK INFO: [Cmd_Start:405]cmd task start ok
+09-14 07:53:03(14253) cos INFO: [Cos_ThreadProc:174]thread[cmd_task]:0xdec1ef00 , threadid:14253 start ok
+09-14 07:53:03(528280991660) cos INFO: [Cos_ThreadProc:174]thread[cfg_task]:0xdec1eea0 , threadid:14252 start ok
+09-14 07:53:03(14252) TRAS_TASK INFO: [TrasPeer_LoadDeviceList:329]Load Did 12000103c0537c93 CTEI 000CF025010605EL ok OldFlag 0
+09-14 07:53:03(14252) TRAS_TASK INFO: [TrasPeer_LoadDeviceList:332]load group list number 2
+09-14 07:53:03(14252) TRAS_TASK INFO: [TrasLink_GetLink:29]link task init OK
+09-14 07:53:03(528280991664) cos INFO: [Cos_ThreadProc:174]thread[cloud_block]:0xdec1efc0 , threadid:14256 start ok
+09-14 07:53:03(14254) cos INFO: [Cos_ThreadProc:174]thread[md_mng]:0xdec1ef60 , threadid:14254 start ok
+09-14 07:53:03(25461) TRAS_TASK INFO: [TrasBase_StartThread:442]Tras start threads running success
+09-14 07:53:03(523986024371) cos INFO: [Cos_ThreadProc:174]thread[TrasBaseSendThread]:0xdec1f0e0 , threadid:14259 start ok
+09-14 07:53:03(523986024372) cos INFO: [Cos_ThreadProc:174]thread[TunnelRecvThread]:0xdec1f140 , threadid:14260 start ok
+09-14 07:53:03(545460872053) TRAS_TASK INFO: [Tras_Start:36]tras task start ok
+09-14 07:53:03(14261) cos INFO: [Cos_ThreadProc:174]thread[MULTI_MEDIA]:0xdec1f1a0 , threadid:14261 start ok
+09-14 07:53:03(25461) DP_MNG INFO: [DiskSpace_Start:368]disk spce mng task run ok
+09-14 07:53:03(25461) EVENT_TASK INFO: [Event_Start:3270]notice module start ok
+09-14 07:53:03(14258) cos INFO: [Cos_ThreadProc:174]thread[TrasBaseProcThread]:0xdec1f080 , threadid:14258 start ok
+09-14 07:53:03(14262) cos INFO: [Cos_ThreadProc:174]thread[DP_TASK]:0xdec1f200 , threadid:14262 start ok
+09-14 07:53:03(14264) cos INFO: [Cos_ThreadProc:174]thread[CloudMng]:0xdec1f2c0 , threadid:14264 start ok
+09-14 07:53:03(14265) cos INFO: [Cos_ThreadProc:174]thread[cloud res]:0xdec1f320 , threadid:14265 start ok
+09-14 07:53:03(14263) cos INFO: [Cos_ThreadProc:174]thread[Notice_Internal_Task]:0xdec1f260 , threadid:14263 start ok
+09-14 07:53:03(536870937461) CLOUD_TASK INFO: [Cloud_ResStart:79]cloud res start ok
+09-14 07:53:03(528280991665) cos INFO: [Cos_ThreadProc:174]thread[cloud_unblock]:0xdec1f020 , threadid:14257 start ok
+09-14 07:53:03(545460872053) CLOUD_TASK INFO: [Cloud_Start:67]cloud task start ok
+09-14 07:53:03(14266) cos INFO: [Cos_ThreadProc:174]thread[CloudExternChan]:0xdec1f380 , threadid:14266 start ok
+09-14 07:53:03(25461) BHAVR_TASK INFO: [Bhavr_Start:271]BHavior task start ok
+09-14 07:53:03(25461) nvr_cfg INFO: [loadConfig:509]Group list count: 2
+09-14 07:53:03(25461) nvr_cfg INFO: [loadConfig:515]Load group [1600010140c3ad11A0000001] devicelist[0] useflag[1]
+09-14 07:53:03(25461) nvr_cfg INFO: [loadConfig:515]Load group [22000101413a31a9] devicelist[1] useflag[1]
+09-14 07:53:03(25461) nvr_cfg INFO: [loadConfig:533]dev type did 12000103c0537c93 type 1 
+09-14 07:53:03(14267) cos INFO: [Cos_ThreadProc:174]thread[BHavr_task]:0xdec1f3e0 , threadid:14267 start ok
+09-14 07:53:03(14269) cos INFO: [Cos_ThreadProc:174]thread[nvr_cfg]:0xdec1f4a0 , threadid:14269 start ok
+09-14 07:53:03(7160567783674099645) nvr_cfg INFO: [updateConfigLoop:1670]Start update config loop
+09-14 07:53:03(523986024379) cos ERR: [Cos_FileRead:109]inparam err ((_VOID *)(hFile)) == COS_NULL
+09-14 07:53:03(523986024380) cos INFO: [Cos_ThreadProc:174]thread[nvr_cfg]:0xdec1f440 , threadid:14268 start ok
+09-14 07:53:03(14268) nvr_cfg INFO: [taskManagerLoop:1358]Start Task manager
+09-14 07:53:04(25461) CFG_TASK INFO: [Cfg_SetCountryCode:268]set local contry 
+09-14 07:53:04(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/DeviceBean: getDeviceName:GateCameras
+09-14 07:53:04(528281002869) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: device:realme,RMX3870,Android SDK:16,abi:arm64-v8a,appVersion:2.9.37
+09-14 07:53:04(528281002869) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: initHmSDKHelper  sdkDevConfigValue = false  av:2009370,buildTime:2026-09-03 16:44:47
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeUser_getOwnerVCardInfo:354]uiMarried:0,  uiSex:0, aucMobile:, aucEmail:, aucAddress:,aucBirthday:, aucCity:, aucCountry:GB,aucVMid:, aucNickName:, aucProvice:,aucPhotoProfile:,aucRegPeriod:,
+09-14 07:53:04(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: initAdSdk  ALL
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: initAdSdk
+09-14 07:53:04(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdViewModel: CareApplication AdViewModel.fetchAdList()
+09-14 07:53:04(289336278690849653) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdViewModel: fetchAdList start
+09-14 07:53:04(528281002869) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: getAdListFromLocal size=4
+09-14 07:53:04(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdViewModel: restoreAdListFromLocal size=4
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: cacheAdListData size=4, count=8
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: getAdQuestStatus mIsLoginRequest=true
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: cacheAdRequestStatus mIsLoginRequest=false
+09-14 07:53:04(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdViewModel: doFetchAdList start
+09-14 07:53:04(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmLaunch: androidId:511ec1bb3bbb64c4
+09-14 07:53:04(528280991568) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdViewModel: requestAdListFromServer countryCode=GB
+09-14 07:53:04(528280991568) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeUser_GetDomainAddr:1672]HM_GetDomainAddr ret = 0,  aucSvrDomain:, aucWebDomain:, aucLogDomain:, aucAlexaDomain:
+09-14 07:53:04(12970367459402987344) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmHostConfig: hostInfo:{svrHost:,webHost:,logHost:,alexaHost:}
+09-14 07:53:04(528280991568) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeUser_GetDomainAddr:1672]HM_GetDomainAddr ret = 0,  aucSvrDomain:, aucWebDomain:, aucLogDomain:, aucAlexaDomain:
+09-14 07:53:04(12970367459402987344) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmHostConfig: hostInfo:{svrHost:,webHost:,logHost:,alexaHost:}
+09-14 07:53:04(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: googleGatherConsent curTime:1789352584276
+09-14 07:53:04(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: googleGatherConsent jsonStr:{"appVersion":0,"status":true,"time":1787478600409}
+09-14 07:53:04(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: isCanRequestAds：false
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: initAdSdk  ALL
+09-14 07:53:04(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: initAdSdk
+09-14 07:53:04(528281002869) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: getCachedAdListData from memory, size=4
+09-14 07:53:04(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: getAdDataByStrategy: adPositionKey=pro_Android_en_launch_screen3 lastCountDate:2026-08-23,now:1789352584290,today:2026-09-14,displayMaxTimes:2
+09-14 07:53:04(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: getAdDataByStrategy posHourCountKey: pro_Android_en_launch_screen3_hourShowCount, posHourStartKey pro_Android_en_launch_screen3_hourStartTime, hourStartTime:1787478594523,hourCount:0
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: currentAdType: 1
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: getAdDataByStrategy: curPositionKey:pro_Android_en_launch_screen3,lastAdKey：，latestDiffTypeShowTime=0, elapsedSec=1789352584,displayInterval:1200,splashAdCoolingInterval:300
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/: UsrToken:1600010140c3ad111p3g5jmo63upuvo5
+09-14 07:53:04(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: isCanRequestAds：false
+09-14 07:53:04(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: loadOpenAd:/adforegin/applovin
+09-14 07:53:04(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]E/LowPowerHeart: Heartbeat resumeDeviceHeart duration:0,interval:3000,canHeartExt:true
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_setBackgroundToFront:88]setBackgroundToFront 1
+09-14 07:53:04(532575970165) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/ZJViewerSdk: connectionChangeReceiver, network changed
+09-14 07:53:04(536870937461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/CurrentWiFiInfo: wifiInfo:SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /192.168.1.50, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11n, RSSI: -56, Link speed: 130Mbps, Tx Link speed: 130Mbps, Max Supported Tx Link speed: 144Mbps, Calculated Tx : 0Mbps, Rx Link speed: 130Mbps, Max Supported Rx Link speed: 144Mbps, Calculated Rx : 0Mbps, Frequency: 2467MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>,ssid:<unknown ssid>
+09-14 07:53:04(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/CurrentWiFiInfo: dhcp - ipaddr 192.168.1.50 gateway 192.168.1.1 netmask 0.0.0.0 dns1 192.168.1.1 dns2 0.0.0.0 DHCP server 192.168.1.1 lease 86400 seconds
+09-14 07:53:04(532575970165) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/ZJViewerSdk: currentWiFiInfo:isConnected:true,ssid:,gateIp:192.168.1.1, lastGateIP: 
+09-14 07:53:04(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]getNetType123: flag = true  getTypeName = WIFI
+09-14 07:53:04(25461) TRAS_TASK INFO: [Tras_SetNetworkType:71]set net work type 2 
+09-14 07:53:04(12970367459402987532) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: initAdSdk adInfo.id:fd3204f0-0817-4f5e-8458-8787d6193771
+09-14 07:53:04(14258) CFG_TASK INFO: [Cfg_SetPeerDevCanUseStatus:645]set device 12000103c0537c93 oldflag 0 group 22000101413a31a9 can use status 0
+09-14 07:53:04(14258) nvr_cfg WARN: [cfg_OnPeerDeviceStatusChange:454]Ignonre 12000103c0537c93 status changed
+09-14 07:53:04(523986024370) PID_SA INFO: [FUN_DEVICE_STATUS:1267]FUN_DEVICE_STATUS deviceId:12000103c0537c93, status:1
+09-14 07:53:04(12970367459402987456) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: initAdSdk adInfo.id:fd3204f0-0817-4f5e-8458-8787d6193771
+09-14 07:53:04(14258) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:630]device 12000103c0537c93 online status 1
+09-14 07:53:04(14258) TRAS_TASK INFO: [TrasBase_ProcThread:491]net work change proc ok
+09-14 07:53:04(14258) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:0, iErr:0
+09-14 07:53:04(523986024370) cos INFO: [Cand_InetGetLocalIps:370]start getLocalIp wlan0 ip= <192.168.1.50>.
+09-14 07:53:04(523986024370) TRAS_TASK INFO: [TrasNat_GetLocalIP:57]udpPort 192.168.1.50:7919 has been setted 
+09-14 07:53:04(14247) cos INFO: [Cos_InetMgrProc:137]get local host ok ip 0 passive 1
+09-14 07:53:04(14258) cos INFO: [Cos_SocketOpen:377]socket<207> open ok
+09-14 07:53:04(12970367455108020146) TRAS_TASK INFO: [TrasLocalLan_ListenTCP:381]Lan TCP Listen OK socket type 0 Port:15668
+09-14 07:53:04(14258) cos INFO: [Cos_SocketOpen:377]socket<269> open ok
+09-14 07:53:04(12970367455108020146) TRAS_TASK INFO: [TrasLocalLan_ListenUDP:322]Lan UDP listen OK.socket type 0 Port 17758
+09-14 07:53:04(523986024370) cos INFO: [Cos_SocketOpen:377]socket<273> open ok
+09-14 07:53:04(14258) cos INFO: [Cand_InetGetLocalIps:370]start getLocalIp wlan0 ip= <192.168.1.50>.
+09-14 07:53:04(12970367459402987344) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdViewModel: getAdList isSuccessful=true
+09-14 07:53:04(12970367455108020146) TRAS_TASK INFO: [TrasLocalLan_Broadcast:151]send boadcast ok to peer port 16658
+09-14 07:53:04(523986024370) cos INFO: [Cos_SocketClose:390]socket<273> closed
+09-14 07:53:04(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/LowPowerHeart: onDeviceStateChange awakeDevice groupId:22000101413a31a9//deviceId:12000103c0537c93//status:1//StatusEnum:1//statusName:ONLINE
+09-14 07:53:04(536870937461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceStateChange groupId:22000101413a31a9,deviceId:12000103c0537c93,devicePresenceState:1   deviceType = CAMERA  awakeAbility:NOT_SUPPORT
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:0//errorCode:0
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:0,hmError:0
+09-14 07:53:04(14272) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: isTestDevice:false
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdViewModel: getAdList success, size=4
+09-14 07:53:04(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: cacheAdListToLocal persisted
+09-14 07:53:04(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdViewModel: cachedAdListData is not empty, skip memory update
+09-14 07:53:04(14247) cos INFO: [Cos_InetMgrProc:133]get host 224.66.68.55 ok ip 927220448 passive 0
+09-14 07:53:04(523986024370) cos INFO: [Cos_SocketOpen:377]socket<282> open ok
+09-14 07:53:05(528280991666) cos INFO: [Cos_SocketClose:390]socket<282> closed
+09-14 07:53:05(14258) cos INFO: [Cos_SocketOpen:377]socket<282> open ok
+09-14 07:53:05(528280991666) cos INFO: [Cos_SocketClose:390]socket<282> closed
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasLocalLan_SearchDevice:189]locallan send boadcast ok
+09-14 07:53:05(523986024370) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:1, iErr:0
+09-14 07:53:05(14247) cos INFO: [Cos_InetMgrProc:133]get host 43.133.96.204 ok ip 3428877611 passive 0
+09-14 07:53:05(12970367459402987442) cos INFO: [Cos_SocketOpen:377]socket<296> open ok
+09-14 07:53:05(12970367455108020146) TRAS_TASK INFO: [TrasLink_Connect:245]Link Connect Addr:43.133.96.204:19336,ConnFlag:1
+09-14 07:53:05(523986024370) cos INFO: [Cos_SocketOpen:377]socket<297> open ok
+09-14 07:53:05(14258) cos INFO: [Cand_InetGetLocalIps:370]start getLocalIp wlan0 ip= <192.168.1.50>.
+09-14 07:53:05(14258) cos ERR: [Cos_SocketErrFilterToLog:666]Cand_SocketSendTo:719 has error<13>
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasLocalLan_Broadcast:151]send boadcast ok to peer port 16658
+09-14 07:53:05(523986024370) cos INFO: [Cos_SocketClose:390]socket<297> closed
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasLocalLan_SearchDevice:189]locallan send boadcast ok
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasBase_ProcBaseSock:670]Link Connect Addr:43.133.96.204:19336,ConnectFlag is: 2
+09-14 07:53:05(523986024370) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:2, iErr:0
+09-14 07:53:05(523986024370) cos INFO: [Cos_SocketOpen:377]socket<300> open ok
+09-14 07:53:05(12970367455108020146) TRAS_TASK INFO: [TrasOldLan_ListenTCP:261]Listen success, the port is 9001.
+09-14 07:53:05(523986024370) cos INFO: [Cos_SocketOpen:377]socket<301> open ok
+09-14 07:53:05(523986024370) cos INFO: [Cos_SocketOpen:377]socket<302> open ok
+09-14 07:53:05(14258) cos INFO: [Cand_InetGetLocalIps:370]start getLocalIp wlan0 ip= <192.168.1.50>.
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasOldLan_SendBroadcast:147]get local ip 192.168.1.50:5564
+09-14 07:53:05(12970367459402987442) cos INFO: [Cos_SocketClose:390]socket<302> closed
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasOldLan_SendBroadcast:168]send broadcast ok lancnt 0
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_LoadDeviceList:329]Load Did 12000103c0537c93 CTEI 000CF025010605EL ok OldFlag 0
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_LoadDeviceList:332]load group list number 2
+09-14 07:53:05(12970367450813052850) TRAS_TASK INFO: [TrasLink_AuthUserToken:188]ogct 4 send login requst body {"METHOD":"4116","SEQID":"4","BODY":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5","SDKVersion":"51713056","WebDomainAbilty":"1","TestFlag":"1"}} iRet 0 
+09-14 07:53:05(14258) cos INFO: [Cos_SocketOpen:377]socket<305> open ok
+09-14 07:53:05(14258) cos INFO: [Cand_InetGetLocalIps:370]start getLocalIp wlan0 ip= <192.168.1.50>.
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasOldLan_SendBroadcast:147]get local ip 192.168.1.50:5564
+09-14 07:53:05(12970367459402987442) cos INFO: [Cos_SocketClose:390]socket<305> closed
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasOldLan_SendBroadcast:168]send broadcast ok lancnt 130
+09-14 07:53:05(523986024370) CFG_TASK INFO: [Cfg_SetPeerDevCanUseStatus:645]set device 12000103c0537c93 oldflag 0 group 22000101413a31a9 can use status 0
+09-14 07:53:05(14258) nvr_cfg WARN: [cfg_OnPeerDeviceStatusChange:454]Ignonre 12000103c0537c93 status changed
+09-14 07:53:05(523986024370) PID_SA INFO: [FUN_DEVICE_STATUS:1267]FUN_DEVICE_STATUS deviceId:12000103c0537c93, status:1
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:630]device 12000103c0537c93 online status 1
+09-14 07:53:05(14348) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: isTestDevice:false
+09-14 07:53:05(523986024370) cos INFO: [Cos_SocketAccept:455]socket<305> accepted
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]p2pslot creat tcp slot 0xb400007abc2a6500 peer addr: 192.168.1.192:port:59430
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasLocalLan_TCPAccept:433]tcpslot 0xb400007abc2a6500 turn to connected for accept peer port 59430
+09-14 07:53:05(12970367455108020146) cos INFO: [Cos_SocketOpen:377]socket<306> open ok
+09-14 07:53:05(14258) cos INFO: [Cand_InetGetLocalIps:370]start getLocalIp wlan0 ip= <192.168.1.50>.
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasOldLan_SendBroadcast:147]get local ip 192.168.1.50:5564
+09-14 07:53:05(14258) cos ERR: [Cos_SocketErrFilterToLog:673]Cand_SocketSendTo:719 has error<13>, has 30 times
+09-14 07:53:05(14258) cos ERR: [Cos_SocketErrFilterToLog:673]Cand_SocketSendTo:719 has error<13>, has 60 times
+09-14 07:53:05(14258) cos ERR: [Cos_SocketErrFilterToLog:673]Cand_SocketSendTo:719 has error<13>, has 90 times
+09-14 07:53:05(14258) cos ERR: [Cos_SocketErrFilterToLog:673]Cand_SocketSendTo:719 has error<13>, has 120 times
+09-14 07:53:05(12970367459402987442) cos INFO: [Cos_SocketClose:390]socket<306> closed
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasOldLan_SendBroadcast:168]send broadcast ok lancnt 260
+09-14 07:53:05(12970367459402987442) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:230]tcpslot 0xb400007abc2a6500 have peerid 0; slottype 0 send tcp req turn to testing status
+09-14 07:53:05(523986024372) TRAS_TASK INFO: [TrasP2PSlot_TCPSendLocalTCPRsp:711]send local rsp rsp {"METHOD":"3115","SEQID":"5","CODE":"0","BODY":{"OsType":"3"}} to peer 12000103c0537c93
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasP2PSlot_SetToUser:1052]tcpslot 0xb400007abc2a6500 set bestest to peer 12000103c0537c93,old 0x0 udpflag 0 
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:282]tcpslot 0xb400007abc2a6500 tested ok tickcnt 90692551
+09-14 07:53:05(14258) cos INFO: [Cos_SocketOpen:377]socket<314> open ok
+09-14 07:53:05(12970367455108020146) TRAS_TASK INFO: [TrasNat_CreatNatHole:622]creat new nat hole get local udp port 7919 socket type 0
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:482]peer 12000103c0537c93 get natinf status 2
+09-14 07:53:05(12970367455108020146) CFG_TASK INFO: [Cfg_SetPeerDevCanUseStatus:645]set device 12000103c0537c93 oldflag 0 group 22000101413a31a9 can use status 1
+09-14 07:53:05(12970367455108020146) PID_SA INFO: [FUN_DEVICE_STATUS:1267]FUN_DEVICE_STATUS deviceId:12000103c0537c93, status:5
+09-14 07:53:05(523986024370) nvr_cfg WARN: [cfg_OnPeerDeviceStatusChange:454]Ignonre 12000103c0537c93 status changed
+09-14 07:53:05(12970367455108020146) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:618]device 12000103c0537c93 slot can use
+09-14 07:53:05(12970367455108020146) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:673]device 12000103c0537c93 udpslot 0x0 p2p status 1, local NatType:0, ConeType:0, NetType:2
+09-14 07:53:05(14258) CFG_TASK INFO: [Cfg_Task_RecvGetDomainRsp:45]ocgt 3 recv get domain rsp code 0
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_GetNetInfo:936]start  get peer 12000103c0537c93 nat inf req body {"METHOD":"201E","SEQID":"6","BODY":{"UPNPFlag":"0","UPNPIP":"","UPNPPort":"15668","LocalIP":"192.168.1.50","LocalTCPPort":"15668","LocalUDPPort":"7919"}}
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:492]peer 12000103c0537c93 get natinf status 3
+09-14 07:53:05(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:1//errorCode:0
+09-14 07:53:05(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:1,hmError:0
+09-14 07:53:05(536870937461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:2//errorCode:0
+09-14 07:53:05(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:2,hmError:0
+09-14 07:53:05(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_setBackgroundToFront:88]setBackgroundToFront 0
+09-14 07:53:05(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmLaunch: ========== 应用切换到后台 ==========
+09-14 07:53:05(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmLaunch: HmLifecycleObserver onStop:activity:class androidx.lifecycle.LifecycleRegistry,version:2009370
+09-14 07:53:05(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmLaunch: ========== 应用切换到后台 ==========
+09-14 07:53:05(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/LowPowerHeart: onDeviceStateChange awakeDevice groupId:22000101413a31a9//deviceId:12000103c0537c93//status:1//StatusEnum:1//statusName:ONLINE
+09-14 07:53:05(536870937461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceStateChange groupId:22000101413a31a9,deviceId:12000103c0537c93,devicePresenceState:1   deviceType = CAMERA  awakeAbility:NOT_SUPPORT
+09-14 07:53:05(4294981554) cos INFO: [Cos_SocketClose:390]socket<296> closed
+09-14 07:53:05(4294981554) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:0, iErr:0
+09-14 07:53:05(532575958962) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:507]peer 12000103c0537c93 get natinf time out turn to status 0
+09-14 07:53:05(523986024370) cos INFO: [Cos_SocketClose:390]socket<314> closed
+09-14 07:53:05(14258) cos INFO: [Cos_SocketOpen:377]socket<314> open ok
+09-14 07:53:05(12970367455108020146) TRAS_TASK INFO: [TrasNat_CreatNatHole:622]creat new nat hole get local udp port 7920 socket type 0
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:482]peer 12000103c0537c93 get natinf status 2
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_GetNetInfo:936]start  get peer 12000103c0537c93 nat inf req body {"METHOD":"201E","SEQID":"7","BODY":{"UPNPFlag":"0","UPNPIP":"","UPNPPort":"15668","LocalIP":"192.168.1.50","LocalTCPPort":"15668","LocalUDPPort":"7920"}}
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:492]peer 12000103c0537c93 get natinf status 3
+09-14 07:53:05(14247) cos INFO: [Cos_InetMgrProc:133]get host 10.116.129.118 ok ip 1988195338 passive 0
+09-14 07:53:05(523986024372) TRAS_TASK INFO: [TrasPeer_SetUPNPInfo:262]set peer 12000103c0537c93 upnp port 16669 socket type 0
+09-14 07:53:05(528280991660) CFG_TASK INFO: [Cfg_ProcPeerDeviceCfg:3978]peer 12000103c0537c93 sync cfg by p2p
+09-14 07:53:05(528280991666) TRAS_TASK INFO: [TrasBase_OnPortHoleUDPRecv:983]recv msg 32,34
+09-14 07:53:05(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/LowPowerHeart: onDeviceStateChange awakeDevice groupId:22000101413a31a9//deviceId:12000103c0537c93//status:5//StatusEnum:5//statusName:CANUSE
+09-14 07:53:05(536870937461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceStateChange groupId:22000101413a31a9,deviceId:12000103c0537c93,devicePresenceState:5   deviceType = CAMERA  awakeAbility:NOT_SUPPORT
+09-14 07:53:05(14247) cos INFO: [Cos_InetMgrProc:133]get host 192.168.1.192 ok ip 3221334208 passive 0
+09-14 07:53:05(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:0//errorCode:0
+09-14 07:53:05(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:0,hmError:0
+09-14 07:53:05(523986024372) TRAS_TASK INFO: [TrasPeer_SetLocalTCPPort:236]set peer 12000103c0537c93 lcoal tcp port 16669 socket type 0
+09-14 07:53:05(14260) TRAS_TASK INFO: [TrasPeer_SetUdpLocalInfo:276]set peer 12000103c0537c93 lcoal udp port 8062 socket type 0
+09-14 07:53:05(14260) TRAS_TASK INFO: [TrasPeer_ParseGetNetInfoRsp:1044]peer 12000103c0537c93 recv natinf rsp;nattype 0 lcoalip 192.168.1.192:16669,8062 natip :0
+09-14 07:53:05(523986024372) TRAS_TASK INFO: [TrasPeer_SetUdpLocalInfo:276]set peer 12000103c0537c93 lcoal udp port 8063 socket type 0
+09-14 07:53:05(523986024372) TRAS_TASK INFO: [TrasPeer_ParseGetNetInfoRsp:1044]peer 12000103c0537c93 recv natinf rsp;nattype 0 lcoalip 192.168.1.192:16669,8063 natip :0
+09-14 07:53:05(12970367455108020146) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:512]peer 12000103c0537c93 get natinf status 4
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasP2PSlot_NewUdp:48]udpslot creat ok 0xb400007abc2a6c80 socketfd 314
+09-14 07:53:05(12970367455108020146) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateUDP:695]device 12000103c0537c93 udpslot creat ok 0xb400007abc2a6c80
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:524]peer 12000103c0537c93 get natinf success
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasPeer_SetUdpDstAddr:585]udpslot 0xb400007abc2a6c80 set peerid 12000103c0537c93 local port 8063
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:390]udpslot 0xb400007abc2a6c80 tutn to testing status
+09-14 07:53:05(4294981554) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:673]device 12000103c0537c93 udpslot 0x0 p2p status 0, local NatType:0, ConeType:0, NetType:2
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [Tras_UdpSlotSendHoleReq:197]udpslot 0xb400007abc2a6c80 send hole req to peer 192.168.1.192 port 8063,nattype 0
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:398]udpslot 0xb400007abc2a6c80 tutn testing to tested status
+09-14 07:53:05(12970367455108020140) PID_SA INFO: [FUN_DEVICE_CFG_STATUS:1249]FUN_DEVICE_CFG_STATUS pucDeviceId:12000103c0537c93, enDeviceCfgItem:1
+09-14 07:53:05(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceConfigUpdate  deviceId is =12000103c0537c93,,,,DEVICE
+09-14 07:53:05(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:459]udpslot 0xb400007abc2a6c80 turn tested to proc status peer 192.168.1.192:8063
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_SendP2PStatus:516]ogct 30 send msg {"METHOD":"3388","SEQID":"30","BODY":{"P2PStatus":"1","P2PType":"3","PeerNatType":"0","LocalNatType":"0","DID":"12000103c0537c93"}} to server -1
+09-14 07:53:05(14258) PID_SA INFO: [FUN_DEVICEP2PRESULT_CB:2936]FUN_DEVICEP2PRESULT_CB did:12000103c0537c93, p2pFlag:1, localNatType:0, peerNatType:0
+09-14 07:53:05(528280991660) CFG_TASK INFO: [Cfg_SetCamSupportPtz:7328]peerid 12000103c0537c93 camid 3 set ptz 2139062143
+09-14 07:53:05(532575958956) PID_SA INFO: [FUN_DEVICE_CFG_STATUS:1249]FUN_DEVICE_CFG_STATUS pucDeviceId:12000103c0537c93, enDeviceCfgItem:8
+09-14 07:53:05(14258) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:673]device 12000103c0537c93 udpslot 0xb400007abc2a6c80 p2p status 1, local NatType:0, ConeType:0, NetType:2
+09-14 07:53:05(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceConfigUpdate  deviceId is =12000103c0537c93,,,,IN_IOT
+09-14 07:53:06(12970367455108020140) PID_SA INFO: [FUN_DEVICE_CFG_STATUS:1249]FUN_DEVICE_CFG_STATUS pucDeviceId:12000103c0537c93, enDeviceCfgItem:64
+09-14 07:53:06(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceConfigUpdate  deviceId is =12000103c0537c93,,,,ALARM_POLICY
+09-14 07:53:06(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: initializationStatus = {com.google.android.gms.ads.MobileAds=com.google.android.gms.internal.ads.zzboe@80e5852, com.google.ads.mediation.vungle.VungleMediationAdapter=com.google.android.gms.internal.ads.zzboe@e70c723, com.google.ads.mediation.facebook.FacebookMediationAdapter=com.google.android.gms.internal.ads.zzboe@ac3a420, com.google.ads.mediation.mintegral.MintegralMediationAdapter=com.google.android.gms.internal.ads.zzboe@20ed1d9, com.google.ads.mediation.pangle.PangleMediationAdapter=com.google.android.gms.internal.ads.zzboe@b15a79e}
+09-14 07:53:06(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: isInitSuccess:true
+09-14 07:53:06(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: initializationStatus = {com.google.android.gms.ads.MobileAds=com.google.android.gms.internal.ads.zzboe@37eb27f, com.google.ads.mediation.vungle.VungleMediationAdapter=com.google.android.gms.internal.ads.zzboe@48ee24c, com.google.ads.mediation.facebook.FacebookMediationAdapter=com.google.android.gms.internal.ads.zzboe@c91b295, com.google.ads.mediation.mintegral.MintegralMediationAdapter=com.google.android.gms.internal.ads.zzboe@2b09faa, com.google.ads.mediation.pangle.PangleMediationAdapter=com.google.android.gms.internal.ads.zzboe@d55f79b}
+09-14 07:53:06(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: isInitSuccess:true
+09-14 07:53:06(532575958956) PID_SA INFO: [FUN_DEVICE_CFG_STATUS:1249]FUN_DEVICE_CFG_STATUS pucDeviceId:12000103c0537c93, enDeviceCfgItem:128
+09-14 07:53:06(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: googleGatherConsent==consentError:null,msg:null
+09-14 07:53:06(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AdmobAdManager: isCanRequestAds：true
+09-14 07:53:06(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceConfigUpdate  deviceId is =12000103c0537c93,,,,SYSTEM
+09-14 07:53:06(528280991660) CFG_TASK INFO: [Cfg_SavePeerDeviceItemFile:3093]peerid 12000103c0537c93 dev cfg {"Sign":"1075","EncAbility":"0","OTAAbility":"7","OTAType":"0","WifiSetAbility":"25","EnergyType":"0","AwakeAbility":"0","AOVAbility":"0","SwitchAOVFrameRateAbility":"0","MicVolumeAbility":"0","SIMAbility":"0","OneClickShowAbility":"0","LogCollectAbility":"1","Powersupply":"1","SupplyShowPowerAbility":"0","DualFrequency":"0","ApSetPasswd":"0","TimerOpenAbility":"0","PowerLevel":"100","SdkVersion":"50664832","DevVersion":"YGT.AJ-L33PQ08A1-v241030.1014","OldDevFlag":"0","DevName":"GateCameras","OsType":"1","DevType":"1","AwakeInterval":"0","MaxSessionCnt":"4","AliveSessionCnt":"0","WifiStrength":"0","AutoSync":"1","DevModel":"AJ-L33PQ08A1","SSID":"","MacAddr":"","DstArea":"Asia/Kolkata","Dst":"IST-5:30","DstUseFlag":"1","TimeMode":"0","StatusLedMode":"1","SimSlotCnt":"0","WorkSimSlotId":"0","IMEI":"","Language":"0","PromptSet":"0","ApHasPassWd":"0","AOVFrameInterval":"0","SimSlots":[],"MulMedia":{"Port":"0","Ipv4":"","ReSource":"","EncType":"0","EncKey":"","EncLv":""}}
+09-14 07:53:06(528280991660) CFG_TASK INFO: [Cfg_SavePeerDeviceItemFile:3113]peerid 12000103c0537c93 iots cfg {"PTZAbility":"3","AttachPTZAbility":"0","PTZSpeedAbility":"1","MotionAbility":"1","DoorbellAbility":"0","RecordAbility":"1","PIRAbility":"0","VoiceAlarmAbility":"0","SnapshotAbility":"1","BuzzerAbility":"1","StatusLampAbility":"0","LampAbility":"1","CloudRecordAbility":"0","CloudSnapshotAbility":"1","CameraAbility":"1","EventAbility":"1","SupportCloudFlag":"1","Sign":"122585","IoTS":[{"AIIoTType":"1006","AIIoTID":"0","OpenFlag":"1","Sign":"0"},{"AIIoTType":"1005","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"SnapLoopFlag":"1","SnapInterval":"180","SnapFullFlag":"0","SnapPicType":"2"}},{"AIIoTType":"1000","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"Motion":{"Status":"0","Interval":"60","Trace":"0","Sensitive":"50"},"Human":{"Sensitive":"50","Status":"0","Interval":"60","Trace":"0"},"Face":{"Sensitive":"50","Status":"0","Interval":"60","Trace":"0"}}},{"AIIoTType":"1009","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"Status":"1"}},{"AIIoTType":"1014","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"IrcutType":"2"}},{"AIIoTType":"1007","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{}},{"AIIoTType":"1002","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"RecordLoop":"1","RecordFull":"0","StreamID":"0","Duration":"0"}},{"AIIoTType":"1011","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"GifFlag":"1","GifOpenFlag":"0","Interval":"30","LoopDays":"3","PicType":"2","RecordType":"1","SnapJpgCnt":"1","StorageType":"0","Support":"1","hm_editable":"0"}},{"AIIoTType":"1013","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"PushFlag":"7","SMSFlag":"1","EmailFlag":"1","Interval":"300","EmailAddr":"","StartTime":"0","EndTime":"86400","SpanFlag":"0","Week":"127"}},{"AIIoTType":"1012","AIIoTID":"0","OpenFlag":"1","Sign":"0"},{"AIIoTType":"1093","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":null,"Buss":{"TimeArea":"","TimeZone":""}},{"AIIoTType":"1098","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"EventLi***
+09-14 07:53:06(528280991660) CFG_TASK INFO: [Cfg_SavePeerDeviceItemFile:3153]peerid 12000103c0537c93 alarm policy cfg {"Sign":"119705","Policys":[{"AIIoTType":"1000","AIIoTID":"0","OpenFlag":"1","PolicyName":"Alarm_100","PolicyID":"100","Prop":{"Motion":{"Trace":"0","Sensitive":"50","Status":"0","Interval":"35"},"Human":{"Trace":"0","Sensitive":"50","Status":"0","Interval":"50"},"Face":{"Trace":"0","DiscernFlag":"0","Sensitive":"25","Status":"0","Interval":"30"}},"Events":[{"EventID":"100001","OpenFlag":"0","Week":"127","StartTime":"0","EndTime":"86399","SpanFlag":"0","Action":[{"AIIoTType":"1009","AIIoTID":"0","OutPut":{"AlarmType":"1000","CtrlType":"0","LoopCnt":"1","SoundName":"","SoundType":"2"}},{"AIIoTType":"1002","AIIoTID":"0","OutPut":{"CtrlType":"1","Duration":"30","StreamID":"0"}},{"AIIoTType":"1005","AIIoTID":"0","OutPut":{"PicType":"2","Interval":"","GifFlag":"0"}},{"AIIoTType":"1013","AIIoTID":"0","OutPut":{"EmailFlag":"1","EndTime":"86400","Interval":"0","PushFlag":"7","SMSFlag":"1","SpanFlag":"1","StartTime":"0","Week":"127"}},{"AIIoTType":"1011","AIIoTID":"0","OutPut":{"PicType":"2","Interval":"","GifFlag":"1"}},{"AIIoTType":"1010","AIIoTID":"0","OutPut":{"CtrlType":"1","Duration":"30","StreamID":"0"}},{"AIIoTType":"0","AIIoTID":"0"},{"AIIoTType":"1007","AIIoTID":"0","OutPut":{"CtrlType":"1","Duration":"31"}}],"FenceID":[],"SceneID":[],"TriggerInfo":[]},{"EventID":"100002","OpenFlag":"0","Week":"127","StartTime":"0","EndTime":"86399","SpanFlag":"0","Action":[{"AIIoTType":"1009","AIIoTID":"0","OutPut":{"AlarmType":"1000","CtrlType":"0","LoopCnt":"1","SoundName":"","SoundType":"2"}},{"AIIoTType":"1002","AIIoTID":"0","OutPut":{"CtrlType":"1","Duration":"30","StreamID":"0"}},{"AIIoTType":"1005","AIIoTID":"0","OutPut":{"PicType":"2","Interval":"","GifFlag":"0"}},{"AIIoTType":"1013","AIIoTID":"0","OutPut":{"EmailFlag":"1","EndTime":"86400","Interval":"0","PushFlag":"7","SMSFlag":"1","SpanFlag":"1","StartTime":"0","Week":"127"}},{"AIIoTType":"1011","AIIoTID":"0","OutPut":{"PicType":"2","Interval":***
+09-14 07:53:06(8389723566215542700) PID_SA INFO: [FUN_DEVICE_CFG_STATUS:1249]FUN_DEVICE_CFG_STATUS pucDeviceId:12000103c0537c93, enDeviceCfgItem:0
+09-14 07:53:06(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceConfigUpdate  deviceId is =12000103c0537c93,,,,ALL
+09-14 07:53:06(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]DeviceManager: cache TF Card Info
+09-14 07:53:06(545460872053) CMD_TASK INFO: [Cmd_GetPeerTfCardInf:830]reqid 31 send GetPeerTfCardInf msg {"METHOD":"344E","SEQID":"31","FROM":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"TO":{"DID":"12000103c0537c93"}} to peer 12000103c0537c93, iret 0
+09-14 07:53:06(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeCommand_getTFCardInfo:394]HM_GetSdCardInf ret = 0 puiReqId = 31
+09-14 07:53:06(14253) CMD_TASK INFO: [Cmd_ProcRecvNetMsg:5738]reqid 31 recv rsp content {"CODE":"0","METHOD":"344F","SEQID":"31","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"StorageAbility":"1","TotalSize":"0","FreeSize":"0","CardStatus":"1"}}
+09-14 07:53:06(14253) PID_SA INFO: [FUN_DEVICE_RSP_GET_TFCARD_INFO:2342]FUN_DEVICE_RSP_GET_TFCARD_INFO uiReqId:31, uiTotalSize:0, uiRemainSize:0, iErr:1
+09-14 07:53:06(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]DeviceManager: deviceId = 12000103c0537c93   get sdcard info errorCode = 1
+09-14 07:53:08(523986024370) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:1, iErr:0
+09-14 07:53:08(12970367459402987442) cos INFO: [Cos_SocketOpen:377]socket<272> open ok
+09-14 07:53:08(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:1//errorCode:0
+09-14 07:53:08(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:1,hmError:0
+09-14 07:53:08(12970367455108020146) TRAS_TASK INFO: [TrasLink_Connect:245]Link Connect Addr:43.133.96.204:19336,ConnFlag:1
+09-14 07:53:08(14258) TRAS_TASK INFO: [TrasBase_ProcBaseSock:670]Link Connect Addr:43.133.96.204:19336,ConnectFlag is: 2
+09-14 07:53:08(4294981554) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:2, iErr:0
+09-14 07:53:08(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:2//errorCode:0
+09-14 07:53:08(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:2,hmError:0
+09-14 07:53:08(14258) TRAS_TASK INFO: [TrasLink_AuthUserToken:188]ogct 32 send login requst body {"METHOD":"4116","SEQID":"32","BODY":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5","SDKVersion":"51713056","WebDomainAbilty":"1","TestFlag":"1"}} iRet 0 
+09-14 07:53:08(14258) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:4, iErr:0
+09-14 07:53:08(523986024370) TRAS_TASK INFO: [TrasLink_ProcAuthTokenRsp:292]ogct 32 recv auth rsp code 0 
+09-14 07:53:08(523986024370) TRAS_TASK INFO: [TrasNat_GetNatServer:144]ogct 33 Get Detect Server Addr iRet 0 
+09-14 07:53:08(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:4//errorCode:0
+09-14 07:53:08(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:4,hmError:0
+09-14 07:53:08(25461) ZJ_TASK INFO: [ZJ_GetPaasPlatAccessToken:3766]ogct 34 get paasplat token iRet 0
+09-14 07:53:08(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/DeviceBean: getDeviceName:GateCameras
+09-14 07:53:08(523986024375) EVENT_TASK INFO: [Event_GetEventCalender:2346]Get event calender req route store reqid [35] device id [12000103c0537c93] channel[-1] from day [1970-01-01]
+09-14 07:53:08(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]onInitPushSuccess: regid = eTaw3UHwT7yXDsUUjIDjw_:APA91bGOPrHHfPX6BI8lyu8Xuh2S_tcCJ1X6J2fTnbEulnllK4sV-ag66RoIN9ctFMucYPCZ7nWJDLxUD71DTrCmEUFuwrP9Ejga3KAQWdqdxzB2QJfr-f8
+09-14 07:53:08(12970367459402998645) ZJ_TASK INFO: [ZJ_SetPushToken:1024]ogct 36 set pushtoken eTaw3UHwT7yXDsUUjIDjw_:APA91bGOPrHHfPX6BI8lyu8Xuh2S_tcCJ1X6J2fTnbEulnllK4sV-ag66RoIN9ctFMucYPCZ7nWJDLxUD71DTrCmEUFuwrP9Ejga3KAQWdqdxzB2QJfr-f8 iRet 0
+09-14 07:53:08(14160) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]E/GlobalDataManager: cached report upload failed, key:data_1778477556290, retry:1, discarded:false
+09-14 07:53:08(523986024375) EVENT_TASK INFO: [Event_GetEventCalender_Req_ProcMsg:1803]reqid 35 creat get event calender task OK router 2
+09-14 07:53:08(523986024375) EVENT_TASK INFO: [Event_SendGetEventCalenderReqToStore:172]ogct 37 send req msg {"METHOD":"3514","SEQID":"37","BODY":{"Date":"1970-01-01","DID":"12000103c0537c93","ChannelNum":"-1","Today":"2026-09-14","OwnerID":"1600010140c3ad11"}}
+09-14 07:53:08(528280991660) CFG_TASK INFO: [Cfg_ReqDevSrvItemsFromCloud:3733]ogct 38 get dev serveritem form link body {"METHOD":"3392","SEQID":"38","BODY":{"CompanyID":"0000213ed0cdb8bc","APPID":"1665373297326122","DID":"12000103c0537c93","Language":"2","Items":[{"ConfType":"1","Sign":"0"},{"ConfType":"2","Sign":"0"},{"ConfType":"8","Sign":"0"}]}}
+09-14 07:53:08(528280991660) CFG_TASK INFO: [Cfg_Task_ProcOwnerCfg:809]ogct 39 start down owner inf
+09-14 07:53:08(14252) CFG_TASK INFO: [Cfg_Task_GetGroupList:489]ogct 40 begain get group list
+09-14 07:53:08(528280991660) TRAS_TASK INFO: [Tras_GetAppNewVersion:1865]ogct 41 send get app new version {"METHOD":"4162","SEQID":"41","BODY":{"AppVersion":"2.9.37","AppID":"1593592778513070","Language":"2"}} iret 0
+09-14 07:53:08(523986024370) TRAS_TASK INFO: [TrasNat_ParseGetNatSvrRsp:119]ogct 33 recv rsp code 0 natip 129.227.231.210:30194 encflag 0
+09-14 07:53:08(14160) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]E/GlobalDataManager: cached report upload failed, key:data_1778477556297, retry:1, discarded:false
+09-14 07:53:08(14247) cos INFO: [Cos_InetMgrProc:133]get host 129.227.231.210 ok ip 3538412417 passive 0
+09-14 07:53:08(14258) cos INFO: [Cos_SocketOpen:377]socket<343> open ok
+09-14 07:53:08(12970367455108020146) TRAS_TASK INFO: [TrasNat_CreatNatHole:622]creat new nat hole get local udp port 7921 socket type 0
+09-14 07:53:08(523986024370) TRAS_TASK INFO: [TrasNat_CheckNatType:391]natinf init ok socket 343 
+09-14 07:53:08(14258) TRAS_TASK INFO: [TrasNat_CheckNat:226]send udp msg to server 129.227.231.210:30194 iret 72
+09-14 07:53:08(523986024370) TRAS_TASK INFO: [TrasNat_CheckNatType:397]natInf send msg to port1 30194 
+09-14 07:53:08(12970367459402987442) ZJ_TASK INFO: [ZJ_RecvGetPaasTokenRsp:3750]ogct 34 recv rsp code 0
+09-14 07:53:08(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onGetPaasPlatToken accessTokenut6AA75A8C-00000003-00G001-rk0jb/expireSeconds:86399//strPaasAddr:https://gm-ap.smartcloudcon.com
+09-14 07:53:08(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmSdkHelper: onServerStatusChange onTokenReturn accessToken:ut6AA75A8C-00000003-00G001-rk0jb
+09-14 07:53:08(528281002869) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmSdkHelper: onServerStatusChange onTokenReturn pTokenJson:{"accessToken":"ut6AA75A8C-00000003-00G001-rk0jb","createTime":1789352588584,"expireSeconds":86399,"passAddress":"https://gm-ap.smartcloudcon.com"}
+09-14 07:53:08(14258) CFG_TASK INFO: [Cfg_RecvGetGroupListRsp:476]ogct 40 recv get grouplist response, code 0
+09-14 07:53:08(14258) PID_SA INFO: [FUN_DEVICE_COMMON_RSP:1216]FUN_DEVICE_COMMON_RSP uiReqId:36, iErr:0
+09-14 07:53:08(523986024370) ZJ_TASK INFO: [ZJ_UserProcSetPushTokenRsp:1001]ogct 36 recv rsp code 0 
+09-14 07:53:08(523986024370) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3530]ogct 38 recv srv dev rsp event id info {"EventIDs":[{"AIIoTType":"1000","AlgorithmID":[],"EventID":"100000","Name":"Motion Detection","OpenFlag":"1"},{"AIIoTType":"1000","AlgorithmID":[],"EventID":"100001","Name":"Human Detection","OpenFlag":"1"},{"AIIoTType":"1096","AlgorithmID":[],"EventID":"109600","Name":"","OpenFlag":"0"},{"AIIoTType":"1097","AlgorithmID":[],"EventID":"109700","Name":"","OpenFlag":"0"},{"AIIoTType":"1029","AlgorithmID":[],"EventID":"102900","Name":"Pet Detection","OpenFlag":"0"},{"AIIoTType":"1083","AlgorithmID":[],"EventID":"108300","Name":"Vehicle Detection","OpenFlag":"0"},{"AIIoTType":"1000","AlgorithmID":[],"EventID":"100017","Name":"Motion Detection Cross Line","OpenFlag":"0"},{"AIIoTType":"1029","AlgorithmID":[],"EventID":"102903","Name":"","OpenFlag":"0"},{"AIIoTType":"1029","AlgorithmID":[],"EventID":"102904","Name":"","OpenFlag":"0"},{"AIIoTType":"1000","AlgorithmID":[],"EventID":"300008","Name":"","OpenFlag":"0"},{"AIIoTType":"1097","AlgorithmID":[],"EventID":"109703","Name":"","OpenFlag":"0"},{"AIIoTType":"1026","AlgorithmID":[],"EventID":"102600","Name":"","OpenFlag":"0"},{"AIIoTType":"1029","AlgorithmID":[],"EventID":"102901","Name":"","OpenFlag":"0"},{"AIIoTType":"1029","AlgorithmID":[],"EventID":"102902","Name":"","OpenFlag":"0"},{"AIIoTType":"1103","AlgorithmID":[],"EventID":"110300","Name":"","OpenFlag":"0"},{"AIIoTType":"1104","AlgorithmID":[],"EventID":"110400","Name":"","OpenFlag":"0"},{"AIIoTType":"1109","AlgorithmID":[],"EventID":"110900","Name":"","OpenFlag":"0"},{"AIIoTType":"1029","AlgorithmID":[],"EventID":"102905","Name":"","OpenFlag":"0"},{"AIIoTType":"1029","AlgorithmID":[],"EventID":"102906","Name":"","OpenFlag":"0"},{"AIIoTType":"1097","AlgorithmID":[],"EventID":"109702","Name":"","OpenFlag":"0"},{"AIIoTType":"1025","AlgorithmID":[],"EventID":"102500","Name":"","OpenFlag":"0"},{"AIIoTType":"1089","AlgorithmID":[],"EventID":"108901","Name":"","OpenFlag":"0"},{"AIIoTType":"1***
+09-14 07:53:08(5702168602744993714) PID_SA INFO: [FUN_DEVICE_CFG_STATUS:1249]FUN_DEVICE_CFG_STATUS pucDeviceId:12000103c0537c93, enDeviceCfgItem:32768
+09-14 07:53:08(14258) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3550]ogct 38 recv srv dev rsp app setting {"ClickAlarm":"1","EnCoderID":"0","FullColorMode":"0","JpgResample":"1","LampFlag":"0","LightLevelMode":"1","LightMaxTime":"43200","LowBatteryPolicy":{"DisabledFeatures":[],"Enabled":0,"Threshold":0},"PlayAlertDuration":"0","PlayAlertFlag":"0","PlayLenth":"","PlayRestrictionFlag":"","PriorStreamID":"1","ResampleHight":"1296","ResampleWidth":"2304","ScreenSplit":{"OpenFlag":"","ShownPrecent":"","SplitCamID":""},"Sign":"44427","VideoResample":"0"}
+09-14 07:53:08(14258) PID_SA INFO: [FUN_DEVICE_CFG_STATUS:1249]FUN_DEVICE_CFG_STATUS pucDeviceId:12000103c0537c93, enDeviceCfgItem:131072
+09-14 07:53:08(523986024370) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3569]ogct 38 recv srv dev rsp charge info {"AutoPayStatus":"0","DayExpireFlag":0,"EventExpireFlag":0,"Packages":[]}
+09-14 07:53:08(14258) PID_SA INFO: [FUN_DEVICE_CFG_STATUS:1249]FUN_DEVICE_CFG_STATUS pucDeviceId:12000103c0537c93, enDeviceCfgItem:65536
+09-14 07:53:08(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceConfigUpdate  deviceId is =12000103c0537c93,,,,UNKNOWN
+09-14 07:53:08(523986024370) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3588]ogct 38 recv srv dev rsp nodel setting (null)
+09-14 07:53:08(523986024370) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3649]ogct 38 recv srv dev rsp items 0 code 0
+09-14 07:53:08(4503599627395957) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]DeviceManager: cache TF Card Info
+09-14 07:53:08(545460872053) CMD_TASK INFO: [Cmd_GetPeerTfCardInf:830]reqid 43 send GetPeerTfCardInf msg {"METHOD":"344E","SEQID":"43","FROM":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"TO":{"DID":"12000103c0537c93"}} to peer 12000103c0537c93, iret 0
+09-14 07:53:08(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeCommand_getTFCardInfo:394]HM_GetSdCardInf ret = 0 puiReqId = 43
+09-14 07:53:08(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceConfigUpdate  deviceId is =12000103c0537c93,,,,UNKNOWN
+09-14 07:53:08(4503599627395957) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]DeviceManager: cache TF Card Info
+09-14 07:53:08(545460872053) CMD_TASK INFO: [Cmd_GetPeerTfCardInf:830]reqid 44 send GetPeerTfCardInf msg {"METHOD":"344E","SEQID":"44","FROM":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"TO":{"DID":"12000103c0537c93"}} to peer 12000103c0537c93, iret 0
+09-14 07:53:08(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeCommand_getTFCardInfo:394]HM_GetSdCardInf ret = 0 puiReqId = 44
+09-14 07:53:08(14258) EVENT_TASK INFO: [Event_RecvGetEventCalenderRspFromStore:724]ogct 37 recv rsp json[0x636f1180] 
+09-14 07:53:08(14258) CFG_TASK INFO: [Cfg_RcvDownOwnerInfRsp:779]ogct 39 recv down owner info rsp ,nickname  regperiod  code 0 data {"METHOD":"3323","SEQID":"39","CODE":"0","BODY":{"Account":[{"Account":"faiz.ahmed321@gmail.com","AccountType":"1"}],"CountryFromIP":"IN","Icon":"","Name":"","NickName":"","Param":{"City":"","Country":"GB"},"ParentUID":"","RegPeriod":"","RoleType":0}}
+09-14 07:53:08(14160) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]E/GlobalDataManager: cached report upload failed, key:data_1778477620644, retry:1, discarded:false
+09-14 07:53:08(14263) PID_SA INFO: [FUN_GETEVENTCALENDER_RSP:1384]FUN_GETEVENTCALENDER_RSP reqId:35, error:0
+09-14 07:53:08(14263) PID_SA INFO: [FUN_GETEVENTCALENDER_RSP:1386]list size: 0
+09-14 07:53:08(14263) EVENT_TASK INFO: [Event_GetEventCalender_Rsp_ProcMsg:1844]event calender rsp msg uiRoute 2 uiReqId 37 rspstatus0 calender list 0
+09-14 07:53:08(523986024375) EVENT_TASK INFO: [Event_GetNewEventCount:2774]ogct 45 send req msg {"METHOD":"3534","SEQID":"45","BODY":{"DID":"12000103c0537c93","Dates":["2026-09-14"]},"ChannelNum":"-1"}
+09-14 07:53:08(14253) CMD_TASK INFO: [Cmd_ProcRecvNetMsg:5738]reqid 43 recv rsp content {"CODE":"0","METHOD":"344F","SEQID":"43","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"StorageAbility":"1","TotalSize":"0","FreeSize":"0","CardStatus":"1"}}
+09-14 07:53:08(14253) PID_SA INFO: [FUN_DEVICE_RSP_GET_TFCARD_INFO:2342]FUN_DEVICE_RSP_GET_TFCARD_INFO uiReqId:43, uiTotalSize:0, uiRemainSize:0, iErr:1
+09-14 07:53:08(90194338677) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]DeviceManager: deviceId = 12000103c0537c93   get sdcard info errorCode = 1
+09-14 07:53:08(14253) CMD_TASK INFO: [Cmd_ProcRecvNetMsg:5738]reqid 44 recv rsp content {"CODE":"0","METHOD":"344F","SEQID":"44","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"StorageAbility":"1","TotalSize":"0","FreeSize":"0","CardStatus":"1"}}
+09-14 07:53:08(14253) PID_SA INFO: [FUN_DEVICE_RSP_GET_TFCARD_INFO:2342]FUN_DEVICE_RSP_GET_TFCARD_INFO uiReqId:44, uiTotalSize:0, uiRemainSize:0, iErr:1
+09-14 07:53:08(90194338677) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]DeviceManager: deviceId = 12000103c0537c93   get sdcard info errorCode = 1
+09-14 07:53:08(14258) TRAS_TASK INFO: [TrasBase_OnPortHoleUDPRecv:983]recv msg 32,27
+09-14 07:53:08(14258) TRAS_TASK INFO: [Tras_ParseNatTestRsp:215]Recv Nat test rsp: {"METHOD":"201B","SEQID":"42","CODE":"0","BODY":{"NatIP":"183.83.228.11","Port":"46629"}}
+09-14 07:53:08(14258) TRAS_TASK INFO: [TrasNat_CheckNat:226]send udp msg to server 129.227.231.210:30195 iret 72
+09-14 07:53:08(523986024370) TRAS_TASK INFO: [TrasNat_CheckNatType:423]natInf send msg to port2 30195
+09-14 07:53:08(14258) EVENT_TASK INFO: [Event_RecvGetNewEventCountRspFromStore:1065]ogct 45 recv rsp json, set new event count 0 day 2026-09-14 msg rsp code 0
+09-14 07:53:08(14258) PID_SA INFO: [FUN_NEWEVENT_CB:1601]onNewEventNotify pucDeviceId:12000103c0537c93, uiNewEventCount:0, pucDay:2026-09-14, uiRouterType:2
+09-14 07:53:08(14252) CFG_TASK INFO: [Cfg_SetGroupDevOnlineStatus:574]set member 12000103c0537c93 online status 1
+09-14 07:53:08(528280991660) CFG_TASK INFO: [Cfg_ProcDevStatusNtc:1268]ogct 3018348831 Ntc did 12000103c0537c93 oldflag 0 online status 1 pushflag 0 upstatus 0 Rate 0
+09-14 07:53:08(9049175026686769068) CFG_TASK INFO: [Cfg_ParseRecvNetData:1502]recv msgtype 37 msgid 3e
+09-14 07:53:08(14258) TRAS_TASK INFO: [TrasBase_OnPortHoleUDPRecv:983]recv msg 32,27
+09-14 07:53:08(14258) TRAS_TASK INFO: [Tras_ParseNatTestRsp:215]Recv Nat test rsp: {"METHOD":"201B","SEQID":"46","CODE":"0","BODY":{"NatIP":"183.83.228.11","Port":"46629"}}
+09-14 07:53:08(12970367450813052850) TRAS_TASK INFO: [TrasNat_CheckNatType:454]natInf check cone type
+09-14 07:53:08(12970367455108020146) TRAS_TASK INFO: [TrasBase_OnPortHoleUDPRecv:983]recv msg 32,29
+09-14 07:53:08(528280991660) CFG_TASK INFO: [Cfg_ReqDevSrvItemsFromCloud:3733]ogct 47 get dev serveritem form link body {"METHOD":"3392","SEQID":"47","BODY":{"CompanyID":"0000213ed0cdb8bc","APPID":"1665373297326122","DID":"12000103c0537c93","Language":"2","Modules":[{"AIIoTType":"1100","AIIoTID":"0","Sign":"0"},{"AIIoTType":"1093","AIIoTID":"0","Sign":"0"},{"AIIoTType":"1098","AIIoTID":"0","Sign":"0"}]}}
+09-14 07:53:08(528280991660) CFG_TASK INFO: [Cfg_SavePeerDeviceItemFile:3244]peerid 12000103c0537c93 algorithm cfg {"Sign":"0","EventIDs":[{"EventID":"100000","AIIoTType":"1000","OpenFlag":"1","Name":"Motion Detection"},{"EventID":"100001","AIIoTType":"1000","OpenFlag":"1","Name":"Human Detection"},{"EventID":"109600","AIIoTType":"1096","OpenFlag":"0","Name":""},{"EventID":"109700","AIIoTType":"1097","OpenFlag":"0","Name":""},{"EventID":"102900","AIIoTType":"1029","OpenFlag":"0","Name":"Pet Detection"},{"EventID":"108300","AIIoTType":"1083","OpenFlag":"0","Name":"Vehicle Detection"},{"EventID":"100017","AIIoTType":"1000","OpenFlag":"0","Name":"Motion Detection Cross Line"},{"EventID":"102903","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"102904","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"300008","AIIoTType":"1000","OpenFlag":"0","Name":""},{"EventID":"109703","AIIoTType":"1097","OpenFlag":"0","Name":""},{"EventID":"102600","AIIoTType":"1026","OpenFlag":"0","Name":""},{"EventID":"102901","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"102902","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"110300","AIIoTType":"1103","OpenFlag":"0","Name":""},{"EventID":"110400","AIIoTType":"1104","OpenFlag":"0","Name":""},{"EventID":"110900","AIIoTType":"1109","OpenFlag":"0","Name":""},{"EventID":"102905","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"102906","AIIoTType":"1029","OpenFlag":"0","Name":""},{"EventID":"109702","AIIoTType":"1097","OpenFlag":"0","Name":""},{"EventID":"102500","AIIoTType":"1025","OpenFlag":"0","Name":""},{"EventID":"108901","AIIoTType":"1089","OpenFlag":"0","Name":""},{"EventID":"110500","AIIoTType":"1105","OpenFlag":"0","Name":""},{"EventID":"110600","AIIoTType":"1106","OpenFlag":"0","Name":""},{"EventID":"109701","AIIoTType":"1097","OpenFlag":"0","Name":""}],"ServiceIDs":[{"OpenFlag":"1","ServiceID":"300027"},{"OpenFlag":"1","ServiceID":"300026"},{"OpenFlag":"0","ServiceID":"300009"},{"OpenFlag":"0","ServiceID":"300008"},{"OpenFlag":"0","Servi***
+09-14 07:53:08(528280991660) CFG_TASK INFO: [Cfg_SavePeerDeviceItemFile:3255]peerid 12000103c0537c93 dev app cfg {"Sign":"44427","VideoResample":"0","JpgResample":"1","ResampleHight":"1296","ResampleWidth":"2304","LampFlag":"0","LightMaxTime":"43200","LightLevelMode":"1","PlayRestrictionFlag":"0","PlayLenth":"0","PlayAlertFlag":"0","PlayAlertDuration":"0","ClickAlarm":"1","PriorStreamID":"1","ScreenSplit":{"OpenFlag":"0","SplitCamID":"0","ShownPrecent":"0"},"EncoderID":"0","AutoSwitchMode":"0"}
+09-14 07:53:08(528280991660) CFG_TASK INFO: [Cfg_SavePeerDeviceItemFile:3265]peerid 12000103c0537c93 dev chargelist cfg {"Sign":"0","AutoPayStatus":"0","DayExpireFlag":"0","EventExpireFlag":"0","Packages":[]}
+09-14 07:53:08(528280991660) CFG_TASK INFO: [Cfg_SetOwnerVCardInf:580]set owner nick name  country GB RegPeriod 
+09-14 07:53:08(14258) CFG_TASK INFO: [Cfg_Task_RecvAppversionRsp:1665]ocgt 41 recv get new appversion  updateflag 0
+09-14 07:53:09(523986024370) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3588]ogct 47 recv srv dev rsp nodel setting [{"AIIoTID":"0","AIIoTType":"1100","Buss":null,"OpenFlag":"","Prop":null,"Sign":"","SupportFlag":"0"},{"AIIoTID":"0","AIIoTType":"1093","Buss":{"TimeArea":"","TimeZone":""},"OpenFlag":"0","Prop":null,"Sign":"","SupportFlag":"1"},{"AIIoTID":"0","AIIoTType":"1098","Buss":{},"OpenFlag":"1","Prop":{"EventList":[{"EventID":"108300"},{"EventID":"102900"},{"EventID":"109600"},{"EventID":"109700"}],"bussConfig":{"EventList":[{"EventID":"108300","OpenFlag":"0"},{"EventID":"102900","OpenFlag":"0"},{"EventID":"109600","OpenFlag":"0"},{"EventID":"109700","OpenFlag":"0"}]},"hm_editable":0},"Sign":"","SupportFlag":"1"}]
+09-14 07:53:09(523986024370) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3649]ogct 47 recv srv dev rsp items 0 code 0
+09-14 07:53:09(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: getCachedAdListData from memory, size=4
+09-14 07:53:09(12970367459402998645) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmAdManager: getAdDataByStrategy: adPositionKey= not found
+09-14 07:53:09(528280991668) TRAS_TASK INFO: [TrasP2PSlot_Recv:996]rcv data err 103  buff len 4096
+09-14 07:53:09(523986024372) cos INFO: [Cos_SocketClose:390]socket<305> closed
+09-14 07:53:09(14258) TRAS_TASK ERR: [TrasLink_ProcRecv:331]rcv data err 103  buff len 4096
+09-14 07:53:09(523986024370) cos INFO: [Cos_SocketClose:390]socket<272> closed
+09-14 07:53:09(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:352]tcpslot 0xb400007abc2a6500 closed ok reset bestslot 1
+09-14 07:53:09(528280991660) CFG_TASK INFO: [Cfg_SavePeerDeviceItemFile:3113]peerid 12000103c0537c93 iots cfg {"PTZAbility":"3","AttachPTZAbility":"0","PTZSpeedAbility":"1","MotionAbility":"1","DoorbellAbility":"0","RecordAbility":"1","PIRAbility":"0","VoiceAlarmAbility":"0","SnapshotAbility":"1","BuzzerAbility":"1","StatusLampAbility":"0","LampAbility":"1","CloudRecordAbility":"0","CloudSnapshotAbility":"1","CameraAbility":"1","EventAbility":"1","SupportCloudFlag":"1","Sign":"122585","IoTS":[{"AIIoTType":"1006","AIIoTID":"0","OpenFlag":"1","Sign":"0"},{"AIIoTType":"1005","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"SnapLoopFlag":"1","SnapInterval":"180","SnapFullFlag":"0","SnapPicType":"2"}},{"AIIoTType":"1000","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"Motion":{"Status":"0","Interval":"60","Trace":"0","Sensitive":"50"},"Human":{"Sensitive":"50","Status":"0","Interval":"60","Trace":"0"},"Face":{"Sensitive":"50","Status":"0","Interval":"60","Trace":"0"}}},{"AIIoTType":"1009","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"Status":"1"}},{"AIIoTType":"1014","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"IrcutType":"2"}},{"AIIoTType":"1007","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{}},{"AIIoTType":"1002","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"RecordLoop":"1","RecordFull":"0","StreamID":"0","Duration":"0"}},{"AIIoTType":"1011","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"GifFlag":"1","GifOpenFlag":"0","Interval":"30","LoopDays":"3","PicType":"2","RecordType":"1","SnapJpgCnt":"1","StorageType":"0","Support":"1","hm_editable":"0"}},{"AIIoTType":"1013","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"PushFlag":"7","SMSFlag":"1","EmailFlag":"1","Interval":"300","EmailAddr":"","StartTime":"0","EndTime":"86400","SpanFlag":"0","Week":"127"}},{"AIIoTType":"1012","AIIoTID":"0","OpenFlag":"1","Sign":"0"},{"AIIoTType":"1093","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":null,"Buss":{"TimeArea":"","TimeZone":""}},{"AIIoTType":"1098","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"EventLi***
+09-14 07:53:09(14252) PID_SA INFO: [FUN_OWNER_CFG_STATUS:2636]FUN_OWNER_CFG_STATUS enUserCfgItem:3
+09-14 07:53:09(523986024364) PID_SA INFO: [FUN_GROUP_STATE:1200]FUN_GROUP_STATE
+09-14 07:53:09(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onOwnerCfgUpdate userId:
+09-14 07:53:09(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeUser_getOwnerVCardInfo:354]uiMarried:0,  uiSex:0, aucMobile:, aucEmail:, aucAddress:,aucBirthday:, aucCity:, aucCountry:GB,aucVMid:, aucNickName:, aucProvice:,aucPhotoProfile:,aucRegPeriod:,
+09-14 07:53:09(4294981554) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:0, iErr:0
+09-14 07:53:09(14258) CFG_TASK INFO: [Cfg_SetPeerDevCanUseStatus:645]set device 12000103c0537c93 oldflag 0 group 22000101413a31a9 can use status 0
+09-14 07:53:09(14258) nvr_cfg WARN: [cfg_OnPeerDeviceStatusChange:454]Ignonre 12000103c0537c93 status changed
+09-14 07:53:09(523986024370) PID_SA INFO: [FUN_DEVICE_STATUS:1267]FUN_DEVICE_STATUS deviceId:12000103c0537c93, status:1
+09-14 07:53:09(14258) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:630]device 12000103c0537c93 online status 1
+09-14 07:53:09(532575958962) cos INFO: [Cos_SocketOpen:377]socket<151> open ok
+09-14 07:53:09(523986024370) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]p2pslot creat tcp slot 0xb400007abc2a6f80 peer addr: 192.168.1.192:port:16669
+09-14 07:53:09(523986024370) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateLocalTCP:625]tcpSlot 0xb400007abc2a6f80 creat localslot ok peerid 12000103c0537c93,socket type 0
+09-14 07:53:09(14258) cos INFO: [Cos_SocketOpen:377]socket<272> open ok
+09-14 07:53:09(523986024370) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]p2pslot creat tcp slot 0xb400007abc2a7100 peer addr: 10.116.129.118:port:16669
+09-14 07:53:09(523986024370) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateP2PTCP:685]tcpSlot 0xb400007abc2a7100 creat p2pslot ok peerid 12000103c0537c93
+09-14 07:53:09(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:0//errorCode:0
+09-14 07:53:09(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:0,hmError:0
+09-14 07:53:09(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/LowPowerHeart: onDeviceStateChange awakeDevice groupId:22000101413a31a9//deviceId:12000103c0537c93//status:1//StatusEnum:1//statusName:ONLINE
+09-14 07:53:09(536870937461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceStateChange groupId:22000101413a31a9,deviceId:12000103c0537c93,devicePresenceState:1   deviceType = CAMERA  awakeAbility:NOT_SUPPORT
+09-14 07:53:09(4294981554) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:1, iErr:0
+09-14 07:53:09(12970367459402987442) cos INFO: [Cos_SocketOpen:377]socket<305> open ok
+09-14 07:53:09(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:1//errorCode:0
+09-14 07:53:09(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:1,hmError:0
+09-14 07:53:09(12970367455108020146) TRAS_TASK INFO: [TrasLink_Connect:245]Link Connect Addr:43.133.96.204:19336,ConnFlag:1
+09-14 07:53:09(523986024370) TRAS_TASK INFO: [TrasP2PSlot_Close:61]close the Slot 0xb400007abc2a6500  flag 0 ok .
+09-14 07:53:11(14258) cos ERR: [Cand_SocketSend:794]send err <1>
+09-14 07:53:11(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/AppLovinAdManager: initializeSdk isTestModeEnabled: false,countryCode: ,enabledAmazonAdUnitIds?.size: null,sdkConfig string: AppLovinSdkConfiguration{, countryCode=, enabledAmazonAdUnitIds=null, testModeEnabled=false}
+09-14 07:53:13(14258) cos ERR: [Cand_SocketSend:794]send err <1>
+09-14 07:53:14(523986024370) cos ERR: [Cos_SocketErrFilterToLog:661]has last-error<13> has 135 times.
+09-14 07:53:14(523986024370) cos ERR: [Cos_SocketErrFilterToLog:666]Cand_SocketSendTo:719 has error<1>
+09-14 07:53:14(12970367450813052850) TRAS_TASK INFO: [TrasNat_CheckNatType:454]natInf check cone type
+09-14 07:53:35(14258) cos ERR: [Cand_SocketSend:794]send err <1>
+09-14 07:53:35(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:197]tcpslot 0xb400007abc2a6f80 start connect peer timeout
+09-14 07:53:35(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:197]tcpslot 0xb400007abc2a7100 start connect peer timeout
+09-14 07:53:35(523986024372) cos INFO: [Cos_SocketClose:390]socket<151> closed
+09-14 07:53:35(523986024372) TRAS_TASK INFO: [TrasBase_ProcSlotRecv:876]tcpslot 0xb400007abc2a6f80 connect failled
+09-14 07:53:35(14260) cos INFO: [Cos_SocketClose:390]socket<272> closed
+09-14 07:53:35(523986024372) TRAS_TASK INFO: [TrasBase_ProcSlotRecv:876]tcpslot 0xb400007abc2a7100 connect failled
+09-14 07:53:35(4294981554) cos INFO: [Cos_SocketClose:390]socket<305> closed
+09-14 07:53:35(12970367450813052850) TRAS_TASK INFO: [TrasNat_CheckNatType:454]natInf check cone type
+09-14 07:53:35(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:352]tcpslot 0xb400007abc2a6f80 closed ok reset bestslot 0
+09-14 07:53:35(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:352]tcpslot 0xb400007abc2a7100 closed ok reset bestslot 0
+09-14 07:53:35(523986024370) TRAS_TASK INFO: [TrasP2PSlot_Close:61]close the Slot 0xb400007abc2a6f80  flag 0 ok .
+09-14 07:53:35(523986024370) TRAS_TASK INFO: [TrasP2PSlot_Close:61]close the Slot 0xb400007abc2a7100  flag 0 ok .
+09-14 07:53:35(12970367455108020146) TRAS_TASK INFO: [TrasBase_OnPortHoleUDPRecv:983]recv msg 32,29
+09-14 07:53:38(4294981554) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:1, iErr:0
+09-14 07:53:38(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:1//errorCode:0
+09-14 07:53:38(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:1,hmError:0
+09-14 07:53:38(523986024370) cos INFO: [Cos_SocketOpen:377]socket<454> open ok
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasLink_Connect:245]Link Connect Addr:43.133.96.204:19336,ConnFlag:1
+09-14 07:53:38(14258) TRAS_TASK INFO: [TrasBase_ProcBaseSock:670]Link Connect Addr:43.133.96.204:19336,ConnectFlag is: 2
+09-14 07:53:38(4294981554) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:2, iErr:0
+09-14 07:53:38(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:2//errorCode:0
+09-14 07:53:38(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:2,hmError:0
+09-14 07:53:38(12970367450813052850) TRAS_TASK INFO: [TrasLink_AuthUserToken:188]ogct 48 send login requst body {"METHOD":"4116","SEQID":"48","BODY":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5","SDKVersion":"51713056","WebDomainAbilty":"1","TestFlag":"1"}} iRet 0 
+09-14 07:53:38(14258) PID_SA INFO: [FUN_SERVER_STATUS:2600]FUN_SERVER_STATUS enServerStatus:4, iErr:0
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasLink_ProcAuthTokenRsp:292]ogct 48 recv auth rsp code 0 
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasPeer_GetProxySvr:892]ogct 49 start get proxy for peerid 12000103c0537c93 Relay mode 0 gid 22000101413a31a9 iret 0
+09-14 07:53:38(545460872053) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onServerStatusChange/////uToken:1600010140c3ad111p3g5jmo63upuvo5//serverStatus:4//errorCode:0
+09-14 07:53:38(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onSelfAuthStateChange serverStatus:4,hmError:0
+09-14 07:53:38(25461) ZJ_TASK INFO: [ZJ_GetPaasPlatAccessToken:3766]ogct 50 get paasplat token iRet 0
+09-14 07:53:38(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/DeviceBean: getDeviceName:GateCameras
+09-14 07:53:38(12545415750094971765) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]onInitPushSuccess: regid = eTaw3UHwT7yXDsUUjIDjw_:APA91bGOPrHHfPX6BI8lyu8Xuh2S_tcCJ1X6J2fTnbEulnllK4sV-ag66RoIN9ctFMucYPCZ7nWJDLxUD71DTrCmEUFuwrP9Ejga3KAQWdqdxzB2QJfr-f8
+09-14 07:53:38(25461) ZJ_TASK INFO: [ZJ_SetPushToken:1024]ogct 51 set pushtoken eTaw3UHwT7yXDsUUjIDjw_:APA91bGOPrHHfPX6BI8lyu8Xuh2S_tcCJ1X6J2fTnbEulnllK4sV-ag66RoIN9ctFMucYPCZ7nWJDLxUD71DTrCmEUFuwrP9Ejga3KAQWdqdxzB2QJfr-f8 iRet 0
+09-14 07:53:38(14247) cos INFO: [Cos_InetMgrProc:133]get host 43.134.240.233 ok ip 3924854315 passive 0
+09-14 07:53:38(14258) cos INFO: [Cos_SocketOpen:377]socket<185> open ok
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]p2pslot creat tcp slot 0xb400007abc2a7280 peer addr: 43.134.240.233:port:25006
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasPeer_ParseGetProxySvrRsp:1228]ogct 49 recv rsp code 0 prxoy 43.134.240.233:25006 enctype 49
+09-14 07:53:38(12970367459402987442) ZJ_TASK INFO: [ZJ_RecvGetPaasTokenRsp:3750]ogct 50 recv rsp code 0
+09-14 07:53:38(14258) PID_SA INFO: [FUN_DEVICE_COMMON_RSP:1216]FUN_DEVICE_COMMON_RSP uiReqId:51, iErr:0
+09-14 07:53:38(523986024370) ZJ_TASK INFO: [ZJ_UserProcSetPushTokenRsp:1001]ogct 51 recv rsp code 0 
+09-14 07:53:38(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/Internal: onGetPaasPlatToken accessTokenut6AA75AAA-00000003-00G001-9mjli/expireSeconds:86399//strPaasAddr:https://gm-ap.smartcloudcon.com
+09-14 07:53:38(25461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmSdkHelper: onServerStatusChange onTokenReturn accessToken:ut6AA75AAA-00000003-00G001-9mjli
+09-14 07:53:38(528281002869) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/HmSdkHelper: onServerStatusChange onTokenReturn pTokenJson:{"accessToken":"ut6AA75AAA-00000003-00G001-9mjli","createTime":1789352618479,"expireSeconds":86399,"passAddress":"https://gm-ap.smartcloudcon.com"}
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:210]tcpslot 0xb400007abc2a7280 send match req;turn to matching status
+09-14 07:53:38(528280991660) CFG_TASK INFO: [Cfg_Task_ProcOwnerCfg:852]ogct 53 start upload owner info
+09-14 07:53:38(14252) CFG_TASK INFO: [Cfg_Task_GetGroupInfo:688]ogct 54 start get group 1600010140c3ad11A0000001 item 255
+09-14 07:53:38(14252) CFG_TASK INFO: [Cfg_Task_GetGroupInfo:688]ogct 55 start get group 22000101413a31a9 item 255
+09-14 07:53:38(523986024364) CFG_TASK INFO: [Cfg_Task_ProcAppVersion:1714]ntc app version ok ntcflag 0 updateflag 0
+09-14 07:53:38(14258) CFG_TASK INFO: [Cfg_RecvGetGroupInfRsp:653]ogct 54 recv groupinf rsp, code 0
+09-14 07:53:38(14258) CFG_TASK INFO: [Cfg_RecvGetGroupInfRsp:653]ogct 55 recv groupinf rsp, code 0
+09-14 07:53:38(12970367459402987442) TRAS_TASK INFO: [TrasPeer_ProcOnLine:566]p2pslot 0xb400007abc2a7280 set close for nat change 
+09-14 07:53:38(523986024370) cos INFO: [Cos_SocketClose:390]socket<185> closed
+09-14 07:53:38(14258) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:352]tcpslot 0xb400007abc2a7280 closed ok reset bestslot 0
+09-14 07:53:38(14258) CFG_TASK INFO: [Cfg_RecvUpOwnerInfRsp:794]ogct 53 recv upload owner info rsp
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasPeer_GetProxySvr:892]ogct 56 start get proxy for peerid 12000103c0537c93 Relay mode 0 gid 22000101413a31a9 iret 0
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasP2PSlot_Close:61]close the Slot 0xb400007abc2a7280  flag 0 ok .
+09-14 07:53:38(12970367455108020140) CFG_TASK INFO: [Cfg_ProcDevCfgChangeNotice:1158]recv devcfg 12000103c0537c93 from link_server OldFlg 0 cfg item 0 changed notice
+09-14 07:53:38(12970367455108020140) CFG_TASK INFO: [Cfg_ParseRecvNetData:1502]recv msgtype 37 msgid 42
+09-14 07:53:38(14258) cos INFO: [Cos_SocketOpen:377]socket<185> open ok
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]p2pslot creat tcp slot 0xb400007abc2a6500 peer addr: 43.134.240.233:port:25006
+09-14 07:53:38(523986024370) TRAS_TASK INFO: [TrasPeer_ParseGetProxySvrRsp:1228]ogct 56 recv rsp code 0 prxoy 43.134.240.233:25006 enctype 49
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:210]tcpslot 0xb400007abc2a6500 send match req;turn to matching status
+09-14 07:53:39(523986024370) TRAS_TASK ERR: [TrasP2PSlot_ProcUdpState:499]udpslot 0xb400007abc2a6c80 slotType:0,Socket 314 turn timeout to close
+09-14 07:53:39(14258) TRAS_TASK INFO: [TrasPeer_SendP2PStatus:516]ogct 58 send msg {"METHOD":"3388","SEQID":"58","BODY":{"P2PStatus":"1","P2PType":"2","PeerNatType":"0","LocalNatType":"1","DID":"12000103c0537c93"}} to server 8
+09-14 07:53:39(14258) PID_SA INFO: [FUN_DEVICEP2PRESULT_CB:2936]FUN_DEVICEP2PRESULT_CB did:12000103c0537c93, p2pFlag:1, localNatType:1, peerNatType:0
+09-14 07:53:39(528280991666) cos INFO: [Cos_SocketClose:390]socket<314> closed
+09-14 07:53:39(14258) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:529]peerId 12000103c0537c93, udpslot 0xb400007abc2a6c80 closed ok now udp can useflag 0
+09-14 07:53:39(4294981554) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:673]device 12000103c0537c93 udpslot 0x0 p2p status 0, local NatType:1, ConeType:3, NetType:2
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasP2PSlot_Close:61]close the Slot 0xb400007abc2a6c80  flag 0 ok .
+09-14 07:53:39(528280991660) CFG_TASK INFO: [Cfg_ReqDevSrvItemsFromCloud:3733]ogct 59 get dev serveritem form link body {"METHOD":"3392","SEQID":"59","BODY":{"CompanyID":"0000213ed0cdb8bc","APPID":"1665373297326122","DID":"12000103c0537c93","Language":"2","Modules":[{"AIIoTType":"1200","AIIoTID":"0","Sign":"0"}]}}
+09-14 07:53:39(523986024372) TRAS_TASK INFO: [Tras_ParseP2PSlot_ProxyMatchRsp:353]peer 12000103c0537c93 Slot 0xb400007abc2a6500 recv proxy match rsp
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:243]tcpslot 0xb400007abc2a6500 send test req and turn to testing status
+09-14 07:53:39(523986024370) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3588]ogct 59 recv srv dev rsp nodel setting [{"AIIoTID":"0","AIIoTType":"1200","Buss":{"Language":"2"},"OpenFlag":"1","Prop":null,"Sign":"","SupportFlag":"0"}]
+09-14 07:53:39(523986024370) CFG_TASK INFO: [Cfg_RecvDevSrvItemsFromCloudRsp:3649]ogct 59 recv srv dev rsp items 0 code 0
+09-14 07:53:39(12970366926827042738) TRAS_TASK INFO: [TrasP2PSlot_SetToUser:1052]tcpslot 0xb400007abc2a6500 set bestest to peer 12000103c0537c93,old 0x0 udpflag 0 
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:282]tcpslot 0xb400007abc2a6500 tested ok tickcnt 90726642
+09-14 07:53:39(14258) cos INFO: [Cos_SocketOpen:377]socket<251> open ok
+09-14 07:53:39(12970367455108020146) TRAS_TASK INFO: [TrasNat_CreatNatHole:622]creat new nat hole get local udp port 7922 socket type 0
+09-14 07:53:39(14258) TRAS_TASK INFO: [TrasNat_CheckNat:226]send udp msg to server 129.227.231.210:30194 iret 72
+09-14 07:53:39(70368744191922) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:482]peer 12000103c0537c93 get natinf status 2
+09-14 07:53:39(12970367455108020146) CFG_TASK INFO: [Cfg_SetPeerDevCanUseStatus:645]set device 12000103c0537c93 oldflag 0 group 22000101413a31a9 can use status 1
+09-14 07:53:39(12970367455108020146) PID_SA INFO: [FUN_DEVICE_STATUS:1267]FUN_DEVICE_STATUS deviceId:12000103c0537c93, status:5
+09-14 07:53:39(523986024370) nvr_cfg WARN: [cfg_OnPeerDeviceStatusChange:454]Ignonre 12000103c0537c93 status changed
+09-14 07:53:39(12970367455108020146) TRAS_TASK INFO: [TrasPeer_ProcStatusCbFlag:618]device 12000103c0537c93 slot can use
+09-14 07:53:39(536870937461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/LowPowerHeart: onDeviceStateChange awakeDevice groupId:22000101413a31a9//deviceId:12000103c0537c93//status:5//StatusEnum:5//statusName:CANUSE
+09-14 07:53:39(536870937461) PID_SA INFO: [Java_com_chinatelecom_smarthome_viewer_business_impl_NativeClient_writeLogToFile:118]I/y0: onDeviceStateChange groupId:22000101413a31a9,deviceId:12000103c0537c93,devicePresenceState:5   deviceType = CAMERA  awakeAbility:NOT_SUPPORT
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasBase_OnPortHoleUDPRecv:983]recv msg 32,27
+09-14 07:53:39(14258) TRAS_TASK INFO: [Tras_ParseNatTestRsp:215]Recv Nat test rsp: {"METHOD":"201B","SEQID":"61","CODE":"0","BODY":{"NatIP":"183.83.228.11","Port":"45850"}}
+09-14 07:53:39(14258) TRAS_TASK INFO: [TrasPeer_GetNetInfo:936]start  get peer 12000103c0537c93 nat inf req body {"METHOD":"201E","SEQID":"62","BODY":{"UPNPFlag":"1","UPNPIP":"10.116.129.118","UPNPPort":"15668","LocalIP":"192.168.1.50","LocalTCPPort":"15668","LocalUDPPort":"7922","NatType":"1","NatIP":"183.83.228.11","NatPort":"45850"}}
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasPeer_ProcGetNetInfo:492]peer 12000103c0537c93 get natinf status 3
+09-14 07:53:39(528280991660) CFG_TASK INFO: [Cfg_ProcPeerDeviceCfg:3978]peer 12000103c0537c93 sync cfg by p2p
+09-14 07:53:39(528280991660) CFG_TASK INFO: [Cfg_SavePeerDeviceItemFile:3113]peerid 12000103c0537c93 iots cfg {"PTZAbility":"3","AttachPTZAbility":"0","PTZSpeedAbility":"1","MotionAbility":"1","DoorbellAbility":"0","RecordAbility":"1","PIRAbility":"0","VoiceAlarmAbility":"0","SnapshotAbility":"1","BuzzerAbility":"1","StatusLampAbility":"0","LampAbility":"1","CloudRecordAbility":"0","CloudSnapshotAbility":"1","CameraAbility":"1","EventAbility":"1","SupportCloudFlag":"1","Sign":"122585","IoTS":[{"AIIoTType":"1006","AIIoTID":"0","OpenFlag":"1","Sign":"0"},{"AIIoTType":"1005","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"SnapLoopFlag":"1","SnapInterval":"180","SnapFullFlag":"0","SnapPicType":"2"}},{"AIIoTType":"1000","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"Motion":{"Status":"0","Interval":"60","Trace":"0","Sensitive":"50"},"Human":{"Sensitive":"50","Status":"0","Interval":"60","Trace":"0"},"Face":{"Sensitive":"50","Status":"0","Interval":"60","Trace":"0"}}},{"AIIoTType":"1009","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"Status":"1"}},{"AIIoTType":"1014","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"IrcutType":"2"}},{"AIIoTType":"1007","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{}},{"AIIoTType":"1002","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"RecordLoop":"1","RecordFull":"0","StreamID":"0","Duration":"0"}},{"AIIoTType":"1011","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"GifFlag":"1","GifOpenFlag":"0","Interval":"30","LoopDays":"3","PicType":"2","RecordType":"1","SnapJpgCnt":"1","StorageType":"0","Support":"1","hm_editable":"0"}},{"AIIoTType":"1013","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"PushFlag":"7","SMSFlag":"1","EmailFlag":"1","Interval":"300","EmailAddr":"","StartTime":"0","EndTime":"86400","SpanFlag":"0","Week":"127"}},{"AIIoTType":"1012","AIIoTID":"0","OpenFlag":"1","Sign":"0"},{"AIIoTType":"1093","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":null,"Buss":{"TimeArea":"","TimeZone":""}},{"AIIoTType":"1098","AIIoTID":"0","OpenFlag":"1","Sign":"0","Prop":{"EventLi***
+09-14 07:53:39(523986024364) PID_SA INFO: [FUN_GROUP_STATE:1200]FUN_GROUP_STATE
+09-14 07:53:39(523986024370) cos INFO: [Cos_SocketAccept:455]socket<254> accepted
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]p2pslot creat tcp slot 0xb400007abc2a6f80 peer addr: 192.168.1.192:port:59438
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasLocalLan_TCPAccept:433]tcpslot 0xb400007abc2a6f80 turn to connected for accept peer port 59438
+09-14 07:53:39(528280991666) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:230]tcpslot 0xb400007abc2a6f80 have peerid 0; slottype 0 send tcp req turn to testing status
+09-14 07:53:39(523986024370) cos INFO: [Cos_SocketAccept:455]socket<314> accepted
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]p2pslot creat tcp slot 0xb400007abc2a7100 peer addr: 192.168.1.1:port:53496
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasLocalLan_TCPAccept:433]tcpslot 0xb400007abc2a7100 turn to connected for accept peer port 53496
+09-14 07:53:39(528280991666) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:230]tcpslot 0xb400007abc2a7100 have peerid 0; slottype 0 send tcp req turn to testing status
+09-14 07:53:39(523986024372) TRAS_TASK INFO: [TrasP2PSlot_TCPSendLocalTCPRsp:711]send local rsp rsp {"METHOD":"3115","SEQID":"83","CODE":"0","BODY":{"OsType":"3"}} to peer 12000103c0537c93
+09-14 07:53:39(14258) TRAS_TASK INFO: [TrasP2PSlot_SetToUser:1052]tcpslot 0xb400007abc2a6f80 set bestest to peer 12000103c0537c93,old 0xb400007abc2a6500 udpflag 0 
+09-14 07:53:39(523986024370) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:282]tcpslot 0xb400007abc2a6f80 tested ok tickcnt 90727037
+09-14 07:53:39(14258) CFG_TASK INFO: [Cfg_SetPeerDevCanUseStatus:645]set device 12000103c0537c93 oldflag 0 group 22000101413a31a9 can use status 1
+09-14 07:53:39(14258) PID_SA INFO: [FUN_DEVICE_STATUS:1267]FUN_DEVICE_STATUS deviceId:12000103c0537c93, status:5

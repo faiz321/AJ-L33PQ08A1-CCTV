@@ -1,0 +1,66 @@
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:405]udpslot 0x3d24c8 turn testing to waiting status
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_BuildGroupInfItem:123]build group info {"grpid":"22000101413a31a9","OwnerId":"","Name":"","Accout":"","Mobile":"","Port":"25006","EncType":"49","ConnToken":"3:IN:4t41112femvabf5","EncKey":"5c50e8d1879d2365","EncLv":"139049e1694c23ed","Ipv4":"43.156.202.252","Ipv6":"","OwnerToken":"1600010140c3ad111p3g5jmo63upuvo5","sign":"44772"} 
+09-20 07:23:46(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetSdcardInfMsg:85]reqid 248 recv get TfCard info From peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:46(2989499600) CMD_TASK INFO: [Cmd_Task_GetSdcardInf:347]reqid 248 send get TF inf rsp {"CODE":"0","METHOD":"344F","SEQID":"248","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"StorageAbility":"1","TotalSize":"0","FreeSize":"0","CardStatus":"2"}}
+09-20 07:23:46(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 248 recv cmdmsg[34 4e] from 1600010140c3ad111p3g5jmo63upuvo5, code 2
+09-20 07:23:47(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 249 recv get cur netInfo msg
+09-20 07:23:47(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 249 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"249","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"88","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:47(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 249 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:48(3006276816) TRAS_TASK INFO: [TrasSlot_ParseConnCheckReq:318]pstSlot 0x3d24c8 recv test req peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0
+09-20 07:23:48(3006276816) MSG_CENTER INFO: [MsgCt_RecvCheckNewVersionMsg:240]reqid 251 recv check hardfire version msg from peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:48(3006276816) OTA_TASK INFO: [Ota_CheckNewVersion:121]start check new version from server
+09-20 07:23:49(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:600]VersionCheck Finish ,NeedUpgradeFlag 0 ,DevVersion 
+09-20 07:23:49(3012568272) MSG_CENTER INFO: [MsgCt_SendCheckNewVersionRsp:222]reqid 251 send check version rsp {"CODE":"0","METHOD":"3415","SEQID":"251","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"Version":"","UpdateFlag":"0"}}
+09-20 07:23:49(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:438]udpslot 0x3d24c8 turn waiting to tested status
+09-20 07:23:49(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:460]aucCTEI  udpslot 0x3d24c8 turn tested to proc status set peeraddr 192.168.1.50:8181; now udp can useflag 1
+09-20 07:23:50(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 254 recv get cur netInfo msg
+09-20 07:23:50(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 254 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"254","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:50(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 254 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:53(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 255 recv get cur netInfo msg
+09-20 07:23:53(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 255 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"255","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:53(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 255 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:56(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 256 recv get cur netInfo msg
+09-20 07:23:56(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 256 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"256","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:56(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 256 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:57(3006276816) MSG_CENTER INFO: [MsgCt_RecvCheckNewVersionMsg:240]reqid 257 recv check hardfire version msg from peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:57(3006276816) OTA_TASK INFO: [Ota_CheckNewVersion:121]start check new version from server
+09-20 07:23:58(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:600]VersionCheck Finish ,NeedUpgradeFlag 0 ,DevVersion 
+09-20 07:23:58(3012568272) MSG_CENTER INFO: [MsgCt_SendCheckNewVersionRsp:222]reqid 257 send check version rsp {"CODE":"0","METHOD":"3415","SEQID":"257","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"Version":"","UpdateFlag":"0"}}
+09-20 07:23:59(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 258 recv get cur netInfo msg
+09-20 07:23:59(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 258 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"258","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:59(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 258 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:24:02(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 259 recv get cur netInfo msg
+09-20 07:24:02(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 259 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"259","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:24:02(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 259 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:24:02(3006276816) MSG_CENTER INFO: [MsgCt_RecvCheckNewVersionMsg:240]reqid 260 recv check hardfire version msg from peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:24:02(3006276816) OTA_TASK INFO: [Ota_CheckNewVersion:121]start check new version from server
+09-20 07:24:03(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:600]VersionCheck Finish ,NeedUpgradeFlag 0 ,DevVersion 
+09-20 07:24:03(3012568272) MSG_CENTER INFO: [MsgCt_SendCheckNewVersionRsp:222]reqid 260 send check version rsp {"CODE":"0","METHOD":"3415","SEQID":"260","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"Version":"","UpdateFlag":"0"}}
+09-20 07:24:05(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 261 recv get cur netInfo msg
+09-20 07:24:05(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 261 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"261","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:24:05(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 261 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:24:08(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 262 recv get cur netInfo msg
+09-20 07:24:08(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 262 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"262","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:24:08(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 262 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:24:08(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 263 recv get cur netInfo msg
+09-20 07:24:08(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 263 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"263","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:24:08(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 263 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:24:13(3006276816) APP INFO: [zj_collect:2876]log file /tmp/log.tar.gz generated.
+
+09-20 07:24:13(3006276816) ZJ_TASK INFO: [ZJ_SetCollectLogFilesStatus:73]peer 1600010140c3ad111p3g5jmo63upuvo5 sessionid 3 filename /tmp/log.tar.gz status 0
+09-20 07:24:13(3006276816) TRAS_TASK INFO: [TrasStreamChannel_ProcLogFileStreamReq:1316]chanid 3 recv get logfile requst
+09-20 07:24:13(3006276816) TRAS_TASK INFO: [TrasStreamChannel_ProcessVodControl:2714]chanid 3 recv start send msg
+09-20 07:24:13(3008373968) TRAS_TASK INFO: [TrasStreamChannel_SendLogFilePacket:2114]chanid 3 send file jpg over
+09-20 07:24:13(3006276816) MSG_CENTER INFO: [MsgCt_RecvCheckNewVersionMsg:240]reqid 267 recv check hardfire version msg from peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:24:13(3006276816) OTA_TASK INFO: [Ota_CheckNewVersion:121]start check new version from server
+09-20 07:24:13(3006276816) TRAS_TASK INFO: [TrasStreamChannel_ProcessCloseStreamReq:1449]chanid 3 recv close req
+09-20 07:24:13(3008373968) MD_TASK INFO: [Md_NtyPlayStatus:367]can't find sessionid 3 peerid 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:24:13(3008373968) TRAS_TASK INFO: [TrasStreamChannel_CloseChan:286]chanid 3 will be close
+09-20 07:24:13(3008373968) TRAS_TASK INFO: [TrasStreamChannel_CloseChan:297]chanid 3 close ok
+09-20 07:24:14(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:600]VersionCheck Finish ,NeedUpgradeFlag 0 ,DevVersion 
+09-20 07:24:14(3012568272) MSG_CENTER INFO: [MsgCt_SendCheckNewVersionRsp:222]reqid 267 send check version rsp {"CODE":"0","METHOD":"3415","SEQID":"267","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"Version":"","UpdateFlag":"0"}}
+09-20 07:24:17(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:307]tcpslot 0x3d23a0 turn to close for not inuse
+09-20 07:24:17(3010471120) cos INFO: [Cos_SocketClose:390]socket<89> closed
+09-20 07:24:17(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d23a0 closed ok reset bestslot 0
+09-20 07:24:17(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d23a0.
+09-20 07:24:22(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 274 recv get cur netInfo msg

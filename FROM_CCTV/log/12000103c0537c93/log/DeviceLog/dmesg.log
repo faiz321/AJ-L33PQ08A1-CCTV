@@ -1,0 +1,324 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.9.129 (zt@fullhan) (gcc version 6.5.0 (arm_multilib_uclibc_20200924) ) 2022-08-04 14:53:17
+[    0.000000] CPU: ARMv6-compatible processor [410fb767] revision 7 (ARMv7), cr=00c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+[    0.000000] Machine: FH8626V100
+[    0.000000] Ignoring unrecognised tag 0x41000601
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] On node 0 totalpages: 10496
+[    0.000000] free_area_init_node: node 0, pgdat c04b8168, node_mem_map c28a1000
+[    0.000000]   Normal zone: 82 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 10496 pages, LIFO batch:1
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 10414
+[    0.000000] Kernel command line: console=ttyS0,115200 mem=41M mac=10:20:30:40:50:60, mtdparts=spi0.0:64k(bootstrap),64k(uboot-env),256k(uboot),2560k(kernel),512k(data),512k(res),4224k(app) sdpwen=0,25,0 pinctrl= ephy_reset=11 quiet
+[    0.000000] PID hash table entries: 256 (order: -2, 1024 bytes)
+[    0.000000] Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Memory: 36520K/41984K available (3074K kernel code, 146K rwdata, 684K rodata, 780K init, 178K bss, 5464K reserved, 0K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0xc3000000 - 0xff800000   ( 968 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xc2900000   (  41 MB)
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc0308ba8   (3075 kB)
+[    0.000000]       .init : 0xc03d1000 - 0xc0494000   ( 780 kB)
+[    0.000000]       .data : 0xc0494000 - 0xc04b8ac0   ( 147 kB)
+[    0.000000]        .bss : 0xc04b8ac0 - 0xc04e5430   ( 179 kB)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] Switching to timer-based delay loop, resolution 1000ns
+[    0.000000] clocksource: timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275 ns
+[    0.000015] sched_clock: 32 bits at 1000kHz, resolution 1000ns, wraps every 2147483647500ns
+[    0.000339] Console: colour dummy device 80x30
+[    0.000391] console [ttyS0] enabled
+[    0.000418] Calibrating delay loop (skipped), value calculated using timer frequency.. 597.60 BogoMIPS (lpj=2988032)
+[    0.060082] pid_max: default: 32768 minimum: 301
+[    0.060281] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.060302] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.061363] CPU: Testing write buffer coherency: ok
+[    0.061786] Setting up static identity map for 0xa0008200 - 0xa0008238
+[    0.064919] VFP support v0.3: implementor 41 architecture 1 part 20 variant b rev 5
+[    0.065176] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.065205] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.065983] NET: Registered protocol family 16
+[    0.066750] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.071875] bootarg_pinctrl: ""
+[    0.071931] ephy_reset_pin=11
+[    0.084696] usbcore: registered new interface driver usbfs
+[    0.084850] usbcore: registered new interface driver hub
+[    0.084973] usbcore: registered new device driver usb
+[    0.087539] clocksource: Switched to clocksource timer1
+[    0.097220] NET: Registered protocol family 2
+[    0.098437] TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.098481] TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.098512] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.098632] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.098672] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.098992] NET: Registered protocol family 1
+[    0.099665] RPC: Registered named UNIX socket transport module.
+[    0.099677] RPC: Registered udp transport module.
+[    0.099683] RPC: Registered tcp transport module.
+[    0.099688] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.712712] workingset: timestamp_bits=30 max_order=14 bucket_order=0
+[    0.725250] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.727119] jffs2: version 2.2. © 2001-2006 Red Hat, Inc.
+[    0.728215] exFAT: Version 1.2.9
+[    0.732094] NET: Registered protocol family 38
+[    0.732149] io scheduler noop registered
+[    0.732473] io scheduler cfq registered (default)
+[    0.739855] PWM driver, Number: 14, IO base addr: 0xc38b4000
+[    0.740295] Serial: fh serial driver
+[    0.740454] ttyS.0: ttyS0 at MMIO 0xf0700000 (irq = 34, base_baud = 1041666) is a ttyS
+[    0.740779] fh serial at 0xf0700000, irq 34
+[    0.740883] ttyS.1: ttyS1 at MMIO 0xf0800000 (irq = 35, base_baud = 1041666) is a ttyS
+[    0.741176] fh serial at 0xf0800000, irq 35
+[    0.741277] ttyS.2: ttyS2 at MMIO 0xf1300000 (irq = 36, base_baud = 1041666) is a ttyS
+[    0.741597] fh serial at 0xf1300000, irq 36
+[    0.742198] SADC probe successful, IO base addr: c38bc000
+[    0.742416] efuse open mode is 307
+[    0.743081] CLK misc driver init successfully
+[    0.744407] m25p80 spi0.0: found xm25qh64c, expected m25p80
+[    0.744486] m25p80 spi0.0: xm25qh64c (8192 Kbytes)
+[    0.744532] 7 cmdlinepart partitions found on MTD device spi0.0
+[    0.744540] Creating 7 MTD partitions on "spi0.0":
+[    0.744556] 0x000000000000-0x000000010000 : "bootstrap"
+[    0.746444] 0x000000010000-0x000000020000 : "uboot-env"
+[    0.748270] 0x000000020000-0x000000060000 : "uboot"
+[    0.749934] 0x000000060000-0x0000002e0000 : "kernel"
+[    0.751642] 0x0000002e0000-0x000000360000 : "data"
+[    0.753314] 0x000000360000-0x0000003e0000 : "res"
+[    0.755003] 0x0000003e0000-0x000000800000 : "app"
+[    0.757648] libphy: Fixed MDIO Bus: probed
+[    0.757734] GMAC driver:
+[    0.757734] 	platform registration... 
+[    0.757855] 	using random MAC address: 82:c9:f1:4c:51:c5
+[    0.936683] find no phy..
+[    0.937909] find no phy !!!!!!!
+[    0.941619] fh_gmac fh_gmac.0 eth0: mixed HW and IP checksum settings.
+[    0.941935] 	eth0 - (dev. name: fh_gmac - id: 0, IRQ #29
+[    0.941935] 		IO base addr: 0xc38dc000)
+[    1.365635] libphy: gmac_rmii: probed
+[    1.365648] eth0: No PHY found
+[    1.368645] usbcore: registered new interface driver rndis_wlan
+[    1.368805] usbcore: registered new interface driver asix
+[    1.368923] usbcore: registered new interface driver ax88179_178a
+[    1.369036] usbcore: registered new interface driver cdc_ether
+[    1.369148] usbcore: registered new interface driver net1080
+[    1.369259] usbcore: registered new interface driver rndis_host
+[    1.369370] usbcore: registered new interface driver cdc_subset
+[    1.369484] usbcore: registered new interface driver zaurus
+[    1.369654] usbcore: registered new interface driver cdc_ncm
+[    1.440354] fh_usb fh_usb.0: DWC OTG Controller
+[    1.440438] fh_usb fh_usb.0: new USB bus registered, assigned bus number 1
+[    1.440513] fh_usb fh_usb.0: irq 43, io mem 0x00000000
+[    1.440917] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.440938] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.440949] usb usb1: Product: DWC OTG Controller
+[    1.440958] usb usb1: Manufacturer: Linux 4.9.129 dwc2_hsotg
+[    1.440968] usb usb1: SerialNumber: fh_usb.0
+[    1.441820] hub 1-0:1.0: USB hub found
+[    1.441921] hub 1-0:1.0: 1 port detected
+[    1.442753] usbcore: registered new interface driver cdc_wdm
+[    1.442992] usbcore: registered new interface driver usbserial
+[    1.443096] usbcore: registered new interface driver option
+[    1.443197] usbserial: USB Serial support registered for GSM modem (1-port)
+[    1.443545] usbcore: registered new interface driver qcserial
+[    1.443653] usbserial: USB Serial support registered for Qualcomm USB modem
+[    1.460045] fh_rtc fh_rtc.0: rtc core: registered fh_rtc as rtc0
+[    1.460383] i2c /dev entries driver
+[    1.460519] I2C driver:
+[    1.460519] 	platform registration... 
+[    1.460594] 	tx fifo depth: 16, rx fifo depth: 16
+[    1.460973] 	I2C - (dev. name: fh_i2c id: 0, IRQ #25
+[    1.460973] 		IO base addr: 0xc38ec000)
+[    1.461025] I2C driver:
+[    1.461025] 	platform registration... 
+[    1.461094] 	tx fifo depth: 16, rx fifo depth: 16
+[    1.461454] 	I2C - (dev. name: fh_i2c id: 1, IRQ #26
+[    1.461454] 		IO base addr: 0xc38f4000)
+[    1.461508] I2C driver:
+[    1.461508] 	platform registration... 
+[    1.461592] 	tx fifo depth: 16, rx fifo depth: 16
+[    1.461977] 	I2C - (dev. name: fh_i2c id: 2, IRQ #27
+[    1.461977] 		IO base addr: 0xc3a04000)
+[    1.465136] card0 connected!
+[    1.468449] aes driver registered
+[    1.469009] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    1.470017] NET: Registered protocol family 10
+[    1.472099] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    1.472228] NET: Registered protocol family 17
+[    1.472270] lib80211: common routines for IEEE802.11 drivers
+[    1.472279] lib80211_crypt: registered algorithm 'NULL'
+[    1.472286] lib80211_crypt: registered algorithm 'WEP'
+[    1.472292] lib80211_crypt: registered algorithm 'CCMP'
+[    1.472298] lib80211_crypt: registered algorithm 'TKIP'
+[    1.472336] Key type dns_resolver registered
+[    1.481654] Freeing unused kernel memory: 780K
+[    1.481665] This architecture does not have kernel memory protection.
+[    1.649089] mmc0: new high speed SDXC card at address 0001
+[    1.664219] mmcblk0: mmc0:0001 USD 58.2 GiB 
+[    1.860378] usb 1-1: new high-speed USB device number 2 using fh_usb
+[    2.091399] usb 1-1: New USB device found, idVendor=0bda, idProduct=f179
+[    2.091421] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    2.091432] usb 1-1: Product: 802.11n
+[    2.091441] usb 1-1: Manufacturer: Realtek
+[    2.091452] usb 1-1: SerialNumber: F0A882ED409D
+[    2.110349] random: fast init done
+[    4.711008] vmm: loading out-of-tree module taints kernel.
+[    4.712019] Video Memory Manager
+[    4.712034] [VMM] version: V2.1.0.P5(g57c0608),build: 2021-07-02
+[    4.712041] 
+[    4.712072] media_mem_parse_cmdline: s=anonymous,0,0xa2900000,23040K.
+[    4.712085] media_mem_parse_cmdline: i=4.
+[    4.712102] vmm:anonymous,a2900000,1680000.
+[    4.932752] [XBUS] version: V2.1.0.P17(g57c0608),build: 2022-02-11
+[    4.957538] Xbus: fwver=51b9a923,phyaddr=bfffe000,len=8192.
+[    4.995325] media_process: module license 'Proprietary' taints kernel.
+[    4.995336] Disabling lock debugging due to kernel taint
+[    5.098427] module->phys_addr=0xe8400000  module->virt_addr=0xc3b00000 
+[    5.098446] 	isp - (dev. name: isp - IRQ #5
+[    5.098446] 		IO base addr: 0xc3b00000)
+[    5.098454] 
+[    5.098454] 	stat buffer size: 132KBytes
+[    5.390087] gpiowave_init
+[    5.390095] params:
+[    5.390104] timeout 100
+[    5.390108] groupnum 2
+[    5.390555] gpiowave_probe
+[    5.391078] gpiowave_probe
+[    5.391520] gpiowave_probe
+[    6.359166] usbcore: registered new interface driver rtl8188fu
+[    6.585943] rxerr: port ch=0x00, rxs=0x000000f9
+[    8.833296] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   10.458370] fh_wdt: [wdt] set topval: 5
+[   10.458418] fh_wdt: [wdt] set topval: 9
+[   10.564674] remap_pfn_range start~end: 0xb6dfe000 0xb6e11000, pyh:0xa2900 , nocached.
+[   10.565350] remap_pfn_range start~end: 0xb6ae2000 0xb6dfe000, pyh:0xa2913 , nocached.
+[   10.565794] remap_pfn_range start~end: 0xb69c8000 0xb6ae2000, pyh:0xa2c2f , nocached.
+[   10.566121] remap_pfn_range start~end: 0xb6913000 0xb69c8000, pyh:0xa2d49 , nocached.
+[   10.566534] remap_pfn_range start~end: 0xb6691000 0xb6913000, pyh:0xa2dfe , nocached.
+[   10.595221] gpiowave_open
+[   10.603628] remap_pfn_range start~end: 0xb63f5000 0xb6560000, pyh:0xa3080 , nocached.
+[   11.223824] random: crng init done
+[   12.404024] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   12.462885] remap_pfn_range start~end: 0xb5cc2000 0xb63ed000, pyh:0xa31eb , nocached.
+[   12.475060] remap_pfn_range start~end: 0xb5bc2000 0xb5cc2000, pyh:0xa3916 , nocached.
+[   12.817101] remap_pfn_range start~end: 0xb5ac2000 0xb5bc2000, pyh:0xa3a16 , nocached.
+[   13.186558] remap_pfn_range start~end: 0xb5171000 0xb51b3000, pyh:0xa3b16 , nocached.
+[   13.190267] remap_pfn_range start~end: 0xb512f000 0xb5171000, pyh:0xa3b58 , nocached.
+[   13.198945] remap_pfn_range start~end: 0xb50ed000 0xb512f000, pyh:0xa3b9a , nocached.
+[   13.202876] remap_pfn_range start~end: 0xb50ab000 0xb50ed000, pyh:0xa3bdc , nocached.
+[   14.836480] remap_pfn_range start~end: 0xb3f20000 0xb3f52000, pyh:0xa3c1e , nocached.
+[   14.839863] remap_pfn_range start~end: 0xb3eee000 0xb3f20000, pyh:0xa3c50 , nocached.
+[   14.847064] remap_pfn_range start~end: 0xb3ebc000 0xb3eee000, pyh:0xa3c82 , nocached.
+[   14.852170] remap_pfn_range start~end: 0xb3e82000 0xb3ebc000, pyh:0xa3cb4 , nocached.
+[   14.852342] remap_pfn_range start~end: 0xb3e72000 0xb3e82000, pyh:0xa3cee , nocached.
+[   14.852569] remap_pfn_range start~end: 0xb3de2000 0xb3e72000, pyh:0xa3cfe , nocached.
+[280825.309202] ERROR: pad 19 is empty
+[280825.309215] ERROR: pad 20 is empty
+[280825.309221] ERROR: pad 21 is empty
+[280825.309252] ERROR: pad 24 is empty
+[280825.309256] ERROR: pad 25 is empty
+[280825.309273] ERROR: pad 27 is empty
+[280825.309300] ERROR: pad 30 is empty
+[280825.309304] ERROR: pad 31 is empty
+[280825.309319] ERROR: pad 33 is empty
+[280825.309324] ERROR: pad 34 is empty
+[280825.309421] ERROR: pad 43 is empty
+[280825.309426] ERROR: pad 44 is empty
+[280825.309430] ERROR: pad 45 is empty
+[280825.309521] ERROR: pad 54 is empty
+[280825.309526] ERROR: pad 55 is empty
+[280825.309562] ERROR: pad 59 is empty
+[280825.309587] ERROR: pad 62 is empty
+[280825.309622] ERROR: pad 66 is empty
+[280825.309626] ERROR: pad 67 is empty
+[280825.309630] ERROR: pad 68 is empty
+[280825.309663] ERROR: pad 72 is empty
+[280825.309667] ERROR: pad 73 is empty
+[280825.309671] ERROR: pad 74 is empty
+[280825.309675] ERROR: pad 75 is empty
+[280825.309679] ERROR: pad 76 is empty
+[280825.396049] ERROR: pad 19 is empty
+[280825.396061] ERROR: pad 20 is empty
+[280825.396067] ERROR: pad 21 is empty
+[280825.396098] ERROR: pad 24 is empty
+[280825.396103] ERROR: pad 25 is empty
+[280825.396120] ERROR: pad 27 is empty
+[280825.396147] ERROR: pad 30 is empty
+[280825.396152] ERROR: pad 31 is empty
+[280825.396167] ERROR: pad 33 is empty
+[280825.396172] ERROR: pad 34 is empty
+[280825.396270] ERROR: pad 43 is empty
+[280825.396274] ERROR: pad 44 is empty
+[280825.396278] ERROR: pad 45 is empty
+[280825.396370] ERROR: pad 54 is empty
+[280825.396375] ERROR: pad 55 is empty
+[280825.396411] ERROR: pad 59 is empty
+[280825.396436] ERROR: pad 62 is empty
+[280825.396471] ERROR: pad 66 is empty
+[280825.396475] ERROR: pad 67 is empty
+[280825.396479] ERROR: pad 68 is empty
+[280825.396514] ERROR: pad 72 is empty
+[280825.396518] ERROR: pad 73 is empty
+[280825.396522] ERROR: pad 74 is empty
+[280825.396526] ERROR: pad 75 is empty
+[280825.396530] ERROR: pad 76 is empty
+[280869.135432] mmcblk0: error -1 sending status command, retrying
+[280869.385144] mmcblk0: error -1 sending status command, retrying
+[280869.634411] mmcblk0: error -1 sending status command, aborting
+[280870.642881] mmc0: card 0001 removed
+[281842.389170] ERROR: pad 19 is empty
+[281842.389185] ERROR: pad 20 is empty
+[281842.389190] ERROR: pad 21 is empty
+[281842.389221] ERROR: pad 24 is empty
+[281842.389225] ERROR: pad 25 is empty
+[281842.389375] ERROR: pad 27 is empty
+[281842.389413] ERROR: pad 30 is empty
+[281842.389418] ERROR: pad 31 is empty
+[281842.389434] ERROR: pad 33 is empty
+[281842.389438] ERROR: pad 34 is empty
+[281842.389537] ERROR: pad 43 is empty
+[281842.389542] ERROR: pad 44 is empty
+[281842.389546] ERROR: pad 45 is empty
+[281842.389637] ERROR: pad 54 is empty
+[281842.389641] ERROR: pad 55 is empty
+[281842.389677] ERROR: pad 59 is empty
+[281842.389702] ERROR: pad 62 is empty
+[281842.389737] ERROR: pad 66 is empty
+[281842.389741] ERROR: pad 67 is empty
+[281842.389745] ERROR: pad 68 is empty
+[281842.389778] ERROR: pad 72 is empty
+[281842.389782] ERROR: pad 73 is empty
+[281842.389786] ERROR: pad 74 is empty
+[281842.389790] ERROR: pad 75 is empty
+[281842.389794] ERROR: pad 76 is empty
+[281842.459817] ERROR: pad 19 is empty
+[281842.459829] ERROR: pad 20 is empty
+[281842.459834] ERROR: pad 21 is empty
+[281842.459864] ERROR: pad 24 is empty
+[281842.459869] ERROR: pad 25 is empty
+[281842.459886] ERROR: pad 27 is empty
+[281842.459912] ERROR: pad 30 is empty
+[281842.459917] ERROR: pad 31 is empty
+[281842.459932] ERROR: pad 33 is empty
+[281842.459936] ERROR: pad 34 is empty
+[281842.460034] ERROR: pad 43 is empty
+[281842.460039] ERROR: pad 44 is empty
+[281842.460043] ERROR: pad 45 is empty
+[281842.460134] ERROR: pad 54 is empty
+[281842.460138] ERROR: pad 55 is empty
+[281842.460174] ERROR: pad 59 is empty
+[281842.460199] ERROR: pad 62 is empty
+[281842.460234] ERROR: pad 66 is empty
+[281842.460238] ERROR: pad 67 is empty
+[281842.460242] ERROR: pad 68 is empty
+[281842.460275] ERROR: pad 72 is empty
+[281842.460279] ERROR: pad 73 is empty
+[281842.460283] ERROR: pad 74 is empty
+[281842.460287] ERROR: pad 75 is empty
+[281842.460291] ERROR: pad 76 is empty

@@ -1,0 +1,416 @@
+09-20 07:20:59(3006276816) TRAS_TASK INFO: [TrasPeer_ParseGetNetInfoReq:946]recv peer 1600010140c3ad111p3g5jmo63upuvo5 lcoalip 192.168.1.50; port: tcp 15668,udp 8179; natAddr :0 get natinf req
+09-20 07:20:59(3010471120) cos INFO: [Cos_SocketOpen:377]socket<43> open ok
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasNat_CreatNatHole:621]creat new nat hole local udp port 7555 socket type 0
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasPeer_ProcRspNetInfo:271]peer 1600010140c3ad111p3g5jmo63upuvo5 don't need get natinf turn to success
+09-20 07:20:59(3010471120) cos INFO: [Cos_SocketClose:390]socket<71> closed
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasPeer_RspNetInfo:820]get nat inf rsp {"METHOD":"201F","SEQID":"2121","BODY":{"UPNPFlag":"1","UPNPIP":"10.116.167.132","UPNPPort":"16668","LocalIP":"192.168.1.192","LocalTCPPort":"16668","LocalUDPPort":"7555"}} to peer
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewUdp:46]udpslot creat ok 0x3d2718 socketfd 43
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasPeer_ProcRspNetInfo:304]peer 1600010140c3ad111p3g5jmo63upuvo5 rsp natinf success
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d23a0.
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasPeer_SetUdpDstAddr:471]udpslot 0x3d2718 set peerid 1600010140c3ad111p3g5jmo63upuvo5 local port 8179 contrl status 1
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:391]udpslot 0x3d2718 tutn to testing status
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [Tras_UdpSlotSendHoleReq:193]udpslot 0x3d2718 send hole req to peer 192.168.1.50 port 8179,hole port 0 nattype 0
+09-20 07:20:59(3006276816) TRAS_TASK INFO: [TrasSlot_ParseConnCheckReq:318]pstSlot 0x3d2718 recv test req peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:405]udpslot 0x3d2718 turn testing to waiting status
+09-20 07:20:59(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetSdcardInfMsg:85]reqid 94 recv get TfCard info From peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:20:59(2989499600) CMD_TASK INFO: [Cmd_Task_GetSdcardInf:347]reqid 94 send get TF inf rsp {"CODE":"0","METHOD":"344F","SEQID":"94","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"StorageAbility":"1","TotalSize":"0","FreeSize":"0","CardStatus":"2"}}
+09-20 07:20:59(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 94 recv cmdmsg[34 4e] from 1600010140c3ad111p3g5jmo63upuvo5, code 2
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:438]udpslot 0x3d2718 turn waiting to tested status
+09-20 07:20:59(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:460]aucCTEI  udpslot 0x3d2718 turn tested to proc status set peeraddr 192.168.1.50:8179; now udp can useflag 1
+09-20 07:21:03(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 97 recv get cur netInfo msg
+09-20 07:21:03(3006276816) MD_TASK INFO: [Md_NtyPlayStatus:357]alive session cnt 1
+09-20 07:21:03(3006276816) MD_CACHE INFO: [Md_VideoCreatReadHandle:289]creat cam 0 0 read handle 0x3d15d8 need key frame 1 readcnt 1 quality 1
+09-20 07:21:03(3006276816) MD_CACHE INFO: [Md_RgnCreatReadHandle:98]create region read handle 0x3d1a28
+09-20 07:21:03(3006276816) MD_CACHE INFO: [Md_AudioCreatReadHandle:187]creat audio read handle 0x3d6908 Camid = 0 readcnt 1 total 1
+09-20 07:21:03(3006276816) TRAS_TASK INFO: [TrasStreamChannel_ProcessLiveStreamReq:899]chanid 1 proc alive requst,streamid 0; rsp body {"METHOD":"2111","SEQID":"2124","BODY":{"ChannelID":"1","VideoParam":{"EncType":"2","FrameRate":"17","Width":"1920","Height":"1080","LensType":"0"},"AudioParam":{"EncType":"4","SampleRate":"8000","Channel":"1","Depth":"16"}}} relay mode 0 ProxySlot 0x3d2840 iret 248, ucUDPCanUse 1 now tickct 281652899
+09-20 07:21:03(3008373968) MD_CACHE INFO: [Md_VideoGetOneNode:343]0x3d15d8 read data 
+09-20 07:21:03(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 97 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"97","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:03(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 97 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:07(3008373968) MD_CACHE INFO: [Md_VideoShiftNextNode:400]read [0x3d15d8] first video packect
+09-20 07:21:07(3008373968) MD_CACHE INFO: [Md_AudioSetNodeUsed:235]ptReadNode [0x3d6908] read first audio frame 
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 30 
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 80
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 40 
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 85
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 90
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 95
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 100
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 50 
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 105
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 110
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 115
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 120
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 60 
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 125
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 130
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 135
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 140
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 70 
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 145
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 150
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 155
+09-20 07:21:07(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 80 
+09-20 07:21:08(3008373968) TRAS_TASK INFO: [TrasBase_PopMediaDataNode:233]Malloc media DataNode cnt 160
+09-20 07:21:08(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 90 
+09-20 07:21:08(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 100 
+09-20 07:21:08(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 110 
+09-20 07:21:08(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 120 
+09-20 07:21:08(3008373968) TRAS_TASK INFFILTER: [TrasStreamChannel_SendPacket:1556]chanid 1 send node count 122 , max count 120  now seqid 292 udpslot 0x3d2718 tcp prior 0
+09-20 07:21:08(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 130 
+09-20 07:21:08(3008373968) TRAS_TASK INFO: [Tras_Pop_SockStreamBuf:40]malloc stream buff cnt 140 
+09-20 07:21:08(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 100 recv get cur netInfo msg
+09-20 07:21:08(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 100 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"100","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:08(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 100 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:13(3006276816) MSG_CENTER INFO: [MsgCt_RecvCheckNewVersionMsg:240]reqid 102 recv check hardfire version msg from peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:21:13(3006276816) OTA_TASK INFO: [Ota_CheckNewVersion:121]start check new version from server
+09-20 07:21:13(3006276816) TRAS_TASK INFO: [TrasStreamChannel_ProcessCloseStreamReq:1449]chanid 1 recv close req
+09-20 07:21:13(3008373968) MD_TASK INFO: [Md_NtyPlayStatus:357]alive session cnt 0
+09-20 07:21:13(3008373968) TRAS_TASK INFO: [TrasStreamChannel_CloseChan:286]chanid 1 will be close
+09-20 07:21:14(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:623]ogct 2133 check new version body {"METHOD":"3334","SEQID":"2133","BODY":{"Version":"YGT.AJ-L33PQ08A1-v241030.1014","Type":"1","DeviceModel":"AJ-L33PQ08A1"}}
+09-20 07:21:14(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 109 recv get cur netInfo msg
+09-20 07:21:14(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 109 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"109","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"88","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:14(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 109 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:14(2991596752) OTA_TASK INFO: [Ota_RecvCheckVersionRsp:524]ogct 2133 recv rsp code 0 new version  url  size 0 Signature 
+09-20 07:21:14(3008373968) TRAS_TASK INFO: [TrasStreamChannel_CloseChan:297]chanid 1 close ok
+09-20 07:21:14(3008373968) MD_CACHE INFO: [Md_VideoDestroyReadHandle:329]destroy video read handle 0x3d15d8 rsv read cnt 0
+09-20 07:21:14(3008373968) MD_CACHE INFO: [Md_AudioDestroyReadHandle:395] audio read handle 0x3d6908 mic 0 delete ok 
+09-20 07:21:14(3008373968) MD_CACHE INFO: [Md_RgnDestroyReadHandle:142]destroy region read handle 0x3d1a28
+09-20 07:21:14(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:600]VersionCheck Finish ,NeedUpgradeFlag 0 ,DevVersion 
+09-20 07:21:14(3012568272) MSG_CENTER INFO: [MsgCt_SendCheckNewVersionRsp:222]reqid 102 send check version rsp {"CODE":"0","METHOD":"3415","SEQID":"102","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"Version":"","UpdateFlag":"0"}}
+09-20 07:21:17(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 110 recv get cur netInfo msg
+09-20 07:21:17(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 110 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"110","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"88","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:17(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 110 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:20(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 111 recv get cur netInfo msg
+09-20 07:21:20(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 111 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"111","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:20(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 111 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:23(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 112 recv get cur netInfo msg
+09-20 07:21:23(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 112 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"112","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:23(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 112 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:24(3006276816) MSG_CENTER INFO: [MsgCt_RecvCheckNewVersionMsg:240]reqid 113 recv check hardfire version msg from peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:21:24(3006276816) OTA_TASK INFO: [Ota_CheckNewVersion:121]start check new version from server
+09-20 07:21:24(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:600]VersionCheck Finish ,NeedUpgradeFlag 0 ,DevVersion 
+09-20 07:21:24(3012568272) MSG_CENTER INFO: [MsgCt_SendCheckNewVersionRsp:222]reqid 113 send check version rsp {"CODE":"0","METHOD":"3415","SEQID":"113","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"Version":"","UpdateFlag":"0"}}
+09-20 07:21:26(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 114 recv get cur netInfo msg
+09-20 07:21:26(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 114 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"114","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:26(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 114 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:29(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:307]tcpslot 0x3d24c8 turn to close for not inuse
+09-20 07:21:29(3010471120) cos INFO: [Cos_SocketClose:390]socket<70> closed
+09-20 07:21:29(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d24c8 closed ok reset bestslot 0
+09-20 07:21:29(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d24c8.
+09-20 07:21:29(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetSdcardInfMsg:85]reqid 115 recv get TfCard info From peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:21:29(2989499600) CMD_TASK INFO: [Cmd_Task_GetSdcardInf:347]reqid 115 send get TF inf rsp {"CODE":"0","METHOD":"344F","SEQID":"115","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"StorageAbility":"1","TotalSize":"0","FreeSize":"0","CardStatus":"2"}}
+09-20 07:21:29(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 115 recv cmdmsg[34 4e] from 1600010140c3ad111p3g5jmo63upuvo5, code 2
+09-20 07:21:29(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 116 recv get cur netInfo msg
+09-20 07:21:29(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 116 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"116","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:29(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 116 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:31(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetSdcardInfMsg:85]reqid 117 recv get TfCard info From peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:21:31(2989499600) CMD_TASK INFO: [Cmd_Task_GetSdcardInf:347]reqid 117 send get TF inf rsp {"CODE":"0","METHOD":"344F","SEQID":"117","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"StorageAbility":"1","TotalSize":"0","FreeSize":"0","CardStatus":"2"}}
+09-20 07:21:31(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 117 recv cmdmsg[34 4e] from 1600010140c3ad111p3g5jmo63upuvo5, code 2
+09-20 07:21:32(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 118 recv get cur netInfo msg
+09-20 07:21:32(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 118 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"118","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:32(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 118 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:33(3006276816) MSG_CENTER INFO: [MsgCt_RecvCheckNewVersionMsg:240]reqid 119 recv check hardfire version msg from peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:21:33(3006276816) OTA_TASK INFO: [Ota_CheckNewVersion:121]start check new version from server
+09-20 07:21:33(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:600]VersionCheck Finish ,NeedUpgradeFlag 0 ,DevVersion 
+09-20 07:21:33(3012568272) MSG_CENTER INFO: [MsgCt_SendCheckNewVersionRsp:222]reqid 119 send check version rsp {"CODE":"0","METHOD":"3415","SEQID":"119","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"Version":"","UpdateFlag":"0"}}
+09-20 07:21:35(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 120 recv get cur netInfo msg
+09-20 07:21:35(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 120 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"120","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:35(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 120 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:38(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 121 recv get cur netInfo msg
+09-20 07:21:38(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 121 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"121","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:38(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 121 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:40(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 122 recv get cur netInfo msg
+09-20 07:21:40(3006276816) MD_TASK INFO: [Md_NtyPlayStatus:357]alive session cnt 1
+09-20 07:21:40(3006276816) MD_CACHE INFO: [Md_VideoCreatReadHandle:289]creat cam 0 0 read handle 0x3d15d8 need key frame 1 readcnt 1 quality 1
+09-20 07:21:40(3006276816) MD_CACHE INFO: [Md_RgnCreatReadHandle:98]create region read handle 0x3d1a28
+09-20 07:21:40(3006276816) MD_CACHE INFO: [Md_AudioCreatReadHandle:187]creat audio read handle 0x3d6908 Camid = 0 readcnt 1 total 1
+09-20 07:21:40(3006276816) TRAS_TASK INFO: [TrasStreamChannel_ProcessLiveStreamReq:899]chanid 2 proc alive requst,streamid 0; rsp body {"METHOD":"2111","SEQID":"2134","BODY":{"ChannelID":"2","VideoParam":{"EncType":"2","FrameRate":"17","Width":"1920","Height":"1080","LensType":"0"},"AudioParam":{"EncType":"4","SampleRate":"8000","Channel":"1","Depth":"16"}}} relay mode 0 ProxySlot 0x3d2840 iret 248, ucUDPCanUse 1 now tickct 281690548
+09-20 07:21:40(3008373968) MD_CACHE INFO: [Md_VideoGetOneNode:343]0x3d15d8 read data 
+09-20 07:21:40(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 122 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"122","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:40(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 122 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:43(3008373968) MD_CACHE INFO: [Md_VideoShiftNextNode:400]read [0x3d15d8] first video packect
+09-20 07:21:43(3008373968) MD_CACHE INFO: [Md_AudioSetNodeUsed:235]ptReadNode [0x3d6908] read first audio frame 
+09-20 07:21:43(3008373968) TRAS_TASK INFFILTER: [TrasStreamChannel_SendPacket:1556]chanid 2 send node count 149 , max count 120  now seqid 149 udpslot 0x3d2718 tcp prior 0
+09-20 07:21:44(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 125 recv get cur netInfo msg
+09-20 07:21:44(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 125 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"125","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:21:44(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 125 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:21:49(3019379920) MD_CACHE INFO: [Md_WriteVideoFrame:108]cam 0 stream 0 write frame
+09-20 07:22:02(3006276816) TRAS_TASK INFO: [TrasStreamChannel_ProcessCloseStreamReq:1449]chanid 2 recv close req
+09-20 07:22:02(3008373968) MD_TASK INFO: [Md_NtyPlayStatus:357]alive session cnt 0
+09-20 07:22:02(3008373968) TRAS_TASK INFO: [TrasStreamChannel_CloseChan:286]chanid 2 will be close
+09-20 07:22:03(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 127 recv get cur netInfo msg
+09-20 07:22:03(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 127 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"127","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"88","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:22:03(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 127 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:22:03(3008373968) TRAS_TASK INFO: [TrasStreamChannel_CloseChan:297]chanid 2 close ok
+09-20 07:22:03(3008373968) MD_CACHE INFO: [Md_VideoDestroyReadHandle:329]destroy video read handle 0x3d15d8 rsv read cnt 0
+09-20 07:22:03(3008373968) MD_CACHE INFO: [Md_AudioDestroyReadHandle:395] audio read handle 0x3d6908 mic 0 delete ok 
+09-20 07:22:03(3008373968) MD_CACHE INFO: [Md_RgnDestroyReadHandle:142]destroy region read handle 0x3d1a28
+09-20 07:22:07(3006276816) TRAS_TASK INFO: [TrasP2PSlot_Recv:973]tcpslot 0x3d25f0 rcv data err 104  buff len 2040
+09-20 07:22:07(3006276816) cos INFO: [Cos_SocketClose:390]socket<44> closed
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d25f0 closed ok reset bestslot 1
+09-20 07:22:07(3006276816) TRAS_TASK INFO: [TrasP2PSlot_Recv:973]tcpslot 0x3d2840 rcv data err 104  buff len 2040
+09-20 07:22:07(3010471120) cos INFO: [Cos_SocketOpen:377]socket<42> open ok
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d23a0 peer socket type 0 addr: 192.168.1.50:port:15668
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateLocalTCP:515]tcpSlot 0x3d23a0 creat localslot ok peerid 1600010140c3ad111p3g5jmo63upuvo5,socket type 0
+09-20 07:22:07(3010471120) cos INFO: [Cos_SocketOpen:377]socket<44> open ok
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d24c8 peer socket type 0 addr: 10.116.167.132:port:15668
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateP2PTCP:578]tcpSlot 0x3d24c8 creat p2pslot ok peerid 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d23a0 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d24c8 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:22:07(3006276816) cos INFO: [Cos_SocketClose:390]socket<42> closed
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d2840 closed ok reset bestslot 1
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d25f0.
+09-20 07:22:07(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d2840.
+09-20 07:22:15(3010471120) TRAS_TASK ERR: [TrasP2PSlot_ProcUdpState:495]udpslot 0x3d2718 slotType:0,Socket 43 turn timeout to close
+09-20 07:22:15(3010471120) cos INFO: [Cos_SocketClose:390]socket<43> closed
+09-20 07:22:15(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:517]aucCTEI  udpslot 0x3d2718 closed ok;now udp can useflag 0
+09-20 07:22:15(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d2718.
+09-20 07:22:23(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:193]tcpslot 0x3d23a0 start connect peer timeout
+09-20 07:22:23(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:193]tcpslot 0x3d24c8 start connect peer timeout
+09-20 07:22:23(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:322]tcpslot 0x3d23a0 turn to close for timeout or conn err 33 
+09-20 07:22:23(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:322]tcpslot 0x3d24c8 turn to close for timeout or conn err 33 
+09-20 07:22:23(3010471120) cos INFO: [Cos_SocketClose:390]socket<42> closed
+09-20 07:22:23(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d23a0 closed ok reset bestslot 0
+09-20 07:22:23(3010471120) cos INFO: [Cos_SocketClose:390]socket<44> closed
+09-20 07:22:23(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d24c8 closed ok reset bestslot 0
+09-20 07:22:23(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d23a0.
+09-20 07:22:23(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d24c8.
+09-20 07:23:03(2991596752) cos INFO: [Cos_SocketOpen:377]socket<42> open ok
+09-20 07:23:03(2991596752) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d25f0 peer socket type 0 addr: 43.163.94.82:port:25006
+09-20 07:23:03(2991596752) TRAS_TASK INFO: [TrasPeer_CreatProxySlot:1008]recv set proxy ntc peerid 1600010140c3ad111p3g5jmo63upuvo5 proxy addr 43.163.94.82:25006
+09-20 07:23:03(2991596752) MSG_CENTER INFO: [MsgCt_RecvNtfProxyAddrMsg:117]ogct 4203754 recv connect proxy msg status 0
+09-20 07:23:03(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d25f0 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:23:04(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:206]tcpslot 0x3d25f0 send match req;turn to matching status
+09-20 07:23:04(3006276816) TRAS_TASK INFO: [Tras_ParseP2PSlot_ProxyMatchRsp:217]pstSlot 0x3d25f0 recv match rsp peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0 
+09-20 07:23:04(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:244]tcpslot 0x3d25f0 turn to testing status
+09-20 07:23:04(3006276816) TRAS_TASK INFO: [TrasSlot_ParseConnCheckReq:318]pstSlot 0x3d25f0 recv test req peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0
+09-20 07:23:04(3010471120) TRAS_TASK INFO: [TrasP2PSlot_SetToUser:1028]tcpslot 0x3d25f0 set bestest to peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:04(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:279]tcpslot 0x3d25f0 tested ok now tickcnt 281774177
+09-20 07:23:04(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 139 recv get cur netInfo msg
+09-20 07:23:04(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 139 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"139","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:04(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 139 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_BuildGroupInfItem:123]build group info {"grpid":"22000101413a31a9","OwnerId":"","Name":"","Accout":"","Mobile":"","Port":"25006","EncType":"49","ConnToken":"3:IN:7a3h3iiblgaz3yv","EncKey":"5e35862c5d92560c","EncLv":"a8cfd819ce8cb224","Ipv4":"43.163.94.82","Ipv6":"","OwnerToken":"1600010140c3ad111p3g5jmo63upuvo5","sign":"44127"} 
+09-20 07:23:05(3006276816) TRAS_TASK INFO: [TrasPeer_SetNatInfo:234]set peer 1600010140c3ad111p3g5jmo63upuvo5 nat port 11196 socket type 0
+09-20 07:23:05(3006276816) TRAS_TASK INFO: [TrasPeer_SetUdpLocalInfo:221]set peer 1600010140c3ad111p3g5jmo63upuvo5 lcoal udp port 8180 socket type 0
+09-20 07:23:05(3006276816) TRAS_TASK INFO: [TrasPeer_ParseGetNetInfoReq:946]recv peer 1600010140c3ad111p3g5jmo63upuvo5 lcoalip 192.168.1.50; port: tcp 15668,udp 8180; natAddr 183.83.229.60:11196 get natinf req
+09-20 07:23:05(3010471120) cos INFO: [Cos_SocketOpen:377]socket<44> open ok
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasNat_CreatNatHole:621]creat new nat hole local udp port 7556 socket type 0
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasPeer_ProcRspNetInfo:277]peer 1600010140c3ad111p3g5jmo63upuvo5 start check natinf
+09-20 07:23:05(3010471120) cos INFO: [Cos_SocketOpen:377]socket<84> open ok
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d2840 peer socket type 0 addr: 192.168.1.50:port:15668
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateLocalTCP:515]tcpSlot 0x3d2840 creat localslot ok peerid 1600010140c3ad111p3g5jmo63upuvo5,socket type 0
+09-20 07:23:05(3010471120) cos INFO: [Cos_SocketOpen:377]socket<85> open ok
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d2718 peer socket type 0 addr: 10.116.167.132:port:15668
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateP2PTCP:578]tcpSlot 0x3d2718 creat p2pslot ok peerid 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d2840 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d2718 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:226]tcpslot 0x3d2718 have peerid 1; slottype 1 socket type 0 turn to testing status
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 141 send msg {"METHOD":"331D","SEQID":"141","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 142 send msg {"METHOD":"331D","SEQID":"142","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 143 send msg {"METHOD":"331D","SEQID":"143","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 144 send msg {"METHOD":"331D","SEQID":"144","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 145 send msg {"METHOD":"331D","SEQID":"145","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 146 send msg {"METHOD":"331D","SEQID":"146","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 147 send msg {"METHOD":"331D","SEQID":"147","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 148 send msg {"METHOD":"331D","SEQID":"148","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 149 send msg {"METHOD":"331D","SEQID":"149","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 150 send msg {"METHOD":"331D","SEQID":"150","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 151 send msg {"METHOD":"331D","SEQID":"151","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 152 send msg {"METHOD":"331D","SEQID":"152","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 153 send msg {"METHOD":"331D","SEQID":"153","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 154 send msg {"METHOD":"331D","SEQID":"154","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 155 send msg {"METHOD":"331D","SEQID":"155","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 156 send msg {"METHOD":"331D","SEQID":"156","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 157 send msg {"METHOD":"331D","SEQID":"157","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:05(3006276816) TRAS_TASK INFO: [TrasP2PSlot_Recv:973]tcpslot 0x3d2840 rcv data err 104  buff len 2040
+09-20 07:23:05(3006276816) cos INFO: [Cos_SocketClose:390]socket<84> closed
+09-20 07:23:05(3006276816) TRAS_TASK INFO: [TrasP2PSlot_Recv:973]tcpslot 0x3d2718 rcv data err 104  buff len 2040
+09-20 07:23:05(3006276816) cos INFO: [Cos_SocketClose:390]socket<85> closed
+09-20 07:23:05(3006276816) TRAS_TASK INFO: [TrasP2PSlot_Recv:973]tcpslot 0x3d25f0 rcv data err 104  buff len 2040
+09-20 07:23:05(3006276816) cos INFO: [Cos_SocketClose:390]socket<42> closed
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:226]tcpslot 0x3d2840 have peerid 1; slottype 0 socket type 0 turn to testing status
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d2718 closed ok reset bestslot 0
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [Tras_ParseNatTestRsp:153]Recv Nat test rsp: {"METHOD":"201B","SEQID":"2152","CODE":"0","BODY":{"NatIP":"183.83.229.60","Port":"10124"}}
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasPeer_ProcRspNetInfo:286]peer 1600010140c3ad111p3g5jmo63upuvo5 get natinf ok
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d25f0 closed ok reset bestslot 1
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d2840 closed ok reset bestslot 1
+09-20 07:23:05(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 158 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 158 send msg {"METHOD":"331D","SEQID":"158","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 0
+09-20 07:23:05(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 159 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 159 send msg {"METHOD":"331D","SEQID":"159","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 0
+09-20 07:23:05(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 160 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:05(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 160 send msg {"METHOD":"331D","SEQID":"160","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 0
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d25f0.
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d2840.
+09-20 07:23:05(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d2718.
+09-20 07:23:12(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 158 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:12(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 158 send msg {"METHOD":"331D","SEQID":"158","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 1
+09-20 07:23:12(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 159 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:12(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 159 send msg {"METHOD":"331D","SEQID":"159","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 1
+09-20 07:23:12(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 160 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:12(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 160 send msg {"METHOD":"331D","SEQID":"160","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 1
+09-20 07:23:20(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 158 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:20(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 158 send msg {"METHOD":"331D","SEQID":"158","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 2
+09-20 07:23:20(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 159 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:20(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 159 send msg {"METHOD":"331D","SEQID":"159","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 2
+09-20 07:23:20(3012568272) MSG_CENTER INFO: [MsgCt_SendMsg:482]send seqid 160 method 331d to peer 1600010140c3ad111p3g5jmo63upuvo5 failed iret -1
+09-20 07:23:20(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 160 send msg {"METHOD":"331D","SEQID":"160","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret -1 try count 2
+09-20 07:23:27(2991596752) cos INFO: [Cos_SocketOpen:377]socket<42> open ok
+09-20 07:23:27(2991596752) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d23a0 peer socket type 0 addr: 43.134.132.160:port:25006
+09-20 07:23:27(2991596752) TRAS_TASK INFO: [TrasPeer_CreatProxySlot:1008]recv set proxy ntc peerid 1600010140c3ad111p3g5jmo63upuvo5 proxy addr 43.134.132.160:25006
+09-20 07:23:27(2991596752) MSG_CENTER INFO: [MsgCt_RecvNtfProxyAddrMsg:117]ogct 4204110 recv connect proxy msg status 0
+09-20 07:23:27(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d23a0 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:23:27(3012568272) CFG_TASK INFO: [Cfg_BuildGroupInfItem:123]build group info {"grpid":"22000101413a31a9","OwnerId":"","Name":"","Accout":"","Mobile":"","Port":"25006","EncType":"49","ConnToken":"3:IN:gcwyjtbrsnn78i0","EncKey":"0b476906edcea563","EncLv":"9057d8e37315ba99","Ipv4":"43.134.132.160","Ipv6":"","OwnerToken":"1600010140c3ad111p3g5jmo63upuvo5","sign":"44334"} 
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:206]tcpslot 0x3d23a0 send match req;turn to matching status
+09-20 07:23:28(3006276816) TRAS_TASK INFO: [Tras_ParseP2PSlot_ProxyMatchRsp:217]pstSlot 0x3d23a0 recv match rsp peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0 
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:244]tcpslot 0x3d23a0 turn to testing status
+09-20 07:23:28(3006276816) TRAS_TASK INFO: [TrasSlot_ParseConnCheckReq:318]pstSlot 0x3d23a0 recv test req peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_SetToUser:1028]tcpslot 0x3d23a0 set bestest to peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:279]tcpslot 0x3d23a0 tested ok now tickcnt 281797960
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasPeer_RspNetInfo:820]get nat inf rsp {"METHOD":"201F","SEQID":"2157","BODY":{"UPNPFlag":"1","UPNPIP":"10.116.167.132","UPNPPort":"16668","LocalIP":"192.168.1.192","LocalTCPPort":"16668","LocalUDPPort":"7556","NatType":"1","NatIP":"183.83.229.60","NatPort":"10124"}} to peer
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewUdp:46]udpslot creat ok 0x3d24c8 socketfd 44
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasPeer_ProcRspNetInfo:304]peer 1600010140c3ad111p3g5jmo63upuvo5 rsp natinf success
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasPeer_SetUdpDstAddr:477]udpslot 0x3d24c8 set peerid 1600010140c3ad111p3g5jmo63upuvo5 nat port 11196
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:391]udpslot 0x3d24c8 tutn to testing status
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [Tras_UdpSlotSendHoleReq:193]udpslot 0x3d24c8 send hole req to peer 183.83.229.60 port 11196,hole port 0 nattype 1
+09-20 07:23:28(3010471120) cos INFO: [Cos_SocketAccept:447]socket<84> accepted
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d25f0 peer socket type 0 addr: 192.168.1.50:port:54128
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasLocalLan_TCPAccept:335]tcpslot 0x3d25f0 turn to connected for accept peer port 54128
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:226]tcpslot 0x3d25f0 have peerid 0; slottype 0 socket type 0 turn to testing status
+09-20 07:23:28(3010471120) cos INFO: [Cos_SocketAccept:447]socket<85> accepted
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d2840 peer socket type 0 addr: 192.168.1.1:port:42094
+09-20 07:23:28(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 171 recv get cur netInfo msg
+09-20 07:23:28(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 171 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"171","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"93","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:28(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 171 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasLocalLan_TCPAccept:335]tcpslot 0x3d2840 turn to connected for accept peer port 42094
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_SetToUser:1028]tcpslot 0x3d25f0 set bestest to peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:279]tcpslot 0x3d25f0 tested ok now tickcnt 281798476
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:226]tcpslot 0x3d2840 have peerid 0; slottype 0 socket type 0 turn to testing status
+09-20 07:23:28(3006276816) TRAS_TASK INFO: [TrasSlot_ParseConnCheckReq:318]pstSlot 0x3d2840 recv test req peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0
+09-20 07:23:28(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:279]tcpslot 0x3d2840 tested ok now tickcnt 281798530
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 174 send msg {"METHOD":"331D","SEQID":"174","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 175 send msg {"METHOD":"331D","SEQID":"175","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 176 send msg {"METHOD":"331D","SEQID":"176","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 177 send msg {"METHOD":"331D","SEQID":"177","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 178 send msg {"METHOD":"331D","SEQID":"178","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 179 send msg {"METHOD":"331D","SEQID":"179","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 180 send msg {"METHOD":"331D","SEQID":"180","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 181 send msg {"METHOD":"331D","SEQID":"181","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 182 send msg {"METHOD":"331D","SEQID":"182","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 183 send msg {"METHOD":"331D","SEQID":"183","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 184 send msg {"METHOD":"331D","SEQID":"184","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 185 send msg {"METHOD":"331D","SEQID":"185","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 186 send msg {"METHOD":"331D","SEQID":"186","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 187 send msg {"METHOD":"331D","SEQID":"187","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 188 send msg {"METHOD":"331D","SEQID":"188","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:28(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 194 recv get cur netInfo msg
+09-20 07:23:29(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 189 send msg {"METHOD":"331D","SEQID":"189","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:29(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 190 send msg {"METHOD":"331D","SEQID":"190","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:29(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 191 send msg {"METHOD":"331D","SEQID":"191","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:29(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 192 send msg {"METHOD":"331D","SEQID":"192","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:29(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 193 send msg {"METHOD":"331D","SEQID":"193","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:29(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 194 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"194","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:29(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 194 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:29(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetSdcardInfMsg:85]reqid 195 recv get TfCard info From peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:29(2989499600) CMD_TASK INFO: [Cmd_Task_GetSdcardInf:347]reqid 195 send get TF inf rsp {"CODE":"0","METHOD":"344F","SEQID":"195","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"StorageAbility":"1","TotalSize":"0","FreeSize":"0","CardStatus":"2"}}
+09-20 07:23:29(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 195 recv cmdmsg[34 4e] from 1600010140c3ad111p3g5jmo63upuvo5, code 2
+09-20 07:23:30(3010471120) TRAS_TASK INFO: [TrasPeer_SetUdpDstAddr:471]udpslot 0x3d24c8 set peerid 1600010140c3ad111p3g5jmo63upuvo5 local port 8180 contrl status 1
+09-20 07:23:30(3010471120) TRAS_TASK INFO: [Tras_UdpSlotSendHoleReq:193]udpslot 0x3d24c8 send hole req to peer 192.168.1.50 port 8180,hole port 0 nattype 0
+09-20 07:23:30(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 196 recv get cur netInfo msg
+09-20 07:23:30(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 196 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"196","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:30(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 196 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:31(3006276816) TRAS_TASK INFO: [TrasP2PSlot_Recv:973]tcpslot 0x3d25f0 rcv data err 104  buff len 2040
+09-20 07:23:31(3006276816) cos INFO: [Cos_SocketClose:390]socket<84> closed
+09-20 07:23:31(3006276816) TRAS_TASK INFO: [TrasP2PSlot_Recv:973]tcpslot 0x3d2840 rcv data err 104  buff len 2040
+09-20 07:23:31(3006276816) cos INFO: [Cos_SocketClose:390]socket<85> closed
+09-20 07:23:31(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d25f0 closed ok reset bestslot 1
+09-20 07:23:31(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d2840 closed ok reset bestslot 1
+09-20 07:23:31(3006276816) TRAS_TASK INFO: [TrasP2PSlot_Recv:973]tcpslot 0x3d23a0 rcv data err 104  buff len 2040
+09-20 07:23:31(3006276816) cos INFO: [Cos_SocketClose:390]socket<42> closed
+09-20 07:23:31(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d23a0 closed ok reset bestslot 1
+09-20 07:23:31(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d25f0.
+09-20 07:23:31(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d2840.
+09-20 07:23:31(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d23a0.
+09-20 07:23:31(3010471120) cos INFO: [Cos_SocketClose:390]socket<44> closed
+09-20 07:23:31(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d24c8.
+09-20 07:23:32(2991596752) cos INFO: [Cos_SocketOpen:377]socket<42> open ok
+09-20 07:23:32(2991596752) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d2718 peer socket type 0 addr: 43.156.202.252:port:25006
+09-20 07:23:32(2991596752) TRAS_TASK INFO: [TrasPeer_CreatProxySlot:1008]recv set proxy ntc peerid 1600010140c3ad111p3g5jmo63upuvo5 proxy addr 43.156.202.252:25006
+09-20 07:23:32(2991596752) MSG_CENTER INFO: [MsgCt_RecvNtfProxyAddrMsg:117]ogct 4204176 recv connect proxy msg status 0
+09-20 07:23:32(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d2718 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:23:32(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:206]tcpslot 0x3d2718 send match req;turn to matching status
+09-20 07:23:32(3012568272) CFG_TASK INFO: [Cfg_BuildGroupInfItem:123]build group info {"grpid":"22000101413a31a9","OwnerId":"","Name":"","Accout":"","Mobile":"","Port":"25006","EncType":"49","ConnToken":"3:IN:pbcxbk3khouh1ss","EncKey":"5c50e8d1879d2365","EncLv":"139049e1694c23ed","Ipv4":"43.156.202.252","Ipv6":"","OwnerToken":"1600010140c3ad111p3g5jmo63upuvo5","sign":"44546"} 
+09-20 07:23:43(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:253]tcpslot 0x3d2718 matching time out
+09-20 07:23:43(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:322]tcpslot 0x3d2718 turn to close for timeout or conn err 16 
+09-20 07:23:43(3010471120) cos INFO: [Cos_SocketClose:390]socket<42> closed
+09-20 07:23:43(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:351]tcpslot 0x3d2718 closed ok reset bestslot 0
+09-20 07:23:43(3010471120) TRAS_TASK INFO: [TrasP2PSlot_Close:59]To close the Slot, Slot is 0x3d2718.
+09-20 07:23:45(2991596752) cos INFO: [Cos_SocketOpen:377]socket<42> open ok
+09-20 07:23:45(2991596752) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d25f0 peer socket type 0 addr: 43.156.202.252:port:25006
+09-20 07:23:45(2991596752) TRAS_TASK INFO: [TrasPeer_CreatProxySlot:1008]recv set proxy ntc peerid 1600010140c3ad111p3g5jmo63upuvo5 proxy addr 43.156.202.252:25006
+09-20 07:23:45(2991596752) MSG_CENTER INFO: [MsgCt_RecvNtfProxyAddrMsg:117]ogct 4204379 recv connect proxy msg status 0
+09-20 07:23:45(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d25f0 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:23:45(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:206]tcpslot 0x3d25f0 send match req;turn to matching status
+09-20 07:23:45(3006276816) TRAS_TASK INFO: [Tras_ParseP2PSlot_ProxyMatchRsp:217]pstSlot 0x3d25f0 recv match rsp peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0 
+09-20 07:23:45(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:244]tcpslot 0x3d25f0 turn to testing status
+09-20 07:23:45(3006276816) TRAS_TASK INFO: [TrasSlot_ParseConnCheckReq:318]pstSlot 0x3d25f0 recv test req peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0
+09-20 07:23:45(3010471120) TRAS_TASK INFO: [TrasP2PSlot_SetToUser:1028]tcpslot 0x3d25f0 set bestest to peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:45(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:279]tcpslot 0x3d25f0 tested ok now tickcnt 281815413
+09-20 07:23:45(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 221 recv get cur netInfo msg
+09-20 07:23:45(3006276816) MSG_CENTER INFO: [MsgCt_RecvCheckNewVersionMsg:240]reqid 222 recv check hardfire version msg from peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:45(3006276816) OTA_TASK INFO: [Ota_CheckNewVersion:121]start check new version from server
+09-20 07:23:45(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 221 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"221","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:45(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 221 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:45(3006276816) TRAS_TASK INFO: [TrasPeer_SetNatInfo:234]set peer 1600010140c3ad111p3g5jmo63upuvo5 nat port 10345 socket type 0
+09-20 07:23:45(3006276816) TRAS_TASK INFO: [TrasPeer_SetUdpLocalInfo:221]set peer 1600010140c3ad111p3g5jmo63upuvo5 lcoal udp port 8181 socket type 0
+09-20 07:23:45(3006276816) TRAS_TASK INFO: [TrasPeer_ParseGetNetInfoReq:946]recv peer 1600010140c3ad111p3g5jmo63upuvo5 lcoalip 192.168.1.50; port: tcp 15668,udp 8181; natAddr 183.83.229.60:10345 get natinf req
+09-20 07:23:46(3010471120) cos INFO: [Cos_SocketOpen:377]socket<84> open ok
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasNat_CreatNatHole:621]creat new nat hole local udp port 7557 socket type 0
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasPeer_ProcRspNetInfo:277]peer 1600010140c3ad111p3g5jmo63upuvo5 start check natinf
+09-20 07:23:46(3010471120) cos INFO: [Cos_SocketOpen:377]socket<85> open ok
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d2840 peer socket type 0 addr: 192.168.1.50:port:15668
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateLocalTCP:515]tcpSlot 0x3d2840 creat localslot ok peerid 1600010140c3ad111p3g5jmo63upuvo5,socket type 0
+09-20 07:23:46(3010471120) cos INFO: [Cos_SocketOpen:377]socket<89> open ok
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewTcp:26]tcpslot creat slot 0x3d23a0 peer socket type 0 addr: 10.116.167.132:port:15668
+09-20 07:23:46(3012568272) OTA_TASK INFO: [Ota_ProcCheckVersion:600]VersionCheck Finish ,NeedUpgradeFlag 0 ,DevVersion 
+09-20 07:23:46(3012568272) MSG_CENTER INFO: [MsgCt_SendCheckNewVersionRsp:222]reqid 222 send check version rsp {"CODE":"0","METHOD":"3415","SEQID":"222","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"Version":"","UpdateFlag":"0"}}
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasPeer_ProcSlotCreateP2PTCP:578]tcpSlot 0x3d23a0 creat p2pslot ok peerid 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d2840 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:180]tcpslot 0x3d23a0 socket type 0 start connect peer status 2 connect flag 1
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:226]tcpslot 0x3d2840 have peerid 1; slottype 0 socket type 0 turn to testing status
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:226]tcpslot 0x3d23a0 have peerid 1; slottype 1 socket type 0 turn to testing status
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [Tras_ParseNatTestRsp:153]Recv Nat test rsp: {"METHOD":"201B","SEQID":"2165","CODE":"0","BODY":{"NatIP":"183.83.229.60","Port":"11359"}}
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasPeer_ProcRspNetInfo:286]peer 1600010140c3ad111p3g5jmo63upuvo5 get natinf ok
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasPeer_RspNetInfo:820]get nat inf rsp {"METHOD":"201F","SEQID":"2168","BODY":{"UPNPFlag":"1","UPNPIP":"10.116.167.132","UPNPPort":"16668","LocalIP":"192.168.1.192","LocalTCPPort":"16668","LocalUDPPort":"7557","NatType":"1","NatIP":"183.83.229.60","NatPort":"11359"}} to peer
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_NewUdp:46]udpslot creat ok 0x3d24c8 socketfd 84
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasPeer_ProcRspNetInfo:304]peer 1600010140c3ad111p3g5jmo63upuvo5 rsp natinf success
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasPeer_SetUdpDstAddr:477]udpslot 0x3d24c8 set peerid 1600010140c3ad111p3g5jmo63upuvo5 nat port 10345
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcUdpState:391]udpslot 0x3d24c8 tutn to testing status
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [Tras_UdpSlotSendHoleReq:193]udpslot 0x3d24c8 send hole req to peer 183.83.229.60 port 10345,hole port 0 nattype 1
+09-20 07:23:46(3006276816) MSG_CENTER INFO: [MsgCt_RecvGetCurNetInfMsg:1246]reqid 226 recv get cur netInfo msg
+09-20 07:23:46(2989499600) CMD_TASK INFO: [Cmd_GetNetInfoRsp:1000]reqid 226 send natinf rspMsg {"CODE":"0","METHOD":"3473","SEQID":"226","FROM":{"DID":"12000103c0537c93"},"TO":{"UserToken":"1600010140c3ad111p3g5jmo63upuvo5"},"BODY":{"NetType":"2","Signal":"91","IPAddr":"192.168.1.192","MacAddr":"F0:A8:82:ED:40:9D","SSID":"ASUS_30_2G"}}
+09-20 07:23:46(2989499600) CMD_TASK INFO: [Cmd_ProcDevInfoMsg:133]reqid 226 recv cmdmsg[34 72] from 1600010140c3ad111p3g5jmo63upuvo5, code 0
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_SetToUser:1028]tcpslot 0x3d2840 set bestest to peer 1600010140c3ad111p3g5jmo63upuvo5
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:279]tcpslot 0x3d2840 tested ok now tickcnt 281815962
+09-20 07:23:46(3010471120) TRAS_TASK INFO: [TrasP2PSlot_ProcTcpState:279]tcpslot 0x3d23a0 tested ok now tickcnt 281815962
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 227 send msg {"METHOD":"331D","SEQID":"227","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 228 send msg {"METHOD":"331D","SEQID":"228","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 229 send msg {"METHOD":"331D","SEQID":"229","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 230 send msg {"METHOD":"331D","SEQID":"230","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 231 send msg {"METHOD":"331D","SEQID":"231","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 232 send msg {"METHOD":"331D","SEQID":"232","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 233 send msg {"METHOD":"331D","SEQID":"233","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 234 send msg {"METHOD":"331D","SEQID":"234","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 235 send msg {"METHOD":"331D","SEQID":"235","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 236 send msg {"METHOD":"331D","SEQID":"236","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 237 send msg {"METHOD":"331D","SEQID":"237","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 238 send msg {"METHOD":"331D","SEQID":"238","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 239 send msg {"METHOD":"331D","SEQID":"239","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 240 send msg {"METHOD":"331D","SEQID":"240","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 241 send msg {"METHOD":"331D","SEQID":"241","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 242 send msg {"METHOD":"331D","SEQID":"242","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 243 send msg {"METHOD":"331D","SEQID":"243","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 244 send msg {"METHOD":"331D","SEQID":"244","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 245 send msg {"METHOD":"331D","SEQID":"245","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3012568272) CFG_TASK INFO: [Cfg_ProcSyncClientList:243]reqid 246 send msg {"METHOD":"331D","SEQID":"246","CODE":"0","FROM":{"DID":"12000103c0537c93"},"BODY":{}} to peer 1600010140c3ad111p3g5jmo63upuvo5 ret 0 try count 0
+09-20 07:23:46(3006276816) TRAS_TASK INFO: [TrasSlot_ParseConnCheckReq:318]pstSlot 0x3d24c8 recv test req peerid 1600010140c3ad111p3g5jmo63upuvo5 code 0

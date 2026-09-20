@@ -1,0 +1,436 @@
+------------------------------------------------------------
+            BGM STATUS
+------------------------------------------------------------
+SDK    VERSION : V2.1.0.P5(g45b1b95)@2021-07-02
+DRIVER VERSION : g45b1b95
+[Low Power Mode]
+System Info:STATUS :
+  BGM FINISH CNT:0
+  BGM KICK OFF CNT:0
+  BGM ALGO RUN CNT:0
+  BGM HW   AVG TIME:0 Max:0
+  BGM ALGO AVG TIME:0 Max:0
+  SIG GAU UPDATE COUNT:0
+  BKG FRM INIT COUNT:0
+  DEBUG INFO:0
+  GOP TH: 
+  GOP LEN:  0   
+------------------------------------------------------------
+chip_name	: FH8626V100
+ddr_size	: 512Mbit
+plat_id		: 0x18112301
+pkg_id		: 0x38607
+
+PLL Information: 
+	osc_clk              	 24000000HZ 	enable    
+	cis_pix_clk          	 75000000HZ 	enable    
+	acodec_pll_clk       	 98304000HZ 	enable    
+	pll0_clk             	486000000HZ 	enable    
+	pll1_clk             	600000000HZ 	enable    
+	arm_clk              	600000000HZ 	nogate    
+	arc_clk              	243000000HZ 	enable    
+	ahb_clk              	121500000HZ 	nogate    
+	pll1_clk_div_2       	300000000HZ 	nogate    
+	ddr_clk              	486000000HZ 	enable    
+	isp_aclk             	 75000000HZ 	enable    
+	isp_hclk             	        0HZ 	enable    
+	pae_clk              	243000000HZ 	enable    
+	bgm_clk              	 75000000HZ 	disable   
+	bgm_hclk             	        0HZ 	enable    
+	jpeg_clk             	 75000000HZ 	disable   
+	jpeg_hclk            	        0HZ 	enable    
+	cis_clk_div          	 27000000HZ 	nogate    
+	cis_clk_out          	 24000000HZ 	enable    
+	cis_pix_clk_rt       	 75000000HZ 	enable    
+	mipi_pix_clk         	 75000000HZ 	nogate    
+	pix_clk              	 75000000HZ 	enable    
+	dw_100m_clk          	100000000HZ 	nogate    
+	dw_50m_clk           	 50000000HZ 	nogate    
+	pts_clk              	  1000000HZ 	enable    
+	spi0_clk             	100000000HZ 	enable    
+	spi1_clk             	100000000HZ 	enable    
+	sdc0_clk             	 50000000HZ 	enable    
+	sdc1_clk             	 50000000HZ 	disable   
+	uart0_clk            	 16666666HZ 	enable    
+	uart1_clk            	 16666666HZ 	enable    
+	uart2_clk            	 16666666HZ 	enable    
+	i2c0_clk             	 50000000HZ 	enable    
+	i2c1_clk             	 50000000HZ 	enable    
+	i2c2_clk             	 50000000HZ 	enable    
+	pwm_clk              	 25000000HZ 	enable    
+	wdt_clk              	  1004132HZ 	enable    
+	usb_clk              	 24000000HZ 	enable    
+	tmr0_clk             	  1000000HZ 	enable    
+	gpio0_dbclk          	  1000000HZ 	enable    
+	gpio1_dbclk          	  1000000HZ 	enable    
+	ac_clk               	   480000HZ 	enable    
+	i2s_clk              	   120000HZ 	disable   
+	sadc_clk             	  5000000HZ 	enable    
+	eth_clk              	 50000000HZ 	disable   
+	eth_rmii_clk         	        0HZ 	enable    
+	efuse_clk            	 25000000HZ 	enable    
+	pae_hclk_gate        	        0HZ 	enable    
+	multi_pae_clk        	        0HZ 	enable    
+	pae_adpt_clk         	        0HZ 	enable    
+	pll0_cis_clk         	        0HZ 	enable    
+	emc_hclk_gate        	        0HZ 	enable    
+	rtc_pclk_gate        	        0HZ 	enable    
+	aes_hclk_gate        	        0HZ 	enable    
+	dmac0_hclk_gate      	        0HZ 	enable    
+	dmac1_hclk_gate      	        0HZ 	enable    
+	intc_hclk_gate       	        0HZ 	enable    
+	ddrc_hclk_gate       	        0HZ 	enable    
+	mipi_dphy_clk        	        0HZ 	enable    
+	mipi_wrap_pclk       	        0HZ 	enable    
+	mipic_pclk           	        0HZ 	enable    
+	usb_hclk             	        0HZ 	enable    
+	acodec_mclk          	        0HZ 	enable    
+	acodec_pclk          	        0HZ 	enable    
+	sdc0_clk_sample      	 50000000HZ 	nogate    
+	sdc0_clk_drv         	 50000000HZ 	nogate    
+	sdc1_clk_sample      	 50000000HZ 	nogate    
+	sdc1_clk_drv         	 50000000HZ 	nogate    
+------------------------------------------------------------
+            PAE STATUS
+------------------------------------------------------------
+SDK    VERSION : V2.1.0.P13(gcf94010)@2021-12-13
+DRIVER VERSION : gcf94010
+[Low Power Mode]
+[HW: busy][Chan: 0][Time: 10786]
+
+****<Channel-0 OPEN>****
+## channel status:
+[Encode Size: 1920x1080] [Max Size: 1920x1088]
+[Stream Buffer:0/2621440][Max Use:156720][Frame Cnt:0]
+[Encode Cnt:4695399][Lost Cnt:0(0+0+0+0)][Wait Cnt:0][Drop Th:1]
+[Unreal Bgm:4695400][Unreal Texture:0][Soft Cnt:0 fail:0]
+[Hardware Time Avg: 41473 us Max: 42350 us]
+[Software Time Avg:     0 us Max:     0 us]
+
+## rate control status:
+[RC: AVBR][Last QP:34][IQP:30-50][PQP:30-50][BkgDelta:8][BkgMax:38]
+[Ref fps:1666/100][Drop Frm:0][Target bps:943718][Actual bps:551146]
+
+## Function:
+[CABAC][TEXTURE][RC_LINE]
+
+## detail configure:
+[Profile_idc:77][level_idc:41][GOP:100][ENC STYLE:1]
+[last mvx:0][last mvy:0][move blk:0][still blk:384]
+[Luma th:0-0][last query: 0xa050f9dc] [last encode: 0xa050f9e6]
+[BkgDelta:  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8]
+[BkgMax  : 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38]
+[RC Param:943718_4_50_30_50_30_5_1_0_40_120_30_38_0_3_-3_1_1_40_8_8]
+
+****<Channel-1 OPEN>****
+## channel status:
+[Encode Size: 640x360] [Max Size: 640x368]
+[Stream Buffer:0/2621440][Max Use:156720][Frame Cnt:0]
+[Encode Cnt:4695398][Lost Cnt:0(0+0+0+0)][Wait Cnt:1][Drop Th:1]
+[Unreal Bgm:0][Unreal Texture:0][Soft Cnt:0 fail:0]
+[Hardware Time Avg:  4807 us Max: 13506 us]
+[Software Time Avg:     0 us Max:     0 us]
+
+## rate control status:
+[RC: AVBR][Last QP:26][IQP:26-50][PQP:26-50][BkgDelta:8][BkgMax:38]
+[Ref fps:1666/100][Drop Frm:0][Target bps:353894][Actual bps:40583]
+
+## Function:
+[CABAC][RC_LINE]
+
+## detail configure:
+[Profile_idc:77][level_idc:22][GOP:100][ENC STYLE:1]
+[last mvx:0][last mvy:0][move blk:0][still blk:384]
+[Luma th:0-0][last query: 0xa050b509] [last encode: 0xa050b513]
+[BkgDelta:  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8]
+[BkgMax  : 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38]
+[RC Param:353894_4_50_26_50_26_5_1_0_35_120_30_38_0_0_-3_1_1_40_360_0]
+
+****<Channel-2 OPEN>****
+## channel status:
+[Encode Size: 640x360] [Max Size: 640x368]
+[Stream Buffer:0/2621440][Max Use:156720][Frame Cnt:0]
+[Encode Cnt:1409221][Lost Cnt:0(0+0+0+0)][Wait Cnt:1][Drop Th:1]
+[Unreal Bgm:0][Unreal Texture:0][Soft Cnt:0 fail:0]
+[Hardware Time Avg:  4803 us Max:  5417 us]
+[Software Time Avg:     0 us Max:     0 us]
+
+## rate control status:
+[RC: AVBR][Last QP:23][IQP:20-50][PQP:20-50][BkgDelta:8][BkgMax:38]
+[Ref fps:500/100][Drop Frm:0][Target bps:131072][Actual bps:95155]
+
+## Function:
+[CABAC][RC_LINE]
+
+## detail configure:
+[Profile_idc:77][level_idc:22][GOP:30][ENC STYLE:1]
+[last mvx:0][last mvy:0][move blk:1][still blk:383]
+[Luma th:0-0][last query: 0xa04e0cd8] [last encode: 0xa04e0ce1]
+[BkgDelta:  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8]
+[BkgMax  : 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38]
+[RC Param:131072_4_50_20_50_20_5_1_0_35_200_40_40_0_0_-3_1_1_40_360_0]
+------------------------------------------------------------
+v_seq_show
+
+ISP Status
+
+CTRL: 
+	SDK VERSION :        	V2.1.0.P18(g95e99bf)@2022-02-15
+	Driver Version:      	g95e99bf
+	Sensor FPS:          	10000/599(16.66)
+	ISP Resolution:      	1280x720
+	Detect frame size:   	3335x1349
+	Detect input size:   	1280x720
+	ISP PIC STARTB Count: 	4697752
+	ISP PIC ENDB Count:  	4697752
+	ISP PIC STARTP Count: 	4697752
+	ISP PIC ENDP Count:  	4697752
+	ISP PIC STARTF Count: 	4697752
+	ISP PIC ENDF Count:  	4697752
+	VI OVERFLOW Count:   	0
+	PIPE CONFLICT Count: 	0
+	DMU Dirty Count:     	0
+	LOOP BACK INT[ 19 ]: 	0 
+	LOOP BACK INT[ 20 ]: 	0 
+	LOOP BACK INT[ 21 ]: 	0 
+	LOOP BACK INT[ 22 ]: 	0 
+	LOOP BACK INT[ 23 ]: 	0 
+	LOOP BACK INT[ 24 ]: 	0 
+	LOOP BACK INT[ 25 ]: 	0 
+	LOOP BACK INT[ 26 ]: 	0 
+	ISP RD HALF:         	0
+	ISP RD ALL:          	0
+	ISP LOOP CONFLICT:   	0
+	ISPP CIRCUALBUFF DEPTH: 0
+	VPU BUSY Count:      	0
+	INTTERUPT RESPONSE DELAY Count: 	0
+	VPU INTTERUPT RESPONSE DELAY Count: 	0
+------------------------------------------------------------
+            JPEG STATUS
+------------------------------------------------------------
+SDK    VERSION : V2.1.0.P5(g45b1b95)@2021-07-02
+DRIVER VERSION : g45b1b95
+[Low Power Mode]
+System Info:
+STATUS :
+  JPEG FINISH CNT:0
+  JPEG DROP FRM CNT:0(0)
+  JPEG KICK OFF CNT:0
+  JPEG STATUS:    IDLE
+------------------------------------------------------------
+-----------------------------------------------
+Shanghai Fullhan Microelectronics Co., Ltd.
+-----------------------------------------------
+HARDWARE VERSION : FH8626V100
+SDK      VERSION : V2.1.0.P5(g45b1b95)@2021-07-02
+DRIVER   VERSION : g45b1b95
+BUILD    DATE    : 20210702
+-----------------------------------------------
+PTS RATE: 1000000 HZ
+CUR PTS : 0x41a05132a7
+
+VPU_CHN0  <-- NONE      [1920x1088]
+VPU_CHN1  <-- NONE      [ 640x 368]
+VPU_CHN2  <-- NONE      [ 640x 368]
+VPU_BGM   <-- NONE      [ 240x 136]
+H264_CHN0 <-- VPU_CHN0  [1920x1088][Submit:4695400 Fail:0 Errno:0]
+H264_CHN1 <-- VPU_CHN1  [ 640x 368][Submit:4695399 Fail:0 Errno:0]
+H264_CHN2 <-- VPU_CHN2  [ 640x 368][Submit:1409222 Fail:0 Errno:0]
+-----------------------------------------------
+id	    name	addr	     reg	 sel	  ie	  oe	pupd	  ds
+00	  GPIO19	0x0080	0x01101000	0001	0001	0000	down	0000
+01	  GPIO20	0x0084	0x01011000	0001	0001	0000	  up	0000
+02	  GPIO21	0x0088	0x01011040	0001	0001	0000	  up	0004
+03	  GPIO25	0x008c	0x01101000	0001	0001	0000	down	0000
+04	  GPIO26	0x0090	0x01101000	0001	0001	0000	down	0000
+05	  GPIO27	0x0094	0x01101040	0001	0001	0000	down	0004
+06	  GPIO28	0x0098	0x01101000	0001	0001	0000	down	0000
+07	   GPIO4	0x009c	0x01101000	0001	0001	0000	down	0000
+08	   GPIO5	0x00a0	0x01101000	0001	0001	0000	down	0000
+09	DN1_MIPI	0x00a4	0x01101000	0001	0001	0000	down	0000
+10	DP1_MIPI	0x00a8	0x01101000	0001	0001	0000	down	0000
+11	DN0_MIPI	0x00ac	0x01101000	0001	0001	0000	down	0000
+12	DP0_MIPI	0x00b0	0x01101000	0001	0001	0000	down	0000
+13	CKN_MIPI	0x00b4	0x01101000	0001	0001	0000	down	0000
+14	CKP_MIPI	0x00b8	0x01101000	0001	0001	0000	down	0000
+15	MAC_RMII_CLK	0x00bc	0x00011040	0000	0001	0000	  up	0004
+16	MAC_REF_CLK	0x00c0	0x00001040	0000	0001	0000	none	0004
+17	 MAC_MDC	0x00c4	0x00011040	0000	0001	0000	  up	0004
+18	MAC_MDIO	0x00c8	0x00001000	0000	0001	0000	none	0000
+22	MAC_RXD_0	0x00d8	0x00011000	0000	0001	0000	  up	0000
+23	MAC_RXD_1	0x00dc	0x00011000	0000	0001	0000	  up	0000
+26	MAC_RXDV	0x00e8	0x00011000	0000	0001	0000	  up	0000
+28	MAC_TXD_0	0x00f0	0x00001000	0000	0001	0000	none	0000
+29	MAC_TXD_1	0x00f4	0x00001000	0000	0001	0000	none	0000
+32	MAC_TXEN	0x0100	0x00001000	0000	0001	0000	none	0000
+35	    PWM3	0x010c	0x06011000	0006	0000	0001	  up	0000
+36	    PWM4	0x0110	0x06011000	0006	0000	0001	  up	0000
+37	    PWM5	0x0114	0x06101040	0006	0000	0001	down	0004
+38	    PWM6	0x0118	0x06011000	0006	0000	0001	  up	0000
+39	   PWM10	0x011c	0x04011000	0004	0000	0001	  up	0000
+40	   PWM11	0x0120	0x04011000	0004	0000	0001	  up	0000
+41	    PWM9	0x0124	0x00011000	0000	0000	0001	  up	0000
+42	    PWM7	0x0128	0x06011000	0006	0001	0000	  up	0000
+46	  GPIO11	0x0138	0x01011000	0001	0001	0000	  up	0000
+47	 CIS_CLK	0x013c	0x01011040	0001	0001	0000	  up	0004
+48	  GPIO13	0x0140	0x00011000	0000	0001	0000	  up	0000
+49	  GPIO14	0x0144	0x00011000	0000	0001	0000	  up	0000
+50	  GPIO48	0x0148	0x01011000	0001	0000	0001	  up	0000
+51	UART0_TX	0x014c	0x00011000	0000	0001	0000	  up	0000
+52	I2C0_SCL	0x0150	0x00001000	0000	0001	0000	none	0000
+53	I2C0_SDA	0x0154	0x00001000	0000	0001	0000	none	0000
+56	SSI0_CLK	0x0160	0x00001040	0000	0001	0000	none	0004
+57	SSI0_TXD	0x0164	0x00001000	0000	0001	0000	none	0000
+58	  GPIO54	0x0168	0x01011000	0001	0001	0000	  up	0000
+60	SSI0_RXD	0x0170	0x00011000	0000	0001	0000	  up	0000
+61	  SD0_CD	0x0174	0x00011000	0000	0001	0000	  up	0000
+63	 SD0_CLK	0x017c	0x00001040	0000	0001	0000	none	0004
+64	SD0_CMD_RSP	0x0180	0x00011000	0000	0001	0000	  up	0000
+65	SD0_DATA_0	0x0184	0x00011000	0000	0001	0000	  up	0000
+69	SADC_CHANL0	0x0194	0x00001000	0000	0001	0000	none	0000
+70	  GPIO23	0x0198	0x01001000	0001	0000	0001	none	0000
+71	  GPIO24	0x019c	0x01001000	0001	0000	0001	none	0000
+
+PWM Status:
+global_ctrl0: 0x0
+global_ctrl1: 0x0
+global_ctrl2: 0x0
+id: 0 	DISABLE, duty_ns: 200, period_ns: 400
+id: 1 	DISABLE, duty_ns: 200, period_ns: 400
+id: 2 	DISABLE, duty_ns: 200, period_ns: 400
+id: 3 	DISABLE, duty_ns: 200, period_ns: 400
+id: 4 	DISABLE, duty_ns: 200, period_ns: 400
+id: 5 	DISABLE, duty_ns: 200, period_ns: 400
+id: 6 	DISABLE, duty_ns: 200, period_ns: 400
+id: 7 	DISABLE, duty_ns: 200, period_ns: 400
+id: 8 	DISABLE, duty_ns: 200, period_ns: 400
+id: 9 	DISABLE, duty_ns: 200, period_ns: 400
+id: 10 	DISABLE, duty_ns: 200, period_ns: 400
+id: 11 	DISABLE, duty_ns: 200, period_ns: 400
+id: 12 	DISABLE, duty_ns: 200, period_ns: 400
+id: 13 	DISABLE, duty_ns: 200, period_ns: 400
+rtc_time	: 08:04:03
+rtc_date	: 2059-09-19
+alrm_time	: 08:04:03
+alrm_date	: 2059-09-19
+alarm_IRQ	: no
+alrm_pending	: no
+update IRQ enabled	: no
+periodic IRQ enabled	: no
+periodic IRQ frequency	: 1
+max user IRQ frequency	: 64
+24hr		: yes
+Media Mem Trace Not Create!
+VMM ZONE:  phys(0xA2900000~0xA3F7FFFF), size: 23040KB,	name: "anonymous"
+-------------------
+  BLOCK00:  phys(0xA2900000~0xA2912FFF), size: 76KB,	name: "vpu-sys"
+  BLOCK01:  phys(0xA2913000~0xA2C2EFFF), size: 3184KB,	name: "vpu-ch-0"
+  BLOCK02:  phys(0xA2C2F000~0xA2D48FFF), size: 1128KB,	name: "vpu-ch-1"
+  BLOCK03:  phys(0xA2D49000~0xA2DFDFFF), size: 724KB,	name: "vpu-ch-2"
+  BLOCK04:  phys(0xA2DFE000~0xA307FFFF), size: 2568KB,	name: "h264-sys"
+  BLOCK05:  phys(0xA3080000~0xA31EAFFF), size: 1452KB,	name: "isp"
+  BLOCK06:  phys(0xA31EB000~0xA3915FFF), size: 7340KB,	name: "venc-ch-0"
+  BLOCK07:  phys(0xA3916000~0xA3A15FFF), size: 1024KB,	name: "venc-ch-1"
+  BLOCK08:  phys(0xA3A16000~0xA3B15FFF), size: 1024KB,	name: "venc-ch-2"
+  BLOCK09:  phys(0xA3B16000~0xA3B57FFF), size: 264KB,	name: "adv_osd_0_2"
+  BLOCK10:  phys(0xA3B58000~0xA3B99FFF), size: 264KB,	name: "adv_osd_0_3"
+  BLOCK11:  phys(0xA3B9A000~0xA3BDBFFF), size: 264KB,	name: "adv_osd_1_2"
+  BLOCK12:  phys(0xA3BDC000~0xA3C1DFFF), size: 264KB,	name: "adv_osd_1_3"
+  BLOCK13:  phys(0xA3C1E000~0xA3C4FFFF), size: 200KB,	name: "headshoulder"
+  BLOCK14:  phys(0xA3C50000~0xA3C81FFF), size: 200KB,	name: "person"
+  BLOCK15:  phys(0xA3C82000~0xA3CB3FFF), size: 200KB,	name: "face"
+  BLOCK16:  phys(0xA3CB4000~0xA3CEDFFF), size: 232KB,	name: "HUMAN_DETECT"
+  BLOCK17:  phys(0xA3CEE000~0xA3CFDFFF), size: 64KB,	name: "FACE_DETECT"
+  BLOCK18:  phys(0xA3CFE000~0xA3D8DFFF), size: 576KB,	name: "HUMAN_DETECT_AL"
+
+-------------------
+VMM Count:
+ total size=22.500MB,used=20.554MB,remain=1.945MB,zone_number=1,block_number=19
+------------------------------------------------------------
+            VPU STATUS
+------------------------------------------------------------
+SDK    VERSION : V2.1.0.P18(g95e99bf)@2022-02-15
+DRIVER VERSION : gcf94010
+BUILD    DATE  : 20220215
+Video Input:
+  [Width]:1280
+  [Height]:720
+  [Frame Rate]:10000/599(16.66)
+Video Process Info:
+  [SYSTEM STATUS]:
+      PIC_END_IRQ_CNT:     4697752
+      PIC_START_IRQ_CNT:   4697752
+      PIC_MEAN_END_IRQ_CNT:4697752
+      PIC_BLK_SYNC_CNT:    0
+      PIC_START_TIME:2689628503  USE_TIME:32574
+      PIC_PROCESS_AVG_TIME:32565
+      PIC_PROCESS_MAX_TIME:32665
+  [MEM INFO]:
+      PKG:
+         ADDR: 0xa2912000 SIZE: 0x800
+      Y/C MEAN:
+         YADDR: 0xa2906000 SIZE: 0X1fe0  CADDR: 0xa2908000 SIZE: 0x3fc0
+         YADDR: 0xa290c000 SIZE: 0X1fe0  CADDR: 0xa290e000 SIZE: 0x3fc0
+         YADDR: 0xa2900000 SIZE: 0X1fe0  CADDR: 0xa2902000 SIZE: 0x3fc0
+
+  [CHAN 0]:
+      MEM INFO:
+         [BUF 0]LUMA   ADDR:0xa2913000 SIZE:0x1fe000 USECNT:0
+                CHROMA ADDR:0xa2b11000 SIZE:0xff000
+         [BUF 0]BGM    ADDR:0xa2c16000 SIZE:0x7f80
+         [BUF 1]BGM    ADDR:0xa2c1e000 SIZE:0x7f80
+         [BUF 2]BGM    ADDR:0xa2c26000 SIZE:0x7f80
+         [BUF 0]CPY    ADDR:0xa2c10000 SIZE:0x1fe0
+         [BUF 1]CPY    ADDR:0xa2c12000 SIZE:0x1fe0
+         [BUF 2]CPY    ADDR:0xa2c14000 SIZE:0x1fe0
+      PARAM INFO:
+         PIC Width: [1920] Height: [1088]
+         Max Process Size: [width: 1920] [height: 1088]
+      STATUS:
+         PIC_FINISH_CNT:       4697740
+         VPU_ABONDON_FRM_CNT:  2
+         VPU_OUTPUT_FRAME_RATE:10000/599(16.66)
+         NEXT_EXPECT_PTS:  0x41a0521d11 PTS_NOW: 0x41a051433d
+
+  [CHAN 1]:
+      MEM INFO:
+         [BUF 0]LUMA   ADDR:0xa2c2f000 SIZE:0x5dc00 USECNT:0
+                CHROMA ADDR:0xa2c8cc00 SIZE:0x2ee00
+         [BUF 1]LUMA   ADDR:0xa2cbbc00 SIZE:0x5dc00 USECNT:0
+                CHROMA ADDR:0xa2d19800 SIZE:0x2ee00
+      PARAM INFO:
+         PIC Width: [640] Height: [368]
+         Max Process Size: [width: 800] [height: 464]
+      STATUS:
+         PIC_FINISH_CNT:       4697739
+         VPU_ABONDON_FRM_CNT:  2
+         VPU_OUTPUT_FRAME_RATE:10000/599(16.66)
+         NEXT_EXPECT_PTS:  0x41a0521d2a PTS_NOW: 0x41a051433d
+
+  [CHAN 2]:
+      MEM INFO:
+         [BUF 0]LUMA   ADDR:0xa2d49000 SIZE:0x3c000 USECNT:0
+                CHROMA ADDR:0xa2d85000 SIZE:0x1e000
+         [BUF 1]LUMA   ADDR:0xa2da3000 SIZE:0x3c000 USECNT:0
+                CHROMA ADDR:0xa2ddf000 SIZE:0x1e000
+      PARAM INFO:
+         PIC Width: [640] Height: [368]
+         Max Process Size: [width: 640] [height: 368]
+      STATUS:
+         PIC_FINISH_CNT:       4697731
+         VPU_ABONDON_FRM_CNT:  5
+         VPU_OUTPUT_FRAME_RATE:10000/2021(4.94)
+         NEXT_EXPECT_PTS:  0x41a05428fd PTS_NOW: 0x41a051433d
+------------------------------------------------------------
+---VBus info---
+ser-CB0 H264_CB,th=c18a8c00,0/0
+
+cli-CH1 1
+cli-CH2 1
+
+---XBus info---
+intr 7160714
+tx 7160759/7160760,extra[0]
+callback 0,drop[0]
+txerr 0:0:0:0
+rxerr 0:0:0:0:0:0
